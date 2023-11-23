@@ -1,6 +1,11 @@
 import React from 'react'
-// import MainLayout from '../MainLayout'
+import type { Metadata } from 'next';
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'Over Ons | Lucerny',
+  description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
+};
 
 const About = () => {
   return (

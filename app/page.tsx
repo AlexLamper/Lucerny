@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Head from 'next/head';
 import HeroSection from '@/components/HeroSection';
 import DienstenSection from '@/components/DienstenSection';
 
@@ -11,9 +10,6 @@ export const metadata: Metadata = {
 const Home = () => {
   return (
     <div className="bg-gray-100">
-      <Head>
-        <title>Lucerny | Web Development Experts</title>
-      </Head>
       <HeroSection />
       <DienstenSection />
     </div>
