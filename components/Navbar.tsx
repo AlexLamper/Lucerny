@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 py-4">
+    <nav className="bg-gray-800 py-4 h-10vh">
       <div className="container mx-auto flex items-center justify-between">
         <Link href="/" className='text-white'>
           Lucerny
@@ -10,7 +10,7 @@ const Navbar = () => {
         <ul className="flex space-x-4">
           <li>
             <Link href="/" className='text-white'>
-                Home
+              Home
             </Link>
           </li>
           <li>
