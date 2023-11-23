@@ -1,0 +1,7 @@
+.hero{
+    height: 90vh;
+    --tw-bg-opacity: 1;
+    background-color: rgb(10 34 52 / var(--tw-bg-opacity));
+    display: flex;
+    align-items: center;
+}

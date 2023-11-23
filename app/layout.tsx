@@ -3,6 +3,7 @@ import Link from "next/link";
 import "../styles/globals.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import styles from "@/styles/layout.module.css";
 
 export default function RootLayout({
   children,
@@ -21,9 +22,9 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <div className="mx-auto bg-[#f6f9fc]">
+        <div className={styles.container}>
           {header}
-          {children}
+          <main className={styles.main}>{children}</main>
           {footer}
         </div>
       </body>

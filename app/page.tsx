@@ -1,13 +1,12 @@
-import type { Metadata } from 'next'
+import type { Metadata } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/ServicesSection';
 
 export const metadata: Metadata = {
-  title: 'Alex Page',
-  description: 'Description of Alex Page',
-}
+  title: 'Lucerny',
+  description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
+};
 
 const Home = () => {
   return (
@@ -16,10 +15,7 @@ const Home = () => {
         <title>Lucerny | Web Development Experts</title>
       </Head>
       <HeroSection />
-      <div className="h-90vh"> {/* Main Section */}
-        <ServicesSection />
-        {/* Other content */}
-      </div>
+      <ServicesSection />
     </div>
   );
 };
