@@ -1,0 +1,20 @@
+.navbar{
+    height: 8vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(10 34 52 / var(--tw-bg-opacity));
+}
+
+.button{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.375rem;
+    background: linear-gradient( 90deg,#387ff6,#40a9e6);
+    font-weight: 600;
+    letter-spacing: 0.025em;
+}

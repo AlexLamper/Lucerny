@@ -11,7 +11,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mb-16">
           <div className="flex justify-center">
             <Image
-                src="images/about.svg"
+                src="/images/backgrounds/about.svg"
                 alt="Picture of the author"
                 width={500}
                 height={500}

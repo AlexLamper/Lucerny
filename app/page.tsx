@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Head from 'next/head';
 import HeroSection from '@/components/HeroSection';
-import ServicesSection from '@/components/ServicesSection';
+import DienstenSection from '@/components/DienstenSection';
 
 export const metadata: Metadata = {
   title: 'Lucerny',
@@ -15,7 +15,7 @@ const Home = () => {
         <title>Lucerny | Web Development Experts</title>
       </Head>
       <HeroSection />
-      <ServicesSection />
+      <DienstenSection />
     </div>
   );
 };

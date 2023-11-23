@@ -1,6 +1,6 @@
 const ServicesSection = () => {
   return (
-    <section className="bg-lightGray text-black py-20 lg:py-32">
+    <section className="bg-white text-black py-20 lg:py-32">
       <div className="container mx-auto">
         <h2 className="text-4xl lg:text-5xl font-bold mb-10 text-center text-darkTitle">
           Onze Diensten
