@@ -1,28 +1,33 @@
 /* Navbar styles */
 .navbar {
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgba(10, 34, 52, 1);
-  }
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(10, 34, 52, 1);
+}
+
+/* Button styles */
+.button {
+  color: rgba(255, 255, 255, 1);
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  background: linear-gradient(90deg, #387ff6, #40a9e6);
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 0.5rem;
+}
   
-  /* Button styles */
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    height: 12vh; /* Adjust height for smaller screens if needed */
+  }
   .button {
-    color: rgba(255, 255, 255, 1);
-    padding: 0.5rem 1rem;
-    border-radius: 0.375rem;
-    background: linear-gradient(90deg, #387ff6, #40a9e6);
-    font-weight: 600;
-    letter-spacing: 0.025em;
+    font-size: 0.875rem; /* Adjust button font size for smaller screens if needed */
   }
-  
-  /* Responsive styles */
-  @media (max-width: 768px) {
-    .navbar {
-      height: 12vh; /* Adjust height for smaller screens if needed */
-    }
-    .button {
-      font-size: 0.875rem; /* Adjust button font size for smaller screens if needed */
-    }
-  }
-  
+}

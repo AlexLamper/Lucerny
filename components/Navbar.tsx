@@ -1,13 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '@/styles/navbar.module.css';
+import { SlArrowRight } from "react-icons/sl";
 
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
-          <Image src="/images/logo/favicon.png" alt="Lucerny Logo" className="h-8 mr-2" width={35} height={200} />
+          <Image src="/favicon.ico" alt="Lucerny Logo" className="h-8 mr-2" width={35} height={200} />
           <a href="/"><span className="text-white font-bold text-lg">Lucerny</span></a>
         </div>
 
@@ -24,7 +25,8 @@ const Navbar = () => {
         </div>
 
         <button className={styles.button}>
-          Offerte Aanvragen &gt;
+          <span>Offerte Aanvragen</span>
+          <span className={styles.icon}><SlArrowRight /></span>
         </button>
       </div>
     </nav>
