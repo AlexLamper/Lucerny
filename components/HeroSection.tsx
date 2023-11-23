@@ -36,3 +36,11 @@ const HeroSection = () => {
   
   export default HeroSection;
   
+
+  // #0a2234 // Dark blue for darker background
+  // #ffffff // White for text
+  // #f5f8fa // Light gray for background 2
+  // #ffffff // White for lighter background
+  // #387ff6 to #56bdf9 // Blue gradient for button
+  // #232323 // For extra dark titles (Main title)
+  // #414141 // For gray/dark titles and text 
