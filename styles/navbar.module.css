@@ -1,6 +1,6 @@
 /* Navbar styles */
 .navbar {
-  height: auto;
+  height: 8vh;
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: rgba(10, 34, 52, 1);
@@ -20,6 +20,12 @@
 
 .icon {
   margin-left: 0.5rem;
+}
+
+@media (max-width: 1050px) {
+  .navbar {
+    height: auto;
+  }
 }
   
 /* Responsive styles */

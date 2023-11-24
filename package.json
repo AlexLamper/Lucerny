@@ -9,13 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "next": "14.0.3",
     "next-seo": "^6.4.0",
     "react": "^18",
+    "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18",
     "react-icons": "^4.12.0"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
