@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="hidden md:block">
           <ul className="flex space-x-8">
             <li className={styles.link}><Link href="/" className="text-white">Home</Link></li>
-            <li className={styles.link}><Link href="/about" className="text-white">Over Ons</Link></li>
+            <li className={styles.link}><Link href="/over-ons" className="text-white">Over Ons</Link></li>
             <li className={styles.link}><Link href="/diensten" className="text-white">Diensten</Link></li>
             <li className={styles.link}><Link href="/tarieven" className="text-white">Tarieven</Link></li>
             <li className={styles.link}><Link href="/portfolio" className="text-white">Portfolio</Link></li>

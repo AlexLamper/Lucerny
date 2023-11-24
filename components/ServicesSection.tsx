@@ -12,7 +12,7 @@ const ServicesSection = () => {
           <div className="bg-white p-6 rounded-md shadow-md">
             <Image 
                 className="mb-4 rounded-lg"
-                src="/images/backgrounds/header-bg1.jpg" width={0}
+                src="/images/images/website.png" width={0}
                 alt='service 1'
                 height={0}
                 sizes="100vw"
@@ -32,7 +32,7 @@ const ServicesSection = () => {
           <div className="bg-white p-6 rounded-md shadow-md">
           <Image 
                 className="mb-4 rounded-lg"
-                src="/images/backgrounds/header-bg2.jpg" width={0}
+                src="/images/images/website.png" width={0}
                 alt='service 1'
                 height={0}
                 sizes="100vw"
@@ -52,7 +52,7 @@ const ServicesSection = () => {
           <div className="bg-white p-6 rounded-md shadow-md">
             <Image 
                 className="mb-4 rounded-lg"
-                src="/images/backgrounds/header-bg1.jpg" width={0}
+                src="/images/images/website.png" width={0}
                 alt='service 1'
                 height={0}
                 sizes="100vw"
