@@ -16,7 +16,7 @@ const ServicesSection = () => {
                 alt='service 1'
                 height={0}
                 sizes="100vw"
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: '70%', height: 'auto', marginLeft: 'auto', marginRight: 'auto' }}
             />
             <h3 className="text-xl font-semibold mb-2">Service 1</h3>
             <p className="mb-4">
@@ -36,7 +36,7 @@ const ServicesSection = () => {
                 alt='service 1'
                 height={0}
                 sizes="100vw"
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: '70%', height: 'auto', marginLeft: 'auto', marginRight: 'auto' }}
             />
             <h3 className="text-xl font-semibold mb-2">Service 2</h3>
             <p className="mb-4">
@@ -56,7 +56,7 @@ const ServicesSection = () => {
                 alt='service 1'
                 height={0}
                 sizes="100vw"
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: '70%', height: 'auto', marginLeft: 'auto', marginRight: 'auto' }}
             />
             <h3 className="text-xl font-semibold mb-2">Service 3</h3>
             <p className="mb-4">
