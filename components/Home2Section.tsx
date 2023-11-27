@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '@/styles/hero.module.css';
 import Image from 'next/image';
 
-const Hero2Section = () => {
+const Home2Section = () => {
   return (
     <section className="bg-white w-full py-20">
       <div className="container mx-auto">
@@ -31,4 +31,4 @@ const Hero2Section = () => {
   )
 }
 
-export default Hero2Section
+export default Home2Section;
