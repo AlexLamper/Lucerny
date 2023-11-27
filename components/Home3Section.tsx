@@ -24,7 +24,7 @@ const Home3Section = () => {
           <div className="lg:w-4/12 lg:pl-10">
             <Image 
               className="mb-4 rounded-lg"
-              src="/images/images/website-example.png" width={0}
+              src="/images/images/laptop.png" width={0}
               alt='service 1'
               height={0}
               sizes="100vw"

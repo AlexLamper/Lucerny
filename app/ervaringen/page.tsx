@@ -12,7 +12,7 @@ const Reviews = () => {
 
   return (
     <div className="container mx-auto py-8 max-w-screen-lg">
-      <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">
+      <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-10 text-[#232323] text-center">
         Reviews.
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center">
