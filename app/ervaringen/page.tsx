@@ -19,7 +19,7 @@ const Reviews = () => {
   return (
     <div className="container mx-auto py-8 max-w-screen-lg">
       <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-10 text-[#232323] text-center">
-        Reviews.
+        Reviews<span className='text-[#0393c4]'>.</span>
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center">
         {reviews.map((review, index) => (

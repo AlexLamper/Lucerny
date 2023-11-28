@@ -18,7 +18,7 @@ export default function Contact() {
 
       <div className="container mx-auto mb-10">
         <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">
-          Contact Us.
+          Contact Us<span className='text-[#0393c4]'>.</span>
         </h1>
         <p className="text-lg text-gray-600 text-center">Heb je vragen of wil je iets weten? Vul het formulier hieronder in en we nemen contact met je op.</p>
       </div>

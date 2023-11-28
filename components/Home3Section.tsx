@@ -9,7 +9,7 @@ const Home3Section = () => {
         <div className="lg:flex lg:justify-between">
           <div className="lg:w-8/12">
             <h1 className="text-2xl lg:text-4xl font-bold leading-tight mb-6 text-[#232323] max-w-[80%]">
-                Op maat gemaakte websites: betaalbaar en uniek!
+                Op maat gemaakte websites: betaalbaar en uniek<span className='text-[#0393c4]'>.</span>
             </h1>
             <p className="text-sm lg:text-xl mb-10 text-[#414141] max-w-[80%]">
                 Een unieke – op maat gemaakte – website voor een voordelige prijs. Dat is wat wij bieden. Perfect voor de startende ondernemer en het MKB. Jouw wensen, doelgroep en de nieuwste trends vormen de basis voor het ontwerp van de website. Tijdens het maken van de website heb je ruimte om je feedback door te geven. Zo komen we samen tot een mooi resultaat

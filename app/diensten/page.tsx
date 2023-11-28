@@ -61,7 +61,7 @@ const Diensten = () => {
 
       <div className="text-center mb-8">
         <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-4 text-[#232323] text-center">
-          Onze Diensten.
+          Onze Diensten<span className='text-[#0393c4]'>.</span>
         </h1>
         <p className="text-lg text-gray-600">Bekijk onze verschillende pakketten en kies wat het beste bij jou past.</p>
       </div>
@@ -69,7 +69,7 @@ const Diensten = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {packages.map((pkg, index) => (
           <div key={index} className="bg-white rounded-lg shadow-md p-6">
-            <h2 className="text-3xl font-bold mb-4 text-[#232323]">{pkg.title}</h2>
+            <h2 className="text-3xl font-bold mb-4 text-[#232323]">{pkg.title}<span className='text-[#0393c4]'>.</span></h2>
             <p className="text-gray-500 text-lg mb-4">{pkg.description}</p>
             <p className="text-[#3c82f6] text-xl font-bold mb-4">{pkg.price}</p>
             <hr className="w-100 border-t border-gray-300" style={{marginLeft: 'auto', marginRight: 'auto', marginBottom: '1rem'}} />

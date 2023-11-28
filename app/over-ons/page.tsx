@@ -15,7 +15,7 @@ const OverOns = () => {
       <section className="bg-gray-100 py-20 text-center">
         <div className="container mx-auto mb-10">
           <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-4 text-[#232323]">
-          Meer Over Ons.
+            Meer Over Ons<span className='text-[#0393c4]'>.</span>
           </h1>
           {/* <h2 className="text-4xl font-bold mb-4">Meer Over Ons.</h2> */}
           <p className="text-lg text-gray-600 mb-8">Jouw ideeën, onze kennis, een digitaal avontuur.</p>
@@ -61,7 +61,7 @@ const OverOns = () => {
             </div>
             <div className="lg:w-8/12 lg:pl-10">
               <h1 className="text-2xl lg:text-4xl font-bold leading-tight mb-6 text-[#232323]">
-                Onze Diensten
+                Onze Diensten<span className='text-[#0393c4]'>.</span>
               </h1>
               <p className="text-sm lg:text-xl mb-16 text-[#414141]">
                 Bij Lucerny zijn we toegewijd aan het bieden van aangepaste webdesign-oplossingen die naadloos aansluiten bij uw bedrijfsbehoeften. We creëren niet alleen aantrekkelijke en responsieve websites, maar we zorgen er ook voor dat ze mobielvriendelijk zijn en snel online gaan.
@@ -79,7 +79,7 @@ const OverOns = () => {
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-8/12">
               <h1 className="text-2xl lg:text-4xl font-bold leading-tight mb-6 text-[#232323]">
-                Onze Missie
+                Onze Missie<span className='text-[#0393c4]'>.</span>
               </h1>
               <p className="text-sm lg:text-xl mb-16 text-[#414141] max-w-[80%]">
                 Bij Lucerny is onze missie duidelijk: we streven ernaar om elke ondernemer online te laten opvallen. We leveren op maat gemaakte, kwalitatieve websites die perfect passen bij de doelen van onze klanten. 
