@@ -1,5 +1,11 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Ervaringen | Lucerny',
+  description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
+};
 
 const Reviews = () => {
   const reviews = [

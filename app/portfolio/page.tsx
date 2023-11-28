@@ -1,5 +1,11 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Portfolio | Lucerny',
+  description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
+};
 
 const projects = [
     {

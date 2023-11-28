@@ -1,5 +1,11 @@
 import Head from 'next/head';
 import styles from '@/styles/contact.module.css';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact | Lucerny',
+  description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
+};
 
 export default function Contact() {
   return (
@@ -16,7 +22,7 @@ export default function Contact() {
         </h1>
         <p className="text-xl lg:text-xl mb-16 text-[#424242] italic text-center">Have any questions or inquiries? Fill in the form below and we will get back to you.</p>
       </div>
-      <form className="max-w-lg mx-auto p-6 rounded-lg shadow-md bg-gray-200">
+      <form className="max-w-lg mx-auto p-6">
         <div className="grid grid-cols-2 gap-6">
           <div>
             <label htmlFor="firstName" className="block text-base font-bold text-gray-700">
