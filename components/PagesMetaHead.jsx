@@ -17,9 +17,9 @@ function PagesMetaHead({ title, keywords, description }) {
 }
 
 PagesMetaHead.defaultProps = {
-	title: 'Next.js & TailwindCSS Portfolio Project',
+	title: 'Lucerny Website',
 	keywords: 'next.js, react, web, ui',
-	keywords: 'Simple and multi-page next.js and react application',
+	keywords: 'Lucerny Web Development Website Ontwikkeling Webdesign en complete websites voor bedrijven en particulieren.',
 };
 
 export default PagesMetaHead;

@@ -17,7 +17,6 @@ const Navbar = () => {
             <li className={styles.link}><Link href="/" className="text-white">Home</Link></li>
             <li className={styles.link}><Link href="/over-ons" className="text-white">Over Ons</Link></li>
             <li className={styles.link}><Link href="/diensten" className="text-white">Diensten</Link></li>
-            <li className={styles.link}><Link href="/tarieven" className="text-white">Tarieven</Link></li>
             <li className={styles.link}><Link href="/portfolio" className="text-white">Portfolio</Link></li>
             <li className={styles.link}><Link href="/ervaringen" className="text-white">Ervaringen</Link></li>
             <li className={styles.link}><Link href="/contact" className="text-white">Contact</Link></li>
