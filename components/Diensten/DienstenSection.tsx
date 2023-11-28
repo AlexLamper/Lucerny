@@ -42,12 +42,12 @@ const packages = [
 
 const DienstenSection = () => {
   return (
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
         {packages.map((pkg, index) => (
           <div key={index} className="bg-white rounded-lg shadow-md p-6">
             <h2 className="text-3xl font-bold mb-4 text-[#232323]">{pkg.title}<span className='text-[#0393c4]'>.</span></h2>
             <p className="text-gray-500 text-lg mb-4">{pkg.description}</p>
-            <p className="text-[#3c82f6] text-xl font-bold mb-4">{pkg.price}</p>
+            <p className="text-[#0393c4] text-xl font-bold mb-4">{pkg.price}*</p>
             <hr className="w-100 border-t border-gray-300" style={{marginLeft: 'auto', marginRight: 'auto', marginBottom: '1rem'}} />
             <ul className="list-disc ml-6">
               {pkg.features.map((feature, idx) => (
