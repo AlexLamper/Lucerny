@@ -13,14 +13,14 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:block">
-          <ul className="flex space-x-8">
-            <li className={styles.link}><Link href="/" className="text-white">Home</Link></li>
-            <li className={styles.link}><Link href="/over-ons" className="text-white">Over Ons</Link></li>
-            <li className={styles.link}><Link href="/diensten" className="text-white">Diensten</Link></li>
-            <li className={styles.link}><Link href="/portfolio" className="text-white">Portfolio</Link></li>
-            <li className={styles.link}><Link href="/ervaringen" className="text-white">Ervaringen</Link></li>
-            <li className={styles.link}><Link href="/contact" className="text-white">Contact</Link></li>
-          </ul>
+        <ul className="flex space-x-8">
+          <li className={styles.link}><Link href="/" className="text-white hover:text-gray-300">Home</Link></li>
+          <li className={styles.link}><Link href="/over-ons" className="text-white hover:text-gray-300">Over Ons</Link></li>
+          <li className={styles.link}><Link href="/diensten" className="text-white hover:text-gray-300">Diensten</Link></li>
+          <li className={styles.link}><Link href="/portfolio" className="text-white hover:text-gray-300">Portfolio</Link></li>
+          <li className={styles.link}><Link href="/ervaringen" className="text-white hover:text-gray-300">Ervaringen</Link></li>
+          <li className={styles.link}><Link href="/contact" className="text-white hover:text-gray-300">Contact</Link></li>
+        </ul>
         </div>
 
         <Link href="/offerte-aanvragen">

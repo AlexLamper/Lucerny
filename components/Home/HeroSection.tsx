@@ -27,7 +27,7 @@ const HeroSection = () => {
               Welkom bij Lucerny<span className='text-[#0393c4]'>.</span>
             </h1>
             <p className="text-lg lg:text-xl mb-8 text-[#414141]">
-              Uw partner in op maat gemaakte websites voor bedrijven en individuen. voor bedrijven en individuen. voor bedrijven en individuen.
+              Investeer in het verbeteren van uw digitale zichtbaarheid om uw online aanwezigheid te versterken en een breder publiek te bereiken.
             </p>
             <a
               href="/diensten"

@@ -16,11 +16,11 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="container mx-auto mb-10">
+      <div className="container mx-auto mb-10 text-center">
         <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">
           Contact Us<span className='text-[#0393c4]'>.</span>
         </h1>
-        <p className="text-lg text-gray-600 text-center">Vragen of iets onduidelijk? Vul het formulier hieronder in en we nemen zo snel mogelijk contact met je op.</p>
+        <p className="text-lg text-gray-600 max-w-[50%] mx-auto">Vragen of iets onduidelijk? Vul het formulier hieronder in en we nemen zo snel mogelijk contact met je op.</p>
       </div>
       <form className="max-w-2xl mx-auto p-8">
         <div className="grid grid-cols-2 gap-6">
@@ -29,10 +29,12 @@ export default function Contact() {
               Voornaam
             </label>
             <input
-              className={`${styles.input} w-full h-8`}
+              className={`${styles.input} w-30 h-12`}
               type="text"
               id="firstName"
               name="firstName"
+              placeholder="Voornaam"
+              style={{ paddingLeft: '0.75rem' }}
             />
           </div>
           <div>
@@ -43,7 +45,9 @@ export default function Contact() {
               type="text"
               id="lastName"
               name="lastName"
-              className={`${styles.input} w-full h-8`}
+              className={`${styles.input} w-30 h-12`}
+              placeholder="Achternaam"
+              style={{ paddingLeft: '0.75rem' }}
             />
           </div>
           <div>
@@ -54,7 +58,9 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className={`${styles.input} w-full h-8`}
+              className={`${styles.input} w-30 h-12`}
+              placeholder="E-mailadres"
+              style={{ paddingLeft: '0.75rem' }}
             />
           </div>
           <div>
@@ -65,7 +71,9 @@ export default function Contact() {
               type="tel"
               id="phoneNumber"
               name="phoneNumber"
-              className={`${styles.input} w-full h-8`}
+              className={`${styles.input} w-30 h-12`}
+              placeholder="Telefoonnummer"
+              style={{ paddingLeft: '0.75rem' }}
             />
           </div>
           <div className="col-span-2">
@@ -77,15 +85,14 @@ export default function Contact() {
               name="message"
               rows={6} // Increased the rows to make it larger
               className={`${styles.input} w-full`}
+              placeholder="Licht je wensen zo gedetailleerd toe."
+              style={{ paddingLeft: '0.75rem', paddingTop: '0.75rem' }}
             />
           </div>
         </div>
         <div className="mt-8 text-center">
-          <button
-            type="submit"
-            className="inline-block w-40 px-6 py-3 border border-transparent text-lg font-semibold rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-          >
-            Submit
+          <button type='submit' className={styles.button}>
+            <span>Offerte Aanvragen</span>
           </button>
         </div>
       </form>
