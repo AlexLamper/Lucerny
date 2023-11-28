@@ -60,7 +60,7 @@ const Diensten = () => {
       </Head>
 
       <div className="text-center mb-8">
-        <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">
+        <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-4 text-[#232323] text-center">
           Onze Diensten.
         </h1>
         <p className="text-lg text-gray-600">Bekijk onze verschillende pakketten en kies wat het beste bij jou past.</p>

@@ -20,16 +20,16 @@ export default function Contact() {
         <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">
           Contact Us.
         </h1>
-        <p className="text-xl lg:text-xl mb-16 text-[#424242] italic text-center">Have any questions or inquiries? Fill in the form below and we will get back to you.</p>
+        <p className="text-lg text-gray-600 text-center">Heb je vragen of wil je iets weten? Vul het formulier hieronder in en we nemen contact met je op.</p>
       </div>
-      <form className="max-w-lg mx-auto p-6">
+      <form className="max-w-2xl mx-auto p-8">
         <div className="grid grid-cols-2 gap-6">
           <div>
             <label htmlFor="firstName" className="block text-base font-bold text-gray-700">
               Voornaam
             </label>
             <input
-              className={styles.input}
+              className={`${styles.input} w-full h-8`}
               type="text"
               id="firstName"
               name="firstName"
@@ -43,7 +43,7 @@ export default function Contact() {
               type="text"
               id="lastName"
               name="lastName"
-              className={styles.input}
+              className={`${styles.input} w-full h-8`}
             />
           </div>
           <div>
@@ -54,7 +54,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className={styles.input}
+              className={`${styles.input} w-full h-8`}
             />
           </div>
           <div>
@@ -65,7 +65,7 @@ export default function Contact() {
               type="tel"
               id="phoneNumber"
               name="phoneNumber"
-              className={styles.input}
+              className={`${styles.input} w-full h-8`}
             />
           </div>
           <div className="col-span-2">
@@ -75,15 +75,15 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              rows={4}
-              className={styles.input}
+              rows={6} // Increased the rows to make it larger
+              className={`${styles.input} w-full`}
             />
           </div>
         </div>
-        <div className="mt-6">
+        <div className="mt-8 text-center">
           <button
             type="submit"
-            className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            className="inline-block w-40 px-6 py-3 border border-transparent text-lg font-semibold rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
           >
             Submit
           </button>
