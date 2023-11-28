@@ -23,10 +23,12 @@ const Navbar = () => {
           </ul>
         </div>
 
+        <Link href="/offerte-aanvragen">
         <button className={styles.button}>
           <span>Offerte Aanvragen</span>
           <span className={styles.icon}><SlArrowRight /></span>
         </button>
+        </Link>
       </div>
     </nav>
   );

@@ -22,7 +22,7 @@ const HeroSection = () => {
     <section className={styles.hero}>
       <div className="container mx-auto">
         <div className="lg:flex lg:justify-between">
-          <div className="lg:w-1/2 lg:pr-10">
+          <div className="lg:w-1/2 lg:pr-10 lg:pl-4">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6 text-[#232323]">
               Welkom bij Lucerny<span className='text-[#0393c4]'>.</span>
             </h1>
