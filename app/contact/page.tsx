@@ -1,68 +1,88 @@
 import Head from 'next/head';
-import type { Metadata } from 'next';
+import styles from '@/styles/contact.module.css';
 
-export const metadata: Metadata = {
-  title: 'Contact | Lucerny',
-  description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
-};
-
-const Contact = () => {
+export default function Contact() {
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gray-100">
+    <div className="container mx-auto py-10">
       <Head>
-        <title>Contact Page</title>
+        <title>Contact Us</title>
+        <meta name="description" content="Contact us for inquiries" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="max-w-md w-full p-8 bg-white rounded-lg shadow-lg">
-        <h1 className="text-3xl font-semibold mb-4">Contact Us</h1>
-        <form className="space-y-4" action="mailto:info@lucerny.net" method="post">
+
+      <div className="container mx-auto mb-10">
+        <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">
+          Contact Us.
+        </h1>
+        <p className="text-xl lg:text-xl mb-16 text-[#424242] italic text-center">Have any questions or inquiries? Fill in the form below and we will get back to you.</p>
+      </div>
+      <form className="max-w-lg mx-auto p-6 rounded-lg shadow-md bg-gray-200">
+        <div className="grid grid-cols-2 gap-6">
           <div>
-            <label htmlFor="name" className="block text-sm font-medium">
-              Name
+            <label htmlFor="firstName" className="block text-base font-bold text-gray-700">
+              Voornaam
             </label>
             <input
-              type="text" 
-              id="subject" 
-              name="subject"
-              className="w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 p-2"
-              placeholder="Your Name"
+              className={styles.input}
+              type="text"
+              id="firstName"
+              name="firstName"
             />
           </div>
           <div>
-            <label htmlFor="email" className="block text-sm font-medium">
-              Email
+            <label htmlFor="lastName" className="block text-base font-bold text-gray-700">
+              Achternaam
+            </label>
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              className={styles.input}
+            />
+          </div>
+          <div>
+            <label htmlFor="email" className="block text-base font-bold text-gray-700">
+              E-mailadres
             </label>
             <input
               type="email"
               id="email"
               name="email"
-              className="w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 p-2"
-              placeholder="Your Email"
+              className={styles.input}
             />
           </div>
           <div>
-            <label htmlFor="message" className="block text-sm font-medium">
-              Message
+            <label htmlFor="phoneNumber" className="block text-base font-bold text-gray-700">
+              Telefoonnummer
+            </label>
+            <input
+              type="tel"
+              id="phoneNumber"
+              name="phoneNumber"
+              className={styles.input}
+            />
+          </div>
+          <div className="col-span-2">
+            <label htmlFor="message" className="block text-base font-bold text-gray-700">
+              Wat kunnen we voor je doen?
             </label>
             <textarea
-              id="body" 
-              name="body" 
-              rows={4} 
-              cols={50}
-              className="w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 p-2"
-              placeholder="Your Message"
-            ></textarea>
+              id="message"
+              name="message"
+              rows={4}
+              className={styles.input}
+            />
           </div>
+        </div>
+        <div className="mt-6">
           <button
-            type="submit" 
-            value="Send Email"
-            className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition duration-300"
+            type="submit"
+            className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
           >
-            Send Message
+            Submit
           </button>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   );
-};
-
-export default Contact;
+}
