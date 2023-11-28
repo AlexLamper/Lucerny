@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Portfolio | Lucerny',
@@ -13,56 +14,56 @@ const projects = [
         title: 'E-commerce Website',
         description: 'An online store built for selling various products.',
         image: '/images/projects/project1.png',
-        // Add other fields as needed
+        link: 'https://www.google.com',
     },
     {
         id: 2,
         title: 'Portfolio Website',
         description: 'A personal portfolio showcasing skills and projects.',
         image: '/images/projects/project2.png',
-        // Add other fields as needed
+        link: 'https://www.google.com',
     },
     {
         id: 3,
         title: 'Reis Blog',
         description: 'A blog sharing travel experiences and tips.',
         image: '/images/projects/project3.png',
-        // Add other fields as needed
+        link: 'https://www.google.com',
     },
     {
         id: 4,
         title: 'Online Leer Platform',
         description: 'A platform offering courses and educational content.',
         image: '/images/projects/project4.png',
-        // Add other fields as needed
+        link: 'https://www.google.com',
     },
     {
         id: 5,
         title: 'Restaurant Website',
         description: 'A website for a restaurant showcasing menu and services.',
         image: '/images/projects/project5.png',
-        // Add other fields as needed
+        link: 'https://www.google.com',
     },
     {
         id: 6,
         title: 'Hoveniers Website',
         description: 'A website for a restaurant showcasing menu and services.',
         image: '/images/projects/project6.png',
-        // Add other fields as needed
+        link: 'https://www.google.com',
     },
     {
         id: 7,
         title: 'Stucadoor Website',
         description: 'A website for a restaurant showcasing menu and services.',
         image: '/images/projects/project7.png',
-        // Add other fields as needed
+        link: 'https://www.google.com',
     },
     {
         id: 8,
         title: 'Bouwbedrijf Website',
         description: 'A website for a restaurant showcasing menu and services.',
         image: '/images/projects/project8.png',
-        // Add other fields as needed
+        link: 'https://www.google.com',
       },
   ];
   
@@ -82,18 +83,20 @@ export default function Portfolio() {
         <p className="text-lg text-gray-600">Ontdek ons portfolio van projecten</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projects.map((project) => (
-          <div key={project.id} className="bg-white rounded-lg shadow-md p-6">
-            <div className="mb-4">
-              <Image src={project.image} alt={project.title} width={300} height={200} />
-            </div>
-            <h2 className="text-xl font-semibold mb-2">{project.title}</h2>
-            <p className="text-gray-600">{project.description}</p>
-            {/* Add more fields here */}
-          </div>
-        ))}
-      </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {projects.map((project) => (
+                <div key={project.id} className="bg-white rounded-lg shadow-md p-6">
+                    <Link href={project.link || '#'}>
+                        <div className="mb-4">
+                            <Image src={project.image} alt={project.title} width={300} height={200} />
+                        </div>
+                        <h2 className="text-xl font-semibold mb-2">{project.title}</h2>
+                        <p className="text-gray-600">{project.description}</p>
+                        {/* Add more fields here */}
+                    </Link>
+                </div>
+            ))}
+        </div>
     </div>
   );
 }
