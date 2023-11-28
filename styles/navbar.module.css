@@ -20,6 +20,10 @@
 
 .icon {
   margin-left: 0.5rem;
+  height: max-content;
+  width: auto;
+  font-weight: bold;
+  /* margin-top: 5px; */
 }
 
 @media (max-width: 1450px) {

@@ -1,7 +1,6 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import styles from '@/styles/navbar.module.css';
-import { SlArrowRight } from "react-icons/sl";
+import { BsArrowRightShort } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -26,7 +25,7 @@ const Navbar = () => {
         <Link href="/offerte-aanvragen">
         <button className={styles.button}>
           <span>Offerte Aanvragen</span>
-          <span className={styles.icon}><SlArrowRight /></span>
+          <span className={styles.icon}><BsArrowRightShort /></span>
         </button>
         </Link>
       </div>
