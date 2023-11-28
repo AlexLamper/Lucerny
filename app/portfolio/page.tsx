@@ -88,7 +88,13 @@ export default function Portfolio() {
                 <div key={project.id} className="bg-white rounded-lg shadow-md p-6">
                     <Link href={project.link || '#'}>
                         <div className="mb-4">
-                            <Image src={project.image} alt={project.title} width={300} height={200} />
+                        <Image
+                            src={project.image}
+                            alt={project.title}
+                            width={500}
+                            height={300}
+                            className="w-full h-full object-cover rounded-lg"
+                        />
                         </div>
                         <h2 className="text-xl font-semibold mb-2">{project.title}</h2>
                         <p className="text-gray-600">{project.description}</p>
