@@ -31,7 +31,8 @@ const HeroSection = () => {
             </p>
             <a
               href="/diensten"
-              className="bg-gradient-to-r from-blueButtonStart to-blueButtonEnd hover:bg-blue-600 text-white bg-blue-500 py-3 px-8 rounded-full text-lg font-semibold transition duration-300 inline-block"
+              className="bg-gradient-to-r from-blueButtonStart to-blueButtonEnd hover:bg-blue-600 text-white bg-blue-500 py-3 px-8 rounded-xl text-lg font-semibold transition duration-300 inline-block"
+              style={{ background: "linear-gradient(90deg, #387ff6, #40a9e6)" }}
             >
               Bekijk onze diensten
             </a>
