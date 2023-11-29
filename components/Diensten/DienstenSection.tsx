@@ -2,7 +2,7 @@ const packages = [
   {
     title: 'Startpakket',
     description: 'Een website van een enkele pagina. Perfect voor de startende ondernemer.',
-    price: '€39/mo',
+    price: '€39/maand',
     features: [
       '1 pagina gevuld',
       'Ontwerp op maat',
@@ -15,7 +15,7 @@ const packages = [
   {
     title: 'Basispakket',
     description: 'Een website van 4 pagina’s. Voor de ondernemer die een complete website wilt.',
-    price: '€59/mo',
+    price: '€59/maand',
     features: [
       '4 pagina\'s gevuld',
       'Ontwerp op maat',
@@ -28,7 +28,7 @@ const packages = [
   {
     title: 'Premiumpakket',
     description: 'Een website van 7 of meer pagina’s. Voor uitgebreide informatie over het bedrijf.',
-    price: '€89/mo',
+    price: '€89/maand',
     features: [
       '7 pagina\'s gevuld',
       'Ontwerp op maat',

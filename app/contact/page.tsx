@@ -26,27 +26,27 @@ export default function Contact() {
         <div className="grid grid-cols-2 gap-6">
           <div>
             <label htmlFor="firstName" className="block text-base font-bold text-gray-700">
-              Voornaam
+              Naam
             </label>
             <input
               className={`${styles.input} w-30 h-12`}
               type="text"
-              id="firstName"
-              name="firstName"
-              placeholder="Voornaam"
+              id="Name"
+              name="Name"
+              placeholder="Volledige naam"
               style={{ paddingLeft: '0.75rem' }}
             />
           </div>
           <div>
             <label htmlFor="lastName" className="block text-base font-bold text-gray-700">
-              Achternaam
+              Bedrijf
             </label>
             <input
               type="text"
-              id="lastName"
-              name="lastName"
+              id="bedrijf"
+              name="bedrijf"
               className={`${styles.input} w-30 h-12`}
-              placeholder="Achternaam"
+              placeholder="Bedrijfsnaam"
               style={{ paddingLeft: '0.75rem' }}
             />
           </div>
@@ -92,7 +92,7 @@ export default function Contact() {
         </div>
         <div className="mt-8 text-center">
           <button type='submit' className={styles.button}>
-            <span>Offerte Aanvragen</span>
+            <span>Verstuur</span>
           </button>
         </div>
       </form>
