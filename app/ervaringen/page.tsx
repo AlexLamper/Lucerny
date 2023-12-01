@@ -19,11 +19,11 @@ const Reviews = () => {
   return (
     <div className="container mx-auto py-8 max-w-screen-lg">
       <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-10 text-[#232323] text-center">
-        Reviews<span className='text-[#0393c4]'>.</span>
+        Reviews<span className='text-[#496488]'>.</span>
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center">
         {reviews.map((review, index) => (
-          <div key={index} className="p-4 border rounded-lg shadow-md">
+          <div key={index} className="p-4 border rounded-lg shadow-md bg-white">
             <div className="flex items-center mb-2">
               <h3 className="text-xl font-semibold mr-2">{review.name}</h3>
               <div className="flex">

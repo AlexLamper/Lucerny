@@ -1,7 +1,14 @@
+Color Pallete 1: (Stolen, :d)
 // #0a2234 // Dark blue for darker background
-// #ffffff // White for text
 // #f5f8fa // Light gray for background 2
-// #ffffff // White for lighter background
+// #ffffff // White text, white background color
 // #387ff6 to #56bdf9 // Blue gradient for button
 // #232323 // For extra dark titles (Main title)
 // #414141 // For gray/dark titles and text 
+
+Color Pallete 2:
+// #263242 // Dark blue for darker background
+// #476072 // Gray/Blue-ish color
+// #548CA8 // Button/Link Color
+// #EEEEEE // Light background color
+// #ffffff // White text, white background color

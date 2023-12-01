@@ -21,7 +21,7 @@ const Diensten = () => {
 
       <div className="text-center mb-8">
         <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-4 text-[#232323] text-center">
-          Onze Diensten<span className='text-[#0393c4]'>.</span>
+          Onze Diensten<span className='text-[#496488]'>.</span>
         </h1>
         <p className="text-lg text-gray-600">Bekijk onze verschillende pakketten en kies wat het beste bij jou past.</p>
       </div>

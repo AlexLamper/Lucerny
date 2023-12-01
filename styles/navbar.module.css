@@ -3,7 +3,7 @@
   height: 8vh;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(10, 34, 52, 1);
+  background-color: #263242;
 }
 
 /* Button styles */
@@ -11,7 +11,7 @@
   color: rgba(255, 255, 255, 1);
   padding: 0.5rem 1rem;
   border-radius: 0.375rem;
-  background: linear-gradient(90deg, #387ff6, #40a9e6);
+  background: linear-gradient(90deg, #488bff, #48a1d4);
   font-weight: 600;
   letter-spacing: 0.025em;
   display: flex;

@@ -24,7 +24,7 @@ const HeroSection = () => {
         <div className="lg:flex lg:justify-between">
           <div className="lg:w-1/2 lg:pr-10 lg:pl-4">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6 text-[#232323]">
-              Welkom bij Lucerny<span className='text-[#0393c4]'>.</span>
+              Welkom bij Lucerny<span className='text-[#496488]'>.</span>
             </h1>
             <p className="text-lg lg:text-xl mb-8 text-[#414141]">
               Investeer in het verbeteren van uw digitale zichtbaarheid om uw online aanwezigheid te versterken en een breder publiek te bereiken.
@@ -32,7 +32,7 @@ const HeroSection = () => {
             <a
               href="/diensten"
               className="bg-gradient-to-r from-blueButtonStart to-blueButtonEnd hover:bg-blue-600 text-white bg-blue-500 py-3 px-8 rounded-xl text-lg font-semibold transition duration-300 inline-block"
-              style={{ background: "linear-gradient(90deg, #387ff6, #40a9e6)" }}
+              style={{ background: "linear-gradient(90deg, #488bff, #48a1d4)" }}
             >
               Bekijk onze diensten
             </a>
