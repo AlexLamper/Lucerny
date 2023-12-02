@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
 };
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <div className="bg-gray-100">
       <HeroSection />

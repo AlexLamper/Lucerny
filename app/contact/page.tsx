@@ -1,6 +1,8 @@
+// pages/contact.tsx
 import Head from 'next/head';
 import type { Metadata } from 'next';
 import ContactForm from '@/components/Contact/ContactForm';
+import ClientSideComponent from '@/components/TestComponents/ClientSideComponent';
 
 export const metadata: Metadata = {
   title: 'Contact | Lucerny',
@@ -22,6 +24,8 @@ export default function Contact() {
         </h1>
         <p className="text-lg text-gray-600 max-w-[50%] mx-auto">Vragen of iets onduidelijk? Vul het formulier hieronder in en we nemen zo snel mogelijk contact met je op.</p>
       </div>
+
+      {/* <ContactForm /> */}
       <ContactForm />
     </div>
   );
