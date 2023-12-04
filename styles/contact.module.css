@@ -1,6 +1,16 @@
+.form{
+    /* Center the form on the page */
+    margin: 0 auto;
+    max-width: 30rem;
+
+    /* Add some padding */
+    /* padding: 2rem 2rem; */
+}
+
 .input{
     /* Margin top */
     margin-top: 0.25rem;
+    margin-bottom: 1rem;
 
     /* Display as a block element and full width */
     display: block;
@@ -10,6 +20,8 @@
     border: 1px solid #dee2e7; /* Using a gray color as border */
     border-radius: 0.375rem; /* Rounded corners */
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* Shadow */
+
+    padding: 8px;
 }
 
 .input:focus{
