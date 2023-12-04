@@ -14,7 +14,7 @@ export default function BasicForm() {
     e.preventDefault();
     e.stopPropagation();
 
-    fetch("https://formcarry.com/s/rUsMK5VhPc", {
+    fetch("https://formcarry.com/s/Vb1mWIo2Xm", {
       method: 'POST',
       headers: { 
         "Accept": "application/json",
