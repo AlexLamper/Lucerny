@@ -25,7 +25,7 @@ export default function BasicForm() {
     .then(response => response.json())
     .then(response => {
       if (response.code === 200) {
-        alert("We received your submission, thank you!");
+        alert("We hebben je bericht ontvangen, bedankt!");
       }
       else if(response.code === 422){
         // Field validation failed
