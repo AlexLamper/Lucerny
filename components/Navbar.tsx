@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           {/* <Image src="/favicon.ico" alt="Lucerny Logo" className="h-8 mr-2" width={35} height={200} /> */}
-          <a href="/"><span className="text-white font-bold text-lg">Lucerny</span></a>
+          <a href="/"><span className={styles.logo}>Lucerny</span></a>
         </div>
 
         <div className="hidden md:block">

@@ -41,7 +41,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="lg:w-1/2 mt-10 lg:mt-0">
-            <div className="relative h-64 lg:h-auto">
+            <div className={styles.image}>
               <Image
                 src="/images/backgrounds/about.svg"
                 alt="Hero Image"

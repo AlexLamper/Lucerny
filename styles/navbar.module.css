@@ -18,6 +18,13 @@
   align-items: center;
 }
 
+.logo{
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+}
+
 .icon {
   margin-left: 0.5rem;
   height: max-content;
@@ -45,5 +52,6 @@
   }
   .button {
     font-size: 0.875rem; /* Adjust button font size for smaller screens if needed */
+    margin-right: 0.5rem;
   }
 }
