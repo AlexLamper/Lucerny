@@ -44,3 +44,10 @@
     width: auto;
     height: auto;
 }
+
+@media (max-width: 640px){
+    .form{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

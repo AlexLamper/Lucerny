@@ -62,7 +62,7 @@ export default function BasicForm() {
       </div>
       
       <div className="formcarry-block">  
-        <button type="submit" className={styles.button}>Send</button>
+        <button type="submit" className={styles.button}>Verzend uw bericht</button>
       </div>
     </form>
   )

@@ -21,7 +21,7 @@ export default function Contact() {
         <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">
           Neem Contact Op<span className='text-[#496488]'>.</span>
         </h1>
-        <p className="text-lg text-gray-600 max-w-[50%] mx-auto">Vragen of iets onduidelijk? Vul het formulier hieronder in en we nemen zo snel mogelijk contact met je op.</p>
+        <p className="text-lg text-gray-600 max-w-[50%] max-sm:max-w-[70%] mx-auto">Vragen of iets onduidelijk? Vul het formulier hieronder in en we nemen zo snel mogelijk contact met je op.</p>
       </div>
 
       <ContactForm />
