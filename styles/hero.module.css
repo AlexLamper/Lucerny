@@ -103,3 +103,11 @@
         margin-left: 1.5rem/* 24px */;
     }
 }
+
+@media only screen and (max-width: 1000px){
+
+    .image{
+        display: none;
+    }
+    
+}
