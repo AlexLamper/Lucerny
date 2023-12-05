@@ -42,7 +42,7 @@ const packages = [
 
 const DienstenSection = () => {
   return (
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6 mx-6">
         {packages.map((pkg, index) => (
           <div key={index} className="bg-white rounded-lg shadow-md p-6">
             <h2 className="text-3xl font-bold mb-4 text-[#232323]">{pkg.title}<span className='text-[#496488]'>.</span></h2>
