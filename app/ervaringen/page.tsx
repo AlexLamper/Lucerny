@@ -21,7 +21,7 @@ const Reviews = () => {
       <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-10 text-[#232323] text-center">
         Reviews<span className='text-[#496488]'>.</span>
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center mx-6">
         {reviews.map((review, index) => (
           <div key={index} className="p-4 border rounded-lg shadow-md bg-white">
             <div className="flex items-center mb-2">
