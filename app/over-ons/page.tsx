@@ -18,7 +18,7 @@ const OverOns = () => {
             Meer Over Ons<span className='text-[#496488]'>.</span>
           </h1>
           {/* <h2 className="text-4xl font-bold mb-4">Meer Over Ons.</h2> */}
-          <p className="text-lg text-gray-600 mb-8">Jouw ideeën, onze kennis, een digitaal avontuur.</p>
+          <p className="text-lg text-gray-600 mb-8 max-sm:max-w-[95%]">Jouw ideeën, onze kennis, een digitaal avontuur.</p>
           {/* <p className="text-xl lg:text-xl mb-16 text-[#424242] italic">Jouw ideeën, onze kennis, een digitaal avontuur.</p> */}
           <p className="text-lg lg:text-xl mb-16 text-[#414141] max-w-[85%]" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
             Bij Lucerny staan we voor een toegewijde benadering van uw online succes. Wij geloven in het leveren van hoogwaardige diensten die niet alleen voldoen aan uw behoeften, maar deze ook overtreffen. Onze focus ligt op uw tevredenheid, en we streven ernaar om op maat gemaakte oplossingen te bieden die uw verwachtingen overtreffen. Ons doel is om uw online aanwezigheid te versterken en u te helpen uw doelen te bereiken. Uw succes is onze prioriteit, en we zijn er trots op om u te ondersteunen op uw reis naar digitale groei.
