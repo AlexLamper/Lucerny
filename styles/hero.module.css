@@ -106,8 +106,14 @@
 
 @media only screen and (max-width: 1000px){
 
+    .hero{
+        height: 100%;
+        padding-top: -30px;
+        padding-bottom: 0;
+    }
+
     .image{
         display: none;
     }
-    
+
 }
