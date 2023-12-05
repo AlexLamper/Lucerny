@@ -37,7 +37,7 @@ const HeroSection = () => {
               Bekijk onze diensten
             </a>
             <div style={{ display: "flex", alignItems: "center", marginTop: "30px" }}>
-              {renderStars()} <span style={{ marginLeft: "10px" }}>Wij krijgen een 9,8/10 uit <span style={{ textDecorationLine: 'underline' }}>39 beoordelingen</span></span>
+              {renderStars()} <span style={{ marginLeft: "10px" }}>Wij krijgen een 9.4/10 uit <span style={{ textDecorationLine: 'underline' }}>6 beoordelingen</span></span>
             </div>
           </div>
           <div className="lg:w-1/2 mt-10 lg:mt-0">
