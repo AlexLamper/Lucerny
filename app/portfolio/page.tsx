@@ -83,7 +83,7 @@ export default function Portfolio() {
         <p className="text-lg text-gray-600">Ontdek ons portfolio van projecten</p>
       </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-6">
             {projects.map((project) => (
                 <div key={project.id} className="bg-white rounded-lg shadow-md p-6">
                     <Link href={project.link || '#'}>
