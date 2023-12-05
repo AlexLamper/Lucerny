@@ -29,17 +29,17 @@ const OverOns = () => {
         <div className="container mx-auto grid grid-cols-3 gap-6">
           {/* Kaart 1 */}
           <div className="bg-white rounded-lg p-4 flex items-center justify-center ml-4">
-            <Image src="/images/logo/logo1.jpg" alt="Company 1" width={100} height={100} />
+            <Image src="/images/icons/team.png" alt="Company 1" width={80} height={80} />
           </div>
 
           {/* Kaart 2 */}
           <div className="bg-white rounded-lg p-4 flex items-center justify-center">
-            <Image src="/images/logo/logo2.jpg" alt="Company 2" width={100} height={100} />
+            <Image src="/images/icons/check.png" alt="Company 2" width={80} height={80} />
           </div>
 
           {/* Kaart 3 */}
           <div className="bg-white rounded-lg p-4 flex items-center justify-center mr-4">
-            <Image src="/images/logo/logo3.jpg" alt="Company 3" width={100} height={100} />
+            <Image src="/images/icons/mission.png" alt="Company 3" width={80} height={80} />
           </div>
         </div>
       </section>
