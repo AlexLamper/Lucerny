@@ -107,8 +107,7 @@
 @media only screen and (max-width: 1000px){
 
     .hero{
-        padding-top: -30px;
-        padding-bottom: 0;
+        padding-top: -100px;
     }
 
     .image{
