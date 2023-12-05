@@ -48,7 +48,7 @@
 /* Responsive styles */
 @media (max-width: 768px) {
   .navbar {
-    height: 12vh; /* Adjust height for smaller screens if needed */
+    height: 100%;
   }
   .button {
     font-size: 0.875rem; /* Adjust button font size for smaller screens if needed */
