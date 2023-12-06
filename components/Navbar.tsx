@@ -18,13 +18,12 @@ const Navbar = () => {
           <li className={styles.link}><Link href="/diensten" className="text-white hover:text-gray-300">Diensten</Link></li>
           <li className={styles.link}><Link href="/portfolio" className="text-white hover:text-gray-300">Portfolio</Link></li>
           <li className={styles.link}><Link href="/ervaringen" className="text-white hover:text-gray-300">Ervaringen</Link></li>
-          <li className={styles.link}><Link href="/contact" className="text-white hover:text-gray-300">Contact</Link></li>
         </ul>
         </div>
 
-        <Link href="/offerte-aanvragen">
+        <Link href="/contact">
         <button className={styles.button}>
-          <span>Offerte Aanvragen</span>
+          <span>Neem contact op</span>
           <span className={styles.icon}><BsArrowRightShort /></span>
         </button>
         </Link>
