@@ -58,7 +58,7 @@ export default function BasicForm() {
       
       <div className="formcarry-block">
         <label htmlFor="message" className="block text-base font-bold text-gray-700">Wat kunnen we voor je doen?</label>
-        <textarea value={message} onChange={(e) => setMessage(e.target.value)} id="message" placeholder="Licht je wensen zo gedetailleerd toe." className={styles.input}></textarea>
+        <textarea value={message} onChange={(e) => setMessage(e.target.value)} id="message" placeholder="Licht je wensen zo gedetailleerd toe." className={styles.inputTextArea}></textarea>
       </div>
       
       <div className="formcarry-block">  

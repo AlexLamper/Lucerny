@@ -27,6 +27,9 @@ const Diensten = () => {
       </div>
   
       <DienstenSection />
+      <div className="text-center mb-8">
+        <p className=" text-gray-600 mt-12 mx-6">Niet het pakket wat u zoekt? Neem <a href="/contact" className=' text-blue-500'>contact</a> op voor een gepersonaliseerd pakket.</p>
+      </div>
     </div>
   );
 };
