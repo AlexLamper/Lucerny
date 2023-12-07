@@ -4,8 +4,8 @@ import styles from '@/styles/navbar.module.css';
 const packages = [
   {
     title: 'Startpakket',
-    description: 'Een website van een enkele pagina. Perfect voor de startende ondernemer.',
-    price: '€35/maand',
+    description: 'Een website van een enkele pagina. Perfect voor de startende ondernemer of als persoonlijke website.',
+    price: 'vanaf €35/maand',
     features: [
       '1 pagina gevuld',
       'Inclusief gratis stockfoto\'s',
@@ -18,7 +18,7 @@ const packages = [
   {
     title: 'Basispakket',
     description: 'Een website van 4 pagina’s. Voor de ondernemer die een complete website wilt.',
-    price: '€49/maand',
+    price: 'vanaf €49/maand',
     features: [
       '4 pagina\'s gevuld',
       'Ontwerp op maat',
@@ -32,7 +32,7 @@ const packages = [
   {
     title: 'Premiumpakket',
     description: 'Een website van 7 of meer pagina’s. Voor uitgebreide informatie over het bedrijf.',
-    price: '€79/maand',
+    price: 'vanaf €79/maand',
     features: [
       '7 pagina\'s gevuld',
       'Ontwerp op maat',
