@@ -27,7 +27,7 @@ const HeroSection = () => {
               Welkom bij Lucerny<span className='text-[#496488]'>.</span>
             </h1>
             <p className="text-lg lg:text-xl mb-8 text-[#414141]">
-              Investeer in het verbeteren van uw digitale zichtbaarheid om uw online aanwezigheid te versterken en een breder publiek te bereiken.
+            Vergroot uw online bereik door te investeren in betere digitale zichtbaarheid. Wij bieden complete websites met hosting en domein, zodat u zich niet druk hoeft te maken over de technische kant.
             </p>
             <a
               href="/diensten"
