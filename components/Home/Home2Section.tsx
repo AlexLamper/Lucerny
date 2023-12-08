@@ -22,7 +22,10 @@ const Home2Section = () => {
               Online zichtbaarheid voor elke ondernemer<span className='text-[#496488]'>.</span>
             </h1>
             <p className={styles.sectionText}>
-              Bij Lucerny geloven we dat elke ondernemer online opgemerkt moet worden. Daarom richten wij ons op het leveren van op maat gemaakte, mobielvriendelijke websites die snel online staan en eenvoudig te beheren zijn. We begrijpen dat er vaak beperkte budgetten zijn, vooral voor beginnende ondernemers. Daarom bieden wij hoogwaardig webdesign op maat, zonder de hoge kosten.
+              Bij Lucerny vinden we het belangrijk dat elke ondernemer online opvalt. Daarom maken wij op maat gemaakte websites die perfect werken op elk apparaat.  Onze focus ligt op gebruiksvriendelijkheid en unieke ontwerpen die uw merk laten schitteren.
+              <br />
+              <br />
+              Onze aanpak is eenvoudig: uw merk in de spotlights zetten met een gebruiksvriendelijk design. Laat ons uw verhaal vertalen naar een prachtige online ervaring voor uw klanten.
             </p>
           </div>
         </div>
