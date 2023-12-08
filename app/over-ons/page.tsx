@@ -18,10 +18,10 @@ const OverOns = () => {
             Meer Over Ons<span className='text-[#496488]'>.</span>
           </h1>
           {/* <h2 className="text-4xl font-bold mb-4">Meer Over Ons.</h2> */}
-          <p className="text-lg text-gray-600 mb-8 max-sm:max-w-[95%]">Jouw ideeën, onze kennis, een digitaal avontuur.</p>
-          {/* <p className="text-xl lg:text-xl mb-16 text-[#424242] italic">Jouw ideeën, onze kennis, een digitaal avontuur.</p> */}
+          <p className="text-lg text-gray-600 mb-8 max-sm:max-w-[95%]">Uw ideeën, onze kennis, een digitaal avontuur.</p>
+          {/* <p className="text-xl lg:text-xl mb-16 text-[#424242] italic">Uw ideeën, onze kennis, een digitaal avontuur.</p> */}
           <p className="text-lg lg:text-xl mb-16 text-[#414141] max-w-[85%]" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
-            Bij Lucerny staan we voor een toegewijde benadering van uw online succes. Wij geloven in het leveren van hoogwaardige diensten die niet alleen voldoen aan uw behoeften, maar deze ook overtreffen. Onze focus ligt op uw tevredenheid, en we streven ernaar om op maat gemaakte oplossingen te bieden die uw verwachtingen overtreffen. Ons doel is om uw online aanwezigheid te versterken en u te helpen uw doelen te bereiken. Uw succes is onze prioriteit, en we zijn er trots op om u te ondersteunen op uw reis naar digitale groei.
+            Bij Lucerny staan we voor een vastberaden aanpak van uw online succes. Wij geloven in het leveren van kwalitatieve diensten die voldoen aan uw behoeften. Onze focus ligt bij de klant en we streven ernaar meerwaarde te bieden door middel van onze expertise en creativiteit.
           </p>
         </div>
 
@@ -64,9 +64,9 @@ const OverOns = () => {
               Onze Diensten<span className='text-[#496488]'>.</span>
               </h1>
               <p className={styles.sectionText}>
-                Bij Lucerny zijn we toegewijd aan het bieden van aangepaste webdesign-oplossingen die naadloos aansluiten bij uw bedrijfsbehoeften. We creëren niet alleen aantrekkelijke en responsieve websites, maar we zorgen er ook voor dat ze mobielvriendelijk zijn en snel online gaan.
-                <br /> <br /> 
-                Onze diensten omvatten ook regelmatig onderhoud en continue ondersteuning, zodat uw website up-to-date blijft en soepel blijft draaien. Verder focussen we op het verbeteren van uw online zichtbaarheid door zoekmachineoptimalisatie (SEO), waardoor uw bedrijf gemakkelijker gevonden kan worden door potentiële klanten.
+              Bij Lucerny gaan we voor webdesign en webontwikkeling op maat dat perfect past bij wat uw bedrijf nodig heeft. We bouwen niet alleen mooie en snelle websites die er op elk apparaat goed uitzien, maar zorgen er ook voor dat ze gelijk online kunnen.
+              <br /> <br />
+              We bieden ook regelmatig onderhoud en blijven altijd klaarstaan voor support, zodat uw website altijd up-to-date en probleemloos blijft draaien. Daarnaast richten we ons op het verbeteren van uw online aanwezigheid door SEO toe te passen, waardoor uw bedrijf makkelijker te vinden is voor potentiële klanten.
               </p>
             </div>
           </div>
@@ -82,7 +82,7 @@ const OverOns = () => {
               Onze Missie<span className='text-[#496488]'>.</span>
               </h1>
               <p className={styles.sectionTextMissie}>
-                Bij Lucerny is onze missie duidelijk: we streven ernaar om elke ondernemer online te laten opvallen. We leveren op maat gemaakte, kwalitatieve websites die perfect passen bij de doelen van onze klanten. 
+                Bij Lucerny is onze missie duidelijk: we streven ernaar om elke ondernemer online te laten opvallen door het maken van prachtige websites die perfect werken en gebruiksvriendelijk zijn.
                 <br /> <br />
                 Onze focus ligt op het bouwen van sterke partnerschappen en het bieden van innovatieve oplossingen die bijdragen aan uw succes en groei. Ons doel is uw tevredenheid door expertise, creativiteit en inzet.
               </p>
