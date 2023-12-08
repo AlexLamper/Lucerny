@@ -91,7 +91,6 @@ const OverOns = () => {
               <Image 
                 className={styles.image2}
                 src="/images/images/missie.svg" width={0}
-                // <a href="https://iconscout.com/illustrations/online" class="text-underline font-size-sm" target="_blank">Online shopping order delivery</a> by <a href="https://iconscout.com/contributors/tdaystudio" class="text-underline font-size-sm" target="_blank">Tdays Tudio</a>
                 alt='service 1'
                 height={0}
                 sizes="100vw"
