@@ -4,6 +4,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #263242;
+  position: relative; /* Needed for absolute positioning of the dropdown menu */
 }
 
 /* Button styles */
@@ -18,40 +19,39 @@
   align-items: center;
 }
 
-.logo{
+/* Logo styles */
+.logo {
   color: rgba(255, 255, 255, 1);
   font-weight: bold;
   font-size: 1.5rem;
   margin-left: 1.5rem;
+  margin-right: 3rem;
 }
 
-.icon {
-  margin-left: 0.5rem;
-  height: max-content;
-  width: auto;
-  font-weight: bold;
-  /* margin-top: 5px; */
+/* Dropdown menu styles */
+.navbar ul {
+  width: 100%; /* Set dropdown menu width to 100% */
 }
 
-@media (max-width: 1450px) {
+@media (min-width: 768px) {
   .navbar {
     height: auto;
   }
-}
 
-@media (max-width: 1050px) {
-  .link{
-    display: none;
-  }
-}
-  
-/* Responsive styles */
-@media (max-width: 768px) {
-  .navbar {
-    height: 100%;
-  }
   .button {
     font-size: 0.875rem; /* Adjust button font size for smaller screens if needed */
     margin-right: 0.5rem;
   }
+
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar li {
+    margin-bottom: 0; /* Remove margin-bottom for links */
+  }
 }
+
+

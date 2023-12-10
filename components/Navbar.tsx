@@ -1,31 +1,55 @@
+"use client";
+
 import Link from 'next/link';
 import styles from '@/styles/navbar.module.css';
-import { BsArrowRightShort } from "react-icons/bs";
+import { useState } from 'react';
+import { BsArrowRightShort, BsList } from 'react-icons/bs'; // Import the hamburger menu icon
 
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false); // State to manage the dropdown menu
+
   return (
     <nav className={styles.navbar}>
-      <div className="container mx-auto flex items-center justify-between">
-        <div className="flex items-center">
-          {/* <Image src="/favicon.ico" alt="Lucerny Logo" className="h-8 mr-2" width={35} height={200} /> */}
-          <a href="/"><span className={styles.logo}>Lucerny</span></a>
+      <div className="container mx-auto flex items-center justify-between h-full">
+        <div className="flex items-center h-full">
+          <a href="/" className="flex items-center h-full">
+            <span className={styles.logo}>Lucerny</span>
+          </a>
         </div>
 
-        <div className="hidden md:block">
-        <ul className="flex space-x-8">
-          <li className={styles.link}><Link href="/" className="text-white hover:text-gray-300">Home</Link></li>
-          <li className={styles.link}><Link href="/over-ons" className="text-white hover:text-gray-300">Over Ons</Link></li>
-          <li className={styles.link}><Link href="/diensten" className="text-white hover:text-gray-300">Diensten</Link></li>
-          <li className={styles.link}><Link href="/portfolio" className="text-white hover:text-gray-300">Portfolio</Link></li>
-          <li className={styles.link}><Link href="/ervaringen" className="text-white hover:text-gray-300">Ervaringen</Link></li>
+        {/* Hamburger menu icon */}
+        <div className="md:hidden">
+          <button onClick={() => setShowMenu(!showMenu)} className="focus:outline-none">
+            <BsList className="text-white text-2xl" />
+          </button>
+        </div>
+
+        {/* Dropdown menu */}
+        <div className={`${showMenu ? 'absolute' : 'hidden'} md:hidden top-full right-0 left-0 bg-gray-900 p-4`}>
+          <ul className="text-center">
+            <li><a href="/" className="text-white hover:text-gray-300 block py-2">Home</a></li>
+            <li><a href="/over-ons" className="text-white hover:text-gray-300 block py-2">Over Ons</a></li>
+            <li><a href="/diensten" className="text-white hover:text-gray-300 block py-2">Diensten</a></li>
+            <li><a href="/portfolio" className="text-white hover:text-gray-300 block py-2">Portfolio</a></li>
+            <li><a href="/ervaringen" className="text-white hover:text-gray-300 block py-2">Ervaringen</a></li>
+          </ul>
+        </div>
+
+        {/* Links in fullscreen */}
+        <ul className="hidden md:flex space-x-8 h-full">
+          <li className={styles.link}><a href="/" className="text-white hover:text-gray-300 h-full flex items-center">Home</a></li>
+          <li className={styles.link}><a href="/over-ons" className="text-white hover:text-gray-300 h-full flex items-center">Over Ons</a></li>
+          <li className={styles.link}><a href="/diensten" className="text-white hover:text-gray-300 h-full flex items-center">Diensten</a></li>
+          <li className={styles.link}><a href="/portfolio" className="text-white hover:text-gray-300 h-full flex items-center">Portfolio</a></li>
+          <li className={styles.link}><a href="/ervaringen" className="text-white hover:text-gray-300 h-full flex items-center">Ervaringen</a></li>
         </ul>
-        </div>
 
+        {/* Contact button */}
         <Link href="/contact">
-        <button className={styles.button}>
-          <span>Neem contact op</span>
-          <span className={styles.icon}><BsArrowRightShort /></span>
-        </button>
+          <button className={`${styles.button} hidden md:block`}>
+            <span>Neem contact op</span>
+            {/* <span className={styles.icon}><BsArrowRightShort /></span> */}
+          </button>
         </Link>
       </div>
     </nav>
