@@ -17,6 +17,8 @@
   letter-spacing: 0.025em;
   display: flex;
   align-items: center;
+  width: 160px;
+  margin-left: 1rem;
 }
 
 /* Logo styles */
@@ -25,13 +27,14 @@
   font-weight: bold;
   font-size: 1.5rem;
   margin-left: 1.5rem;
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 
 /* Dropdown menu styles */
 .navbar ul {
-  width: 100%; /* Set dropdown menu width to 100% */
+  width: 100%;
 }
+
 
 @media (min-width: 768px) {
   .navbar {
@@ -50,8 +53,7 @@
   }
 
   .navbar li {
-    margin-bottom: 0; /* Remove margin-bottom for links */
+    margin-bottom: 0;
   }
 }
-
 
