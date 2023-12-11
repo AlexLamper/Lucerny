@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger menu icon */}
-        <div className="md:hidden">
+        <div className="md:hidden absolute right-4">
           <button onClick={() => setShowMenu(!showMenu)} className="focus:outline-none">
             <BsList className="text-white text-2xl" />
           </button>
