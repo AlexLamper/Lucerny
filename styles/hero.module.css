@@ -1,7 +1,4 @@
 .hero{
-    /* --tw-bg-opacity: 1; */
-    /* background-color: rgb(10 34 52 / var(--tw-bg-opacity)); */
-    /* background-color: #EEEEEE; */
     height: 92vh;
     display: flex;
     align-items: center;
@@ -74,12 +71,18 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+    .image{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1000px){
-    .hero{
-        /* Padding Left */
-        padding-left: 1.5rem/* 24px */;
-        /* Padding Right */
-        padding-right: 1.5rem/* 24px */;
+    .hero {
+        margin-top: 0; /* Reset the margin for smaller screens */
+        height: 100vh; /* Set the full height for smaller screens */
+        padding-left: 1.5rem; /* Adjust padding if needed */
+        padding-right: 1.5rem; /* Adjust padding if needed */
     }
 
     .image{
@@ -106,16 +109,5 @@
     .sectionText {
         margin-left: 1.5rem/* 24px */;
     }
-}
-
-@media only screen and (max-width: 1000px){
-
-    .hero{
-        margin-top: -100px;
-    }
-
-    .image{
-        display: none;
-    }
-
+    
 }
