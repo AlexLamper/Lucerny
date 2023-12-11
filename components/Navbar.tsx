@@ -48,7 +48,6 @@ const Navbar = () => {
         <Link href="/contact">
           <button className={`${styles.button} hidden md:block`}>
             <span>Neem contact op</span>
-            {/* <span className={styles.icon}><BsArrowRightShort /></span> */}
           </button>
         </Link>
       </div>
