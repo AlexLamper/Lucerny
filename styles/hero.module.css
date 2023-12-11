@@ -1,10 +1,10 @@
 .hero{
-    height: 92vh;
     /* --tw-bg-opacity: 1; */
     /* background-color: rgb(10 34 52 / var(--tw-bg-opacity)); */
+    /* background-color: #EEEEEE; */
+    height: 92vh;
     display: flex;
     align-items: center;
-    /* background-color: #EEEEEE; */
     background-image: url('/images/backgrounds/hero-bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
