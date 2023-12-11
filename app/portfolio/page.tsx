@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 const projects = [
     {
         id: 1,
-        title: 'E-commerce Website',
-        description: 'An online store built for selling various products.',
-        image: '/images/projects/project1.png',
-        link: 'https://www.google.com',
+        title: 'Lambdago',
+        description: 'Lambdago: Lamper BedrijfsDienstverlening en Advisering.',
+        image: '/images/projects/project9.png',
+        link: 'https://www.lambdago.nl',
     },
     {
         id: 2,
