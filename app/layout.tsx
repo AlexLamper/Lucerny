@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import styles from "@/styles/layout.module.css";
+import Head from "next/head";
 
 export default function RootLayout({
   children,
@@ -18,6 +19,10 @@ export default function RootLayout({
 
   return (
     <html>
+      <Head>
+        <title>Next App</title>
+        <link rel="icon" href="/images/favicon.ico" />
+      </Head>
       <head />
       <body>
         <div className={styles.container}>
