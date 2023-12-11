@@ -21,7 +21,7 @@ export default function RootLayout({
     <html>
       <Head>
         <title>Next App</title>
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <head />
       <body>

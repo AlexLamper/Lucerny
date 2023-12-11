@@ -8,6 +8,9 @@ import Home3Section from '@/components/Home/Home3Section';
 export const metadata: Metadata = {
   title: 'Lucerny',
   description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 const Home: React.FC = () => {
