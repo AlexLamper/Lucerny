@@ -25,13 +25,13 @@ const Navbar = () => {
         </div>
 
         {/* Dropdown menu */}
-        <div className={`${showMenu ? 'absolute' : 'hidden'} md:hidden top-full right-0 left-0 bg-[#eeeeee] p-4`}>
+        <div className={`${showMenu ? 'absolute' : 'hidden'} md:hidden top-full right-0 left-0 bg-[#eeeeee] p-4 border-b-2 border-gray-300`}>
           <ul className="text-center">
-            <li><a href="/" className="text-black hover:text-gray-600 block py-2">Home</a></li>
-            <li><a href="/over-ons" className="text-black hover:text-gray-600 block py-2">Over Ons</a></li>
-            <li><a href="/diensten" className="text-black hover:text-gray-600 block py-2">Diensten</a></li>
-            <li><a href="/portfolio" className="text-black hover:text-gray-600 block py-2">Portfolio</a></li>
-            <li><a href="/ervaringen" className="text-black hover:text-gray-600 block py-2">Ervaringen</a></li>
+            <li><a href="/" className="text-black hover:text-gray-500 block py-2">Home</a></li>
+            <li><a href="/over-ons" className="text-black hover:text-gray-500 block py-2">Over Ons</a></li>
+            <li><a href="/diensten" className="text-black hover:text-gray-500 block py-2">Diensten</a></li>
+            <li><a href="/portfolio" className="text-black hover:text-gray-500 block py-2">Portfolio</a></li>
+            <li><a href="/ervaringen" className="text-black hover:text-gray-500 block py-2">Ervaringen</a></li>
           </ul>
         </div>
 
