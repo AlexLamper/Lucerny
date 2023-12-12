@@ -25,10 +25,10 @@ const projects = [
     },
     {
         id: 3,
-        title: 'Reis Blog',
-        description: 'A blog sharing travel experiences and tips.',
+        title: 'Uw Website',
+        description: 'Hier kan uw website staan.',
         image: '/images/projects/project3.png',
-        link: 'https://www.google.com',
+        link: '',
     },
   ];
   

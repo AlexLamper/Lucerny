@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from '@/styles/navbar.module.css';
+import styles from '@/styles/diensten.module.css';
 
 const packages = [
   {
@@ -62,7 +62,7 @@ const DienstenSection = () => {
           {/* Button */}
           <div className="flex mb-4">
             <Link href="/contact" className="">
-              <button className={`${styles.button}`}>
+              <button className={`${styles.dienstenButton}`}>
                 Stuur een bericht
               </button>
             </Link>

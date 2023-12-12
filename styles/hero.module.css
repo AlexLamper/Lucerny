@@ -115,3 +115,14 @@
     }
     
 }
+
+@media only screen and (max-width: 768px){
+    .hero{
+        margin-top: -10%;
+    }
+
+    .image{
+        display: none;
+    }
+    
+}
