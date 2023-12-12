@@ -1,58 +1,44 @@
+/* Form Styles */
 .form{
     /* Center the form on the page */
     margin: 0 auto;
     max-width: 30rem;
-
-    /* Add some padding */
-    /* padding: 2rem 2rem; */
 }
 
+/* Input Styles */
 .input{
-    /* Margin top */
     margin-top: 0.25rem;
     margin-bottom: 1rem;
-
-    /* Display as a block element and full width */
     display: block;
     width: 100%;
-
-    /* Border */
-    border: 1px solid #dee2e7; /* Using a gray color as border */
-    border-radius: 0.375rem; /* Rounded corners */
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* Shadow */
-
+    border: 1px solid #dee2e7;
+    border-radius: 0.375rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     padding: 8px;
 }
 
 .input:focus{
-    outline: 2px solid transparent; /* Hide default focus outline */
-    outline-offset: 2px; /* Offset for the outline */
+    outline: 2px solid transparent;
+    outline-offset: 2px;
     border-color: #2e2f30;
     caret-color: black;
 }
 
 .inputTextArea{
-    /* Margin top */
     margin-top: 0.25rem;
     margin-bottom: 1rem;
-
-    /* Display as a block element and full width */
     display: block;
     width: 100%;
-
-    /* Border */
-    border: 1px solid #dee2e7; /* Using a gray color as border */
-    border-radius: 0.375rem; /* Rounded corners */
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* Shadow */
-
+    border: 1px solid #dee2e7;
+    border-radius: 0.375rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     padding: 8px;
-
     height: 10rem;
 }
 
 .inputTextArea:focus{
-    outline: 2px solid transparent; /* Hide default focus outline */
-    outline-offset: 2px; /* Offset for the outline */
+    outline: 2px solid transparent;
+    outline-offset: 2px;
     border-color: #2e2f30;
     caret-color: black;
 }
@@ -67,10 +53,10 @@
     letter-spacing: 0.025em;
     display: flex;
     align-items: center;
-    width: 160px;
-    margin-left: 1rem;
-  }
+    width: 180px;
+}
 
+/* Media Queries */
 @media (max-width: 640px){
     .form{
         margin-left: 2rem;

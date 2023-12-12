@@ -12,6 +12,8 @@
     margin-left: 1rem;
 }
 
+
+/* Media Queries */
 @media (min-width: 768px) {
     .button {
         font-size: 0.875rem; /* Adjust button font size for smaller screens if needed */

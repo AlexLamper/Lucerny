@@ -1,3 +1,4 @@
+/* Section Styling */
 .section3{
     width: 100%;
     padding-top: 5rem/* 80px */;
@@ -5,6 +6,7 @@
     background-color: #EEEEEE;
 }
 
+/* Image Styling */
 .image{
     height: 100%;
     width: 100%;
@@ -16,6 +18,7 @@
     border-radius: 0.5rem/* 8px */;
 }
 
+/* Text Styling */
 .sectionTitle{
     font-size: 1.5rem/* 24px */;
     line-height: 2rem/* 32px */;
@@ -27,7 +30,6 @@
 }
 
 .sectionText{
-    /* text-sm lg:text-xl mb-16 text-[#414141]  */
     font-size: 0.875rem/* 14px */;
     line-height: 1.25rem/* 20px */;
     color: #414141;
@@ -35,7 +37,6 @@
 }
 
 .sectionTextMissie{
-    /* text-sm lg:text-xl mb-16 text-[#414141]  */
     font-size: 0.875rem/* 14px */;
     line-height: 1.25rem/* 20px */;
     color: #414141;
@@ -43,6 +44,7 @@
     max-width: 90%;
 }
 
+/* Media Queries */
 @media (min-width: 1024px) {
 
     .sectionTitle{

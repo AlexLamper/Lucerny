@@ -4,7 +4,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #263242;
-  position: relative; /* Needed for absolute positioning of the dropdown menu */
+  position: relative;
 }
 
 /* Button styles */
@@ -35,13 +35,14 @@
   width: 100%;
 }
 
+/* media queries */
 @media (min-width: 768px) {
   .navbar {
     height: auto;
   }
 
   .button {
-    font-size: 0.875rem; /* Adjust button font size for smaller screens if needed */
+    font-size: 0.875rem;
     margin-right: 0.5rem;
   }
 
