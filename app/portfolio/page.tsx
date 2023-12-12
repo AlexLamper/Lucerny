@@ -18,10 +18,10 @@ const projects = [
     },
     {
         id: 2,
-        title: 'Portfolio Website',
-        description: 'A personal portfolio showcasing skills and projects.',
-        image: '/images/projects/project2.png',
-        link: 'https://www.google.com',
+        title: 'Persoonlijke Portfolio Website',
+        description: 'Mijn persoonlijke website met mijn portfolio en wie ik ben',
+        image: '/images/projects/project10.png',
+        link: 'https://devap2.netlify.app/',
     },
     {
         id: 3,
@@ -30,41 +30,6 @@ const projects = [
         image: '/images/projects/project3.png',
         link: 'https://www.google.com',
     },
-    {
-        id: 4,
-        title: 'Online Leer Platform',
-        description: 'A platform offering courses and educational content.',
-        image: '/images/projects/project4.png',
-        link: 'https://www.google.com',
-    },
-    {
-        id: 5,
-        title: 'Restaurant Website',
-        description: 'A website for a restaurant showcasing menu and services.',
-        image: '/images/projects/project5.png',
-        link: 'https://www.google.com',
-    },
-    {
-        id: 6,
-        title: 'Hoveniers Website',
-        description: 'A website for a restaurant showcasing menu and services.',
-        image: '/images/projects/project6.png',
-        link: 'https://www.google.com',
-    },
-    {
-        id: 7,
-        title: 'Stucadoor Website',
-        description: 'A website for a restaurant showcasing menu and services.',
-        image: '/images/projects/project7.png',
-        link: 'https://www.google.com',
-    },
-    {
-        id: 8,
-        title: 'Bouwbedrijf Website',
-        description: 'A website for a restaurant showcasing menu and services.',
-        image: '/images/projects/project8.png',
-        link: 'https://www.google.com',
-      },
   ];
   
 export default function Portfolio() {
