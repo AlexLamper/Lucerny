@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 
 const Reviews = () => {
   const reviews = [
-    { name: 'John Doe', comment: 'Geweldige service! Ze hebben een fantastische website voor ons bedrijf gebouwd.' },
-    { name: 'Jane Smith', comment: 'Zeer tevreden met de professionele aanpak en het eindresultaat. Aanrader!' },
-    { name: 'Emily Johnson', comment: 'Lucerny heeft onze verwachtingen overtroffen. Topkwaliteit en service!' },
-    { name: 'Michael Brown', comment: 'Uitstekend werk geleverd. Onze website ziet er modern en verzorgd uit.' },
+    { name: 'Uw naam', comment: 'Wees de eerste die een review achter laat en kom hier te staan!' },
+    // { name: 'Jane Smith', comment: 'Zeer tevreden met de professionele aanpak en het eindresultaat. Aanrader!' },
+    // { name: 'Emily Johnson', comment: 'Lucerny heeft onze verwachtingen overtroffen. Topkwaliteit en service!' },
+    // { name: 'Michael Brown', comment: 'Uitstekend werk geleverd. Onze website ziet er modern en verzorgd uit.' },
     // Add more reviews similar to the above for additional items
   ];
 
