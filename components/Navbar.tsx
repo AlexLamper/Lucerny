@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
 
         {/* Dropdown menu */}
-        <div className={`${showMenu ? 'absolute' : 'hidden'} md:hidden top-full right-0 w-40 text-white bg-[#2532427e] p-4 rounded`}>
+        <div className={`${showMenu ? 'absolute' : 'hidden'} md:hidden top-full right-0 w-40 text-white bg-[#2532427e] p-4 rounded z-50`}>
           <ul className="text-center">
             <li><a href="/" className="text-white hover:text-gray-200 block py-2">Home</a></li>
             <li><a href="/over-ons" className="text-white hover:text-gray-200 block py-2">Over Ons</a></li>
