@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 body{
-    background-color: #EEEEEE;
+    background-image: url('/images/backgrounds/hero-bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Markdown Content Styling */

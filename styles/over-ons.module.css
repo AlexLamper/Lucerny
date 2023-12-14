@@ -1,9 +1,23 @@
 /* Section Styling */
+
+.overOnsHero{
+    text-align: center;
+    padding-top: 5rem/* 80px */;
+    padding-bottom: 5rem/* 80px */;
+    background-image: url('/images/backgrounds/hero-bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .section3{
     width: 100%;
     padding-top: 5rem/* 80px */;
     padding-bottom: 5rem/* 80px */;
-    background-color: #EEEEEE;
+    background-image: url('/images/backgrounds/hero-bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Image Styling */
