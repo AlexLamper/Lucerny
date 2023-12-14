@@ -12,7 +12,7 @@ const OverOns = () => {
   return (
     <>
       {/* Sectie 1 */}
-      <section className="bg-[#EEEEEE] py-20 text-center">
+      <section className={styles.overOnsHero}>
         <div className="container mx-auto mb-10">
           <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-4 text-[#232323]">
             Meer Over Ons<span className='text-[#496488]'>.</span>

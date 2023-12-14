@@ -2,6 +2,7 @@ import React from 'react'
 import { Metadata } from "next";
 import Head from 'next/head';
 import DienstenSection from '@/components/Diensten/DienstenSection';
+import styles from '@/styles/diensten.module.css';
 
 export const metadata: Metadata = {
   title: "Diensten | Lucerny",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 const Diensten = () => {
 
   return (
-    <div className="container mx-auto py-10">
+    <div className={styles.container}>
       <Head>
         <title>Diensten</title>
         <meta name="description" content="Onze diensten" />
