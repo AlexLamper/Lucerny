@@ -14,11 +14,11 @@ const OverOns = () => {
       {/* Sectie 1 */}
       <section className={styles.overOnsHero}>
         <div className="container mx-auto mb-10">
-          <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-4 text-[#232323]">
+          <h1 className="text-3xl max-sm:max-w-[90%] max-sm:mx-auto lg:text-5xl font-bold leading-tight mb-4 text-[#232323]">
             Meer Over Ons<span className='text-[#496488]'>.</span>
           </h1>
           {/* <h2 className="text-4xl font-bold mb-4">Meer Over Ons.</h2> */}
-          <p className="text-lg text-gray-600 mb-8 max-sm:max-w-[95%]">Uw ideeën, onze kennis, een digitaal avontuur.</p>
+          <p className="text-lg text-gray-600 mb-8 max-sm:max-w-[90%] max-sm:mx-auto">Uw ideeën, onze kennis, een digitaal avontuur.</p>
           {/* <p className="text-xl lg:text-xl mb-16 text-[#424242] italic">Uw ideeën, onze kennis, een digitaal avontuur.</p> */}
           <p className="text-lg lg:text-xl mb-16 text-[#414141] max-w-[85%]" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
             Bij Lucerny staan we voor een vastberaden aanpak van uw online succes. Wij geloven in het leveren van kwalitatieve diensten die voldoen aan uw behoeften. Onze focus ligt bij de klant en we streven ernaar meerwaarde te bieden door middel van onze expertise en creativiteit.
