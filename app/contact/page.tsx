@@ -14,7 +14,7 @@ export default function Contact() {
       <Head>
         <title>Contact</title>
         <meta name="description" content="Contact us for inquiries" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
 
       <div className="container mx-auto mb-10 text-center">

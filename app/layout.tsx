@@ -19,10 +19,6 @@ export default function RootLayout({
 
   return (
     <html>
-      <Head>
-        <title>Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <head />
       <body>
         <div className={styles.container}>
