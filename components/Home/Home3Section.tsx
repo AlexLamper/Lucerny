@@ -1,10 +1,14 @@
 import React from 'react'
 import styles from '@/styles/hero.module.css';
 import Image from 'next/image';
+import Head from 'next/head';
 
 const Home3Section = () => {
   return (
     <section className={styles.section3}>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="container mx-auto">
         <div className="lg:flex lg:justify-between">
           <div className="lg:w-8/12">

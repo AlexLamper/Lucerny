@@ -5,12 +5,16 @@ import styles from '@/styles/navbar.module.css';
 import { useState } from 'react';
 import { BsArrowRightShort, BsList } from 'react-icons/bs'; // Import the hamburger menu icon
 import Image from 'next/image';
+import Head from 'next/head';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false); // State to manage the dropdown menu
 
   return (
     <nav className={styles.navbar}>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="container mx-auto flex items-center justify-between h-full">
         <div className="flex items-center h-full">
           <a href="/" className="flex items-center h-full">

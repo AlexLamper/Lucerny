@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from '@/styles/hero.module.css';
 import { FaStar } from "react-icons/fa";
+import Head from 'next/head';
 
 const HeroSection = () => {
   const renderStars = () => {
@@ -20,6 +21,9 @@ const HeroSection = () => {
 
   return (
     <section className={styles.hero}>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="container mx-auto">
         <div className="lg:flex lg:justify-between">
           <div className="lg:w-1/2 lg:pr-10 lg:pl-4">
