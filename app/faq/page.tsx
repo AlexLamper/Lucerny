@@ -52,7 +52,7 @@ const Faq = () => {
   ];
 
   return (
-    <div className="container mx-auto py-8 max-w-screen-lg">
+    <div className="container mx-auto py-8 max-w-screen-xl">
       <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-10 text-[#232323] text-center">
         Frequently Asked Questions<span className='text-[#496488]'>.</span>
       </h1>
