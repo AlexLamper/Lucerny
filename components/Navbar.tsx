@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from '@/styles/navbar.module.css';
 import { useState } from 'react';
 import { BsArrowRightShort, BsList } from 'react-icons/bs'; // Import the hamburger menu icon
+import Image from 'next/image';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false); // State to manage the dropdown menu
