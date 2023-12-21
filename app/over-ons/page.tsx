@@ -25,21 +25,41 @@ const OverOns = () => {
           </p>
         </div>
 
-        {/* Bedrijven kaarten */}
-        <div className="container mx-auto grid grid-cols-3 gap-6">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Kaart 1 */}
-          <div className="bg-white rounded-lg p-4 flex items-center justify-center ml-4">
-            <Image src="/images/icons/team.png" alt="Company 1" width={80} height={80} />
+          <div className="bg-white rounded-lg p-4 flex flex-col items-center justify-center text-center ml-4 mr-4 shadow-md">
+            <div className="mb-4">
+              {/* CREDIT: <a href="https://www.flaticon.com/free-icons/plus" title="plus icons">Plus icons created by Freepik - Flaticon</a> */}
+              <Image src="/images/icons/plus-icon.png" alt="Company 1" width={35} height={35} className='rounded-full border border-black p-2' />
+            </div>
+            <h1 className="text-xl font-bold mb-3">Gebruiksvriendelijkheid</h1>
+            <p>
+              Bij Lucerny draait alles om een fijne surfervaring voor de bezoekers. We willen dat ze zonder gedoe en met gemak door onze sites kunnen klikken. Elke knop, menu en functie wordt goed doordacht en getest, zodat iedereen snel vindt wat ze zoeken.
+            </p>
           </div>
 
           {/* Kaart 2 */}
-          <div className="bg-white rounded-lg p-4 flex items-center justify-center">
-            <Image src="/images/icons/check.png" alt="Company 2" width={80} height={80} />
+          <div className="bg-white rounded-lg p-4 flex flex-col items-center justify-center text-center ml-4 mr-4 shadow-md">
+            <div className="mb-4">
+              {/* CREDIT: <a href="https://www.flaticon.com/free-icons/plus" title="plus icons">Plus icons created by Freepik - Flaticon</a> */}
+              <Image src="/images/icons/plus-icon.png" alt="Company 1" width={35} height={35} className='rounded-full border border-black p-2' />
+            </div>
+            <h1 className="text-xl font-bold mb-3">Grafisch ontwerp</h1>
+            <p>
+              Wij bij Lucerny focussen op mooie websites die echt passen bij bedrijven en individuen. We mixen creativiteit met bruikbaarheid om een tof ontwerp neer te zetten dat meteen de aandacht trekt en een indruk achterlaat.
+            </p>
           </div>
 
           {/* Kaart 3 */}
-          <div className="bg-white rounded-lg p-4 flex items-center justify-center mr-4">
-            <Image src="/images/icons/mission.png" alt="Company 3" width={80} height={80} />
+          <div className="bg-white rounded-lg p-4 flex flex-col items-center justify-center text-center ml-4 mr-4 shadow-md">
+            <div className="mb-4">
+              {/* CREDIT: <a href="https://www.flaticon.com/free-icons/plus" title="plus icons">Plus icons created by Freepik - Flaticon</a> */}
+              <Image src="/images/icons/plus-icon.png" alt="Company 1" width={35} height={35} className='rounded-full border border-black p-2' />
+            </div>
+            <h1 className="text-xl font-bold mb-3">Ontwikkeling</h1>
+            <p>
+              We vinden het cruciaal dat onze websites stevig in elkaar zitten, zonder ruimte voor onvoorziene fouten. Daarom gebruiken we de nieuwste tools en frameworks voor moderne, veilige en krachtige websites. Met topkwaliteit streven we naar een geweldige gebruikerservaring.
+            </p>
           </div>
         </div>
       </section>
