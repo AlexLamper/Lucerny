@@ -2,6 +2,7 @@ import React from 'react'
 import type { Metadata } from 'next';
 import Image from 'next/image'
 import styles from '@/styles/over-ons.module.css';
+import { CiCirclePlus } from "react-icons/ci";
 
 export const metadata: Metadata = {
   title: 'Over Ons | Lucerny',
@@ -17,9 +18,7 @@ const OverOns = () => {
           <h1 className="text-3xl max-sm:max-w-[90%] max-sm:mx-auto lg:text-5xl font-bold leading-tight mb-4 text-[#232323]">
             Meer Over Ons<span className='text-[#496488]'>.</span>
           </h1>
-          {/* <h2 className="text-4xl font-bold mb-4">Meer Over Ons.</h2> */}
           <p className="text-lg text-gray-600 mb-8 max-sm:max-w-[90%] max-sm:mx-auto">Uw ideeën, onze kennis, een digitaal avontuur.</p>
-          {/* <p className="text-xl lg:text-xl mb-16 text-[#424242] italic">Uw ideeën, onze kennis, een digitaal avontuur.</p> */}
           <p className="text-lg lg:text-xl mb-16 text-[#414141] max-w-[85%]" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
             Bij Lucerny staan we voor een vastberaden aanpak van uw online succes. Wij geloven in het leveren van kwalitatieve diensten die voldoen aan uw behoeften. Onze focus ligt bij de klant en we streven ernaar meerwaarde te bieden door middel van onze expertise en creativiteit.
           </p>
@@ -28,9 +27,8 @@ const OverOns = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Kaart 1 */}
           <div className="bg-white rounded-lg p-4 flex flex-col items-center justify-center text-center ml-4 mr-4 shadow-md">
-            <div className="mb-4">
-              {/* CREDIT: <a href="https://www.flaticon.com/free-icons/plus" title="plus icons">Plus icons created by Freepik - Flaticon</a> */}
-              <Image src="/images/icons/plus-icon.png" alt="Company 1" width={35} height={35} className='rounded-full border border-black p-2' />
+            <div className="mb-4 text-496488 text-4xl">
+              <CiCirclePlus />
             </div>
             <h1 className="text-xl font-bold mb-3">Gebruiksvriendelijkheid</h1>
             <p>
@@ -40,9 +38,8 @@ const OverOns = () => {
 
           {/* Kaart 2 */}
           <div className="bg-white rounded-lg p-4 flex flex-col items-center justify-center text-center ml-4 mr-4 shadow-md">
-            <div className="mb-4">
-              {/* CREDIT: <a href="https://www.flaticon.com/free-icons/plus" title="plus icons">Plus icons created by Freepik - Flaticon</a> */}
-              <Image src="/images/icons/plus-icon.png" alt="Company 1" width={35} height={35} className='rounded-full border border-black p-2' />
+            <div className="mb-4 text-496488 text-4xl">
+              <CiCirclePlus />
             </div>
             <h1 className="text-xl font-bold mb-3">Grafisch ontwerp</h1>
             <p>
@@ -52,9 +49,8 @@ const OverOns = () => {
 
           {/* Kaart 3 */}
           <div className="bg-white rounded-lg p-4 flex flex-col items-center justify-center text-center ml-4 mr-4 shadow-md">
-            <div className="mb-4">
-              {/* CREDIT: <a href="https://www.flaticon.com/free-icons/plus" title="plus icons">Plus icons created by Freepik - Flaticon</a> */}
-              <Image src="/images/icons/plus-icon.png" alt="Company 1" width={35} height={35} className='rounded-full border border-black p-2' />
+            <div className="mb-4 text-496488 text-4xl">
+              <CiCirclePlus />
             </div>
             <h1 className="text-xl font-bold mb-3">Ontwikkeling</h1>
             <p>

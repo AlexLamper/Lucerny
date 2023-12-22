@@ -36,7 +36,7 @@ const Navbar = () => {
             <li><a href="/over-ons" className="text-white hover:text-gray-200 block py-2">Over Ons</a></li>
             <li><a href="/diensten" className="text-white hover:text-gray-200 block py-2">Diensten</a></li>
             <li><a href="/portfolio" className="text-white hover:text-gray-200 block py-2">Portfolio</a></li>
-            <li><a href="/ervaringen" className="text-white hover:text-gray-200 block py-2">Ervaringen</a></li>
+            {/* <li><a href="/ervaringen" className="text-white hover:text-gray-200 block py-2">Ervaringen</a></li> */}
           </ul>
         </div>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
           <li className={styles.link}><a href="/over-ons" className="text-white hover:text-gray-300 h-full flex items-center">Over Ons</a></li>
           <li className={styles.link}><a href="/diensten" className="text-white hover:text-gray-300 h-full flex items-center">Diensten</a></li>
           <li className={styles.link}><a href="/portfolio" className="text-white hover:text-gray-300 h-full flex items-center">Portfolio</a></li>
-          <li className={styles.link}><a href="/ervaringen" className="text-white hover:text-gray-300 h-full flex items-center">Ervaringen</a></li>
+          {/* <li className={styles.link}><a href="/ervaringen" className="text-white hover:text-gray-300 h-full flex items-center">Ervaringen</a></li> */}
         </ul>
 
         {/* Contact button */}
