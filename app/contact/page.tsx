@@ -56,11 +56,11 @@ export default function Contact() {
               <h1 className="text-2xl font-bold mb-2">Contact</h1>
               <p className="text-lg mb-2 text-[#3c3c3c] flex items-center">
                 <Image src={MailIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
-                info@lambdago.nl
+                info@lucerny.net
               </p>
               <p className="text-lg text-[#3c3c3c] flex items-center">
                 <Image src={PhoneIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
-                +31 6 12345678
+                +31 6 57586667
               </p>
             </div>
           </div>
@@ -68,10 +68,10 @@ export default function Contact() {
             <h1 className="text-xl font-bold mb-2">Bekijk onze social media kanalen</h1>
           </div>
           <div className="flex mt-2">
-            <Image src={FaceBookIcon} alt="Contact Icon" width={30} height={30} className="mr-4" />
-            <Image src={InstagramIcon} alt="Contact Icon" width={30} height={30} className="mr-4" />
-            <Image src={LinkedInIcon} alt="Contact Icon" width={30} height={30} className="mr-4" />
-            <Image src={WhatsAppIcon} alt="Contact Icon" width={30} height={30} className="mr-4" />
+            <a href="https://www.facebook.com/" target="_blank"><Image src={FaceBookIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
+            <a href="https://www.instagram.com/" target="_blank"><Image src={InstagramIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
+            <a href="https://www.linkedin.com/" target="_blank"><Image src={LinkedInIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
+            <a href="https://www.whatsapp.com/" target="_blank"><Image src={WhatsAppIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
           </div>
         </div>
         {/* Right Div */}

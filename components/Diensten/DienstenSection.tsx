@@ -8,38 +8,38 @@ import { LiaInfoCircleSolid } from "react-icons/lia";
 const packages = [
   {
     title: 'Startpakket',
-    description: 'Een website van een 1 of 2 pagina’s. Perfect voor de startende ondernemer of als persoonlijke website.',
+    description: 'Een website van een 1, 2 of 3 pagina’s. Perfect voor de startende ondernemer of als persoonlijke website.',
     price: 'vanaf €35/maand',
     oneTimeFee: 'Eenmalig startbedrag van €199.99',
     features: [
-      '1 of 2 pagina gevuld',
+      '1, 2 of 3 pagina\'s gevuld',
       'Inclusief gratis stockfoto\'s',
       'Ontwerp op maat',
       'Geschikt voor alle apparaten',
       '2 herzieningsronden',
-      'Inclusief kwartaal onderhoud, hosting en domeinnaam',
+      'Inclusief kwartaal onderhoud wanneer nodig, hosting en domeinnaam',
     ]
   },
   {
     title: 'Basispakket',
     description: 'Een website van max. 4 pagina’s. Voor de ondernemer die een complete website wilt.',
     price: 'vanaf €49/maand',
-    oneTimeFee: 'Eenmalig startbedrag van €249.99',
+    oneTimeFee: 'Eenmalig startbedrag van €299.99',
     features: [
-      '4 pagina\'s gevuld',
+      '4 pagina\'s gevuld (max. 6)',
       'Ontwerp op maat',
       'Geschikt voor alle apparaten',
       'Inclusief gratis stockfoto\'s',
       '3 herzieningsronden',
       'Inbegrepen functionaliteiten: Contactformulier, Simpele Animaties (optioneel), Videoweergave etc...',
-      'Inclusief maandelijks onderhoud, hosting en domeinnaam',
+      'Inclusief maandelijks onderhoud wanneer nodig, hosting en domeinnaam',
     ]
   },
   {
     title: 'Premiumpakket',
     description: 'Een website van 7 of meer pagina’s. Voor een complete en uitgebreide website met alle benodigde informatie.',
     price: 'vanaf €59/maand',
-    oneTimeFee: 'Eenmalig startbedrag van €349.99',
+    oneTimeFee: 'Eenmalig startbedrag van €399.99',
     features: [
       '7 pagina\'s gevuld (max. 10)',
       'Ontwerp op maat',
@@ -47,7 +47,7 @@ const packages = [
       'Inclusief gratis stockfoto\'s',
       '3 herzieningsronden',
       'Inbegrepen functionaliteiten: Contactformulier, Simpele Animaties (optioneel), Videoweergave etc...',
-      'Inclusief maandelijks onderhoud, hosting en domeinnaam'
+      'Inclusief maandelijks onderhoud wanneer nodig, hosting en domeinnaam'
     ]
   }
 ];
