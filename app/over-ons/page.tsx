@@ -32,7 +32,7 @@ const OverOns = () => {
             </div>
             <h1 className="text-xl font-bold mb-3">Gebruiksvriendelijkheid</h1>
             <p>
-              Bij Lucerny draait alles om een fijne surfervaring voor de bezoekers. We willen dat ze zonder gedoe en met gemak door onze sites kunnen klikken. Elke knop, menu en functie wordt goed doordacht en getest, zodat iedereen snel vindt wat ze zoeken.
+              Bij ons draait alles om een vlotte en fijne ervaring voor de bezoekers. We willen dat ze zonder gedoe en met gemak door onze sites kunnen klikken. Elke knop, menu en functie wordt goed doordacht en getest, zodat iedereen snel vindt wat ze zoeken.
             </p>
           </div>
 

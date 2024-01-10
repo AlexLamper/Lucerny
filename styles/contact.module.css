@@ -2,7 +2,8 @@
 .form{
     /* Center the form on the page */
     margin: 0 auto;
-    max-width: 30rem;
+    width: 80%; /* Set width to 100% */
+    max-width: none; /* Remove the max-width constraint */
 }
 
 /* Input Styles */

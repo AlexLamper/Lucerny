@@ -4,6 +4,7 @@ import "animate.css/animate.min.css";
 import Home2Section from '@/components/Home/Home2Section';
 import Home3Section from '@/components/Home/Home3Section';
 import Head from 'next/head';
+import Home4Section from '@/components/Home/Home4Section';
 // import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ const Home: React.FC = () => {
       <HeroSection />
       <Home2Section />
       <Home3Section />
+      <Home4Section />
     </div>
   );
 };

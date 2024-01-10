@@ -13,7 +13,7 @@ const projects = [
         id: 1,
         title: 'Lambdago',
         description: 'Lambdago: Lamper BedrijfsDienstverlening en Advisering.',
-        image: '/images/projects/project9.png',
+        image: '/images/projects/lambdago.png',
         link: 'https://www.lambdago.nl',
     },
     {
