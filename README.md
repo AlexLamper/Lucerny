@@ -6,7 +6,7 @@ To learn more about the company, the project and any other stuff, you can take a
 
 ### Site link:
 
-- [Lucerny Website](https://www.lucerny.nl) - the official website of Lucerny.
+- [lucerny.nl](https://www.lucerny.nl) - the official website of Lucerny.
 
 Thanks for checking out this project. Have any more questions? Please fill in the contact form on the website and I will get back soon as possible. 
 
