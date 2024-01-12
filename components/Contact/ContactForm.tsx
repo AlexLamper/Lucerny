@@ -36,13 +36,13 @@ const ContactForm: FC = () => {
           <input
             type="text"
             placeholder="Voornaam"
-            className="w-1/2 mr-2 rounded-md py-3 px-4 bg-white text-black focus:outline-none focus:bg-gray-200"
+            className="w-1/2 mr-2 rounded-md py-3 px-4 bg-white text-black focus:outline-none"
             {...register('firstName', { required: true })}
           />
           <input
             type="text"
             placeholder="Achternaam"
-            className="w-1/2 ml-2 rounded-md py-3 px-4 bg-white text-black focus:outline-none focus:bg-gray-200"
+            className="w-1/2 ml-2 rounded-md py-3 px-4 bg-white text-black focus:outline-none"
             {...register('surName', { required: true })}
           />
         </div>
@@ -52,7 +52,7 @@ const ContactForm: FC = () => {
           <input
             type="tel"
             placeholder="+31 6 12345678"
-            className="w-full rounded-md py-3 px-4 bg-white text-black focus:outline-none focus:bg-gray-200"
+            className="w-full rounded-md py-3 px-4 bg-white text-black focus:outline-none"
             {...register('phone', { required: true })}
           />
         </div>
@@ -62,7 +62,7 @@ const ContactForm: FC = () => {
           <input
             type="email"
             placeholder="voorbeeld@gmail.com"
-            className="w-full rounded-md py-3 px-4 bg-white text-black focus:outline-none focus:bg-gray-200"
+            className="w-full rounded-md py-3 px-4 bg-white text-black focus:outline-none"
             {...register('email', { required: true })}
           />
         </div>
@@ -72,7 +72,7 @@ const ContactForm: FC = () => {
           <input
             type="text"
             placeholder="Uw bedrijfsnaam (optioneel)"
-            className="w-full rounded-md py-3 px-4 bg-white text-black focus:outline-none focus:bg-gray-200"
+            className="w-full rounded-md py-3 px-4 bg-white text-black focus:outline-none"
             {...register('company', { required: true })}
           />
         </div>
@@ -84,7 +84,7 @@ const ContactForm: FC = () => {
             rows={5}
             cols={40}
             maxLength={200}
-            className="w-full rounded-md py-3 px-4 bg-white text-black focus:outline-none focus:bg-gray-200 resize-none"
+            className="w-full rounded-md py-3 px-4 bg-white text-black focus:outline-none resize-none"
             {...register('message', { required: true })}
           />
         </div>
