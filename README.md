@@ -3,7 +3,7 @@
 > Welcome to the Lucerny website, a NextJS-based platform designed to showcase information about Lucerny. Explore our pages to learn more about us, our mission, and how to get in touch.
 
 ## General Information
-The Lambdago website is a modern, NextJS-powered platform that provides users with insights into the world of Lambdago. From our company overview to ways of reaching out, the Lambdago website serves as a central hub for information.
+The Lucerny website is a modern, NextJS-powered platform that provides users with insights into the world of Lucerny. From our company overview to ways of reaching out, the Lucerny website serves as a central hub for information.
 
 ## Technologies Used
 - NextJS
