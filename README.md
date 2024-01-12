@@ -1,4 +1,4 @@
-- # Lucerny Website
+# Lucerny Website
 
 > Welcome to the Lucerny website, a NextJS-based platform designed to showcase information about Lucerny. Explore our pages to learn more about us, our mission, and how to get in touch.
 
