@@ -3,7 +3,7 @@
 import { FC } from 'react';
 import { useForm } from 'react-hook-form';
 import { sendEmail } from '@/utils/send-email';
-import styles from '@/styles/contact.module.css'
+import styles from '@/styles/contact.module.css';
 
 export type FormData = {
   firstName: string;
@@ -17,21 +17,26 @@ export type FormData = {
 const ContactForm: FC = () => {
   const { register, handleSubmit, setValue } = useForm<FormData>();
 
-  function onSubmit(data: FormData) {
-    sendEmail(data);
-
-    setValue('firstName', '');
-    setValue('surName', '');
-    setValue('phone', '');
-    setValue('email', '');
-    setValue('company', '');
-    setValue('message', '');
-  }
+  const onSubmit = async (data: FormData) => {
+    try {
+      await sendEmail(data);
+      alert('Email sent successfully!');
+      // Reset form values after successful submission
+      setValue('firstName', '');
+      setValue('surName', '');
+      setValue('phone', '');
+      setValue('email', '');
+      setValue('company', '');
+      setValue('message', '');
+    } catch (error) {
+      alert('Failed to send email. Please try again later.');
+      console.error(error);
+    }
+  };
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className='bg-[#e7e9f1] p-6 rounded-lg border border-[#cdced3]'>
-
-        <label htmlFor="name" className="block text-base font-bold text-gray-700 mb-2">Volledige Naam</label>
+      <label htmlFor="name" className="block text-base font-bold text-gray-700 mb-2">Volledige Naam</label>
         <div className="flex mb-2">
           <input
             type="text"
@@ -88,10 +93,11 @@ const ContactForm: FC = () => {
             {...register('message', { required: true })}
           />
         </div>
-
-        <button type="submit" className={styles.button}>Verzend uw bericht</button>
+      <button type="submit" className={styles.button}>
+        Verzend uw bericht
+      </button>
     </form>
-  )
-}
+  );
+};
 
 export default ContactForm;

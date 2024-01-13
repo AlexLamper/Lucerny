@@ -1,6 +1,15 @@
+// /api/email/route.ts
 import { type NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
+
+export const config = {
+  api: {
+    bodyParser: {
+      sizeLimit: '10mb',
+    },
+  },
+};
 
 export async function POST(request: NextRequest) {
   const { firstName, surName, phone, email, company, message } = await request.json();
@@ -16,26 +25,15 @@ export async function POST(request: NextRequest) {
   const mailOptions: Mail.Options = {
     from: process.env.MY_EMAIL,
     to: process.env.MY_EMAIL,
-    // cc: email, (uncomment this line if you want to send a copy to the sender)
     subject: `Message from ${firstName} (${email})`,
     text: `Name: ${firstName} ${surName}\nPhone: ${phone}\nEmail: ${email}\nCompany: ${company}\n\n${message}`,
   };
 
-  const sendMailPromise = () =>
-    new Promise<string>((resolve, reject) => {
-      transport.sendMail(mailOptions, function (err) {
-        if (!err) {
-          resolve('Email sent');
-        } else {
-          reject(err.message);
-        }
-      });
-    });
-
   try {
-    await sendMailPromise();
+    await transport.sendMail(mailOptions);
     return NextResponse.json({ message: 'Email sent' });
   } catch (err) {
-    return NextResponse.json({ error: err }, { status: 500 });
+    console.error(err);
+    return NextResponse.json({ error: 'Failed to send email' }, { status: 500 });
   }
 }
