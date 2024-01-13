@@ -3,13 +3,7 @@ import { type NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
 
-export const config = {
-  api: {
-    bodyParser: {
-      sizeLimit: '10mb',
-    },
-  },
-};
+export const dynamic = 'auto'; // You can adjust this based on your needs
 
 export async function POST(request: NextRequest) {
   const { firstName, surName, phone, email, company, message } = await request.json();
