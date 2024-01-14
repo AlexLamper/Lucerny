@@ -1,4 +1,3 @@
-// /api/email/route.ts
 import { type NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';

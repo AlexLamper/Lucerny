@@ -1,4 +1,3 @@
-// /utils/send-email.ts
 import { FormData } from '@/components/Contact/ContactForm';
 
 export const sendEmail = async (data: FormData) => {
