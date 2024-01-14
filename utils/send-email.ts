@@ -16,6 +16,6 @@ export const sendEmail = async (data: FormData) => {
     const result = await response.json();
     return result;
   } catch (error) {
-    throw new Error(`Failed to send email: Noooo :(`);
+    throw new Error(`Failed to send email...`);
   }
 };
