@@ -9,8 +9,8 @@ const packages = [
   {
     title: 'Startpakket',
     description: 'Een website van een 1, 2 of 3 pagina’s. Perfect voor de startende ondernemer of als persoonlijke website.',
-    price: 'vanaf €35/maand',
-    oneTimeFee: 'Eenmalig startbedrag van €199.99',
+    price: 'vanaf €29/maand',
+    oneTimeFee: 'Eenmalig startbedrag van €249.99',
     features: [
       '1, 2 of 3 pagina\'s gevuld',
       'Inclusief gratis stockfoto\'s',
@@ -23,7 +23,7 @@ const packages = [
   {
     title: 'Basispakket',
     description: 'Een website van max. 4 pagina’s. Voor de ondernemer die een complete website wilt.',
-    price: 'vanaf €49/maand',
+    price: 'vanaf €39/maand',
     oneTimeFee: 'Eenmalig startbedrag van €299.99',
     features: [
       '4 pagina\'s gevuld (max. 6)',
@@ -38,7 +38,7 @@ const packages = [
   {
     title: 'Premiumpakket',
     description: 'Een website van 7 of meer pagina’s. Voor een complete en uitgebreide website met alle benodigde informatie.',
-    price: 'vanaf €59/maand',
+    price: 'vanaf €49/maand',
     oneTimeFee: 'Eenmalig startbedrag van €399.99',
     features: [
       '7 pagina\'s gevuld (max. 10)',

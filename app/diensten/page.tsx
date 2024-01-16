@@ -7,7 +7,6 @@ import styles from '@/styles/diensten.module.css';
 export const metadata: Metadata = {
   title: "Diensten | Lucerny",
   description: "Diensten Pagina van Lucerny",
-  // other metadata
 };
 
 const Diensten = () => {
