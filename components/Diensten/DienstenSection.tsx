@@ -22,7 +22,7 @@ const packages = [
   },
   {
     title: 'Basispakket',
-    description: 'Een website van max. 4 pagina’s. Voor de ondernemer die een complete website wilt.',
+    description: 'Een website van 4 of meer pagina’s. Voor de ondernemer die een complete website wilt.',
     price: 'vanaf €39/maand',
     oneTimeFee: 'Eenmalig startbedrag van €299.99',
     features: [
@@ -70,7 +70,6 @@ const DienstenSection = () => {
               onMouseEnter={() => setHoveredPackage(index)}
               onMouseLeave={() => setHoveredPackage(null)}
             >
-              {/* Your LiaInfoCircleSolid icon */}
               <LiaInfoCircleSolid className="cursor-pointer text-[#496488] text-lg" />
               {hoveredPackage === index && (
                 <div className="absolute z-10 bg-gray-100 p-2 rounded-md text-sm text-[#496488] top-full left-1/2 transform -translate-x-1/2 -translate-y-2 w-40">
