@@ -11,10 +11,10 @@ export async function POST(request: NextRequest) {
   const transport = nodemailer.createTransport({
     host: 'smtp.hostinger.com',
     port: 465,
-    secure: true, // Use SSL/TLS
+    secure: true,
     auth: {
-      user: process.env.MY_EMAIL, // Your email address from environment variables
-      pass: process.env.MY_PASSWORD, // Your email password from environment variables
+      user: process.env.MY_EMAIL,
+      pass: process.env.MY_PASSWORD,
     },
   });
 
