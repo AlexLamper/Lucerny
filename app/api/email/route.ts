@@ -7,11 +7,14 @@ export const dynamic = 'auto';
 export async function POST(request: NextRequest) {
   const { firstName, surName, phone, email, company, message } = await request.json();
 
+  // Use Hostinger email configuration
   const transport = nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.hostinger.com',
+    port: 465,
+    secure: true, // Use SSL/TLS
     auth: {
-      user: process.env.MY_EMAIL,
-      pass: process.env.MY_PASSWORD,
+      user: process.env.MY_EMAIL, // Your email address from environment variables
+      pass: process.env.MY_PASSWORD, // Your email password from environment variables
     },
   });
 

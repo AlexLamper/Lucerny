@@ -50,8 +50,8 @@ const HeroSection = () => {
               <Image
                 src="/images/backgrounds/about.svg"
                 alt="Hero Image"
-                width={700}
-                height={700}
+                width={900}
+                height={900}
             />
             </div>
           </div>
