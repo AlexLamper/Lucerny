@@ -1,0 +1,17 @@
+/* Image Styling */
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Text Styling */
+.sectionTitle{
+    font-size: 1.5rem/* 24px */;
+    line-height: 2rem/* 32px */;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 1.5rem/* 24px */;
+    color: black;
+    max-width: 80%;
+}

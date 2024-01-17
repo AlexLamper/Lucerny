@@ -3,7 +3,7 @@ import Button from '../Button/Button';
 
 const Services = () => {
   return (
-    <section className="container mx-auto p-8 bg-white">
+    <section className="container mx-auto pt-20 bg-white">
         <div className="text-center mb-8">
             <p className="text-3xl text-black mb-6 mt-6">Onze Diensten</p>
             <h2 className="text-5xl mb-12">Ontdek onze Webdesign Pakketten</h2>

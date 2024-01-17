@@ -7,11 +7,6 @@
     object-fit: cover;
 }
 
-.image2{
-    margin-bottom: 1rem/* 16px */; 
-    border-radius: 0.5rem/* 8px */;
-}
-
 /* Text Styling */
 .sectionTitle{
     font-size: 1.5rem/* 24px */;

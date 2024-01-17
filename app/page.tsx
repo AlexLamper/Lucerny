@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import "animate.css/animate.min.css";
 import Hero from '@/components/Home/Hero';
-import Services from '@/components/Home/Services';
-import Portfolio from '@/components/Home/Portfolio';
+import Diensten from '@/components/Home/Diensten';
+import OverOns from '@/components/Home/OverOns';
+import Casus from '@/components/Home/Casus';
 import CTA from '@/components/Home/CTA';
 import Team from '@/components/Home/Team';
 import FAQ from '@/components/Home/FAQ';
@@ -19,8 +20,9 @@ const Home: React.FC = () => {
   return (
     <div>
       <Hero />
-      <Services />
-      <Portfolio />
+      <Diensten />
+      <OverOns />
+      <Casus />
       <CTA />
       <Team />
       <FAQ />
