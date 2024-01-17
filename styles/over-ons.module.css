@@ -1,25 +1,5 @@
 /* Section Styling */
 
-.overOnsHero{
-    text-align: center;
-    padding-top: 5rem/* 80px */;
-    padding-bottom: 5rem/* 80px */;
-    background-image: url('/images/backgrounds/hero-bg1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.section3{
-    width: 100%;
-    padding-top: 5rem/* 80px */;
-    padding-bottom: 5rem/* 80px */;
-    background-image: url('/images/backgrounds/hero-bg1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 /* Image Styling */
 .image{
     height: 100%;
@@ -39,21 +19,21 @@
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 1.5rem/* 24px */;
-    color: #232323;
+    color: black;
     max-width: 80%;
 }
 
 .sectionText{
     font-size: 0.875rem/* 14px */;
     line-height: 1.25rem/* 20px */;
-    color: #414141;
+    color: #0f0f0f;
     margin-bottom: 4rem/* 64px */;
 }
 
 .sectionTextMissie{
     font-size: 0.875rem/* 14px */;
     line-height: 1.25rem/* 20px */;
-    color: #414141;
+    color: #0f0f0f;
     margin-bottom: 4rem/* 64px */;
     max-width: 90%;
 }

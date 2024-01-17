@@ -1,10 +1,9 @@
-import Head from 'next/head';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Lucerny',
+  title: 'Casus | Lucerny',
   description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
 };
 
@@ -32,14 +31,9 @@ const projects = [
     },
   ];
   
-export default function Portfolio() {
+export default function Casus() {
   return (
     <div className="container mx-auto py-10">
-      <Head>
-        <title>Portfolio</title>
-        <meta name="description" content="Our portfolio of projects" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <div className="text-center mb-10">
         <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">

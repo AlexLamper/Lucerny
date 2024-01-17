@@ -1,6 +1,5 @@
 import React from 'react'
 import { Metadata } from "next";
-import Head from 'next/head';
 import DienstenSection from '@/components/Diensten/DienstenSection';
 import styles from '@/styles/diensten.module.css';
 
@@ -13,11 +12,6 @@ const Diensten = () => {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Diensten</title>
-        <meta name="description" content="Onze diensten" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <div className="text-center mb-8">
         <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-4 text-[#232323] text-center">

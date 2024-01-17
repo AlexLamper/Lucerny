@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaStar } from 'react-icons/fa';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -10,45 +9,45 @@ export const metadata: Metadata = {
 const Faq = () => {
   const faq = [
     {
-        question: "Do you offer website maintenance services?",
-        answer: "Yes, we provide website maintenance services to keep your site updated, secure, and functional."
-      },
-      {
-        question: "What is your web development process?",
-        answer: "Our process involves consultation, planning, design, development, testing, and deployment."
-      },
-      {
-        question: "Can you help with search engine optimization (SEO)?",
-        answer: "Absolutely! We offer SEO services to boost your website's visibility in search engines."
-      },
-      {
-        question: "What types of websites do you build?",
-        answer: "We build various sites, including e-commerce, portfolio, blogs, and business sites."
-      },
-      {
-        question: "How long does it take to build a website?",
-        answer: "Project duration varies based on complexity and features. Timelines are estimated after evaluation."
-      },
-      {
-        question: "What are your accepted payment methods?",
-        answer: "We accept credit/debit cards, PayPal, bank transfers, and secure payment gateways."
-      },
-      {
-        question: "Do you provide website hosting services?",
-        answer: "Yes, we offer tailored website hosting with reliable servers and technical support."
-      },
-      {
-        question: "Can you redesign an existing website?",
-        answer: "Certainly! We specialize in website redesigns to improve functionality and aesthetics."
-      },
-      {
-        question: "What sets your web development services apart?",
-        answer: "Our experienced team, attention to detail, client-centric approach, and use of cutting-edge technologies."
-      },
-      {
-        question: "Is there ongoing support after the website is launched?",
-        answer: "Yes, we provide post-launch support for updates, maintenance, and queries."
-      }
+      question: "Biedt u website-onderhoudsdiensten aan?",
+      answer: "Ja, we bieden website-onderhoudsdiensten aan om uw site up-to-date, veilig en functioneel te houden."
+    },
+    {
+      question: "Wat is uw webontwikkelingsproces?",
+      answer: "Ons proces omvat consultatie, planning, ontwerp, ontwikkeling, testen en implementatie."
+    },
+    {
+      question: "Kunt u helpen met zoekmachineoptimalisatie (SEO)?",
+      answer: "Absoluut! We bieden SEO-diensten om de zichtbaarheid van uw website in zoekmachines te vergroten."
+    },
+    {
+      question: "Wat voor soort websites bouwt u?",
+      answer: "We bouwen verschillende soorten sites, waaronder e-commerce, portfolio's, blogs en zakelijke sites."
+    },
+    {
+      question: "Hoe lang duurt het om een website te bouwen?",
+      answer: "De projectduur varieert op basis van complexiteit en functies. Tijdlijnen worden geschat na evaluatie."
+    },
+    {
+      question: "Welke betalingsmethoden accepteert u?",
+      answer: "We accepteren credit-/debetkaarten, PayPal, bankoverschrijvingen en beveiligde betaalgateways."
+    },
+    {
+      question: "Biedt u webhostingdiensten aan?",
+      answer: "Ja, we bieden op maat gemaakte webhosting aan met betrouwbare servers en technische ondersteuning."
+    },
+    {
+      question: "Kunt u een bestaande website opnieuw ontwerpen?",
+      answer: "Zeker! We zijn gespecialiseerd in het opnieuw ontwerpen van websites om functionaliteit en esthetiek te verbeteren."
+    },
+    {
+      question: "Wat onderscheidt uw webontwikkelingsdiensten?",
+      answer: "Ons ervaren team, oog voor detail, klantgerichte aanpak en het gebruik van geavanceerde technologieën."
+    },
+    {
+      question: "Is er doorlopende ondersteuning nadat de website is gelanceerd?",
+      answer: "Ja, we bieden ondersteuning na de lancering voor updates, onderhoud en vragen."
+    }    
   ];
 
   return (

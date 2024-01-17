@@ -1,131 +1,23 @@
-/* Hero, Section Styling */
-.hero{
-    height: 92vh;
-    display: flex;
-    align-items: center;
-    background-image: url('/images/backgrounds/hero-bg1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+/* .glow {
+    position: relative;
+    display: inline-block;
 }
 
-.section3{
+.glow::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding-top: 5rem/* 80px */;
-    padding-bottom: 5rem/* 80px */;
-    background-image: url('/images/backgrounds/hero-bg1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-/* Image Styling */
-.image{
     height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+} */
 
-.image2{
-    margin-bottom: 1rem/* 16px */; 
-    border-radius: 0.5rem/* 8px */;
-}
 
-/* Text Styling */
-.sectionTitle{
-    font-size: 1.5rem/* 24px */;
-    line-height: 2rem/* 32px */;
-    font-weight: 700;
-    line-height: 1.25;
-    margin-bottom: 1.5rem/* 24px */;
-    color: #232323;
-    max-width: 80%;
-}
-
-.sectionSubtitle{
-    font-weight: 700;
-    line-height: 1.25;
-    margin-bottom: 1.5rem/* 24px */;
-    color: #232323;
-    max-width: 80%;
-}
-
-.sectionText{
-    /* text-sm lg:text-xl mb-16 text-[#414141]  */
-    font-size: 0.875rem/* 14px */;
-    line-height: 1.25rem/* 20px */;
-    color: #414141;
-    margin-bottom: 4rem/* 64px */;
-}
-
-/* Media Queries */
-@media (min-width: 1024px) {
-
-    .sectionTitle{
-        font-size: 2.25rem/* 36px */;
-        line-height: 2.5rem/* 40px */;
-    }
-
-    .sectionSubtitle {
-        font-size: 1.5rem/* 24px */;
-        line-height: 2rem/* 32px */;
-    }
-
-    .sectionText {
-        font-size: 1.25rem/* 20px */;
-        line-height: 1.75rem/* 28px */;
-    }
-
-}
-
-@media screen and (max-width: 1024px) {
-    .image{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .hero {
-        margin-top: 0; /* Reset the margin for smaller screens */
-        height: 100vh; /* Set the full height for smaller screens */
-        padding-left: 1.5rem; /* Adjust padding if needed */
-        padding-right: 1.5rem; /* Adjust padding if needed */
-    }
-
-    .image{
-        width: 60%;
-        height: 60%;
-    }
-
-    .image2{
-        margin-bottom: 4rem/* 16px */; 
-        border-radius: 0.5rem/* 8px */;
-        width: 50% !important;
-        height: auto;
-        margin-left: 1.5rem/* 24px */;
-    }
-
-    .sectionTitle{
-        margin-left: 1.5rem/* 24px */;
-    }
-
-    .sectionSubtitle {
-        margin-left: 1.5rem/* 24px */;
-    }
-
-    .sectionText {
-        margin-left: 1.5rem/* 24px */;
-    }
-    
-}
-
-@media only screen and (max-width: 768px){
-    .hero{
-        margin-top: -10%;
-    }
-
-    .image{
-        display: none;
-    }
-    
-}
+/* Add these styles to your stylesheet */
+.hoverEffect:hover {
+    background-image: linear-gradient(90deg, blueButtonHoverStart, blueButtonHoverEnd);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+  }
+  

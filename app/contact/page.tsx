@@ -1,5 +1,3 @@
-// pages/contact.tsx
-import Head from 'next/head';
 import type { Metadata } from 'next';
 import ContactForm from '@/components/Contact/ContactForm';
 
@@ -21,11 +19,6 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <div className="container mx-auto py-10">
-      <Head>
-        <title>Contact</title>
-        <meta name="description" content="Contact us for inquiries" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </Head>
 
       <div className="container mx-auto mb-10 text-center">
         <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">
