@@ -5,18 +5,23 @@ import Button from '../Button/Button';
 const Casus = () => {
   const portfolios = [
     {
-      name: 'Portfolio 1',
+      name: 'Lambdago',
       image: '/images/projects/lambdago.png',
+      description: 'Een website voor het bedrijf Lambdago: Lamper BedrijfsDienstverlening en Advisering. ',
+      date: '18/01/2024',
     },
     {
-      name: 'Portfolio 2',
+      name: 'Persoonlijke Portfolio Website',
       image: '/images/projects/project9.png',
+      description: 'Mijn persoonlijke website met mijn portfolio en wie ik ben!',
+      date: '18/01/2024',
     },
     {
-      name: 'Portfolio 3',
+      name: 'Uw Website',
       image: '/images/projects/project1.png',
+      description: 'Hier kan uw website staan!',
+      date: '18/01/2024',
     },
-    // Add more portfolios as needed
   ];
 
   return (
@@ -26,25 +31,32 @@ const Casus = () => {
         <h2 className="text-5xl mb-12">Ontdek onze Gerealiseerde Projecten</h2>
       </div>
 
-      <div className="flex flex-wrap -mx-4">
+      <div className="flex-wrap flex justify-center">
         {portfolios.map((portfolio, index) => (
-          <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div className="bg-white rounded-lg p-6" style={{ boxShadow: '0 0 20px rgba(0, 0, 0, 0.15)' }}>
-            <Image
-              src={portfolio.image}
-              alt={`Portfolio ${index + 1}`}
-              width={500} // Set the desired width
-              height={300} // Set the desired height
-              layout="fixed"
-              className="mb-4 rounded-lg"
-            />
-              <h3 className="text-xl font-bold mb-3">{portfolio.name}</h3>
-              {/* Additional information about the portfolio */}
-              {/* You can add more details here as needed */}
-              <Button href={`/portfolio/${portfolio.name}`} text="Bekijk Project" />
+          <div key={index} className="w-8/12 md:w-1/2 lg:w-1/5 mx-6 border border-[#1b1b1bb0] max-md:mb-12 h-auto">
+            <div className="bg-white flex flex-col">
+              <div className="mb-4">
+                <Image
+                  src={portfolio.image}
+                  alt={`Portfolio ${index + 1}`}
+                  width={500} // Set the desired width
+                  height={300} // Set the desired height
+                />
+              </div>
+              <div className='p-4'>
+                <h3 className="text-xl font-bold mb-2">{portfolio.name}</h3>
+                <p className='mb-6'>{portfolio.description}</p>
+                <p className='italic'>{portfolio.date}</p>
+                {/* Additional information about the portfolio */}
+                {/* You can add more details here as needed */}
+              </div>
             </div>
           </div>
         ))}
+      </div>
+
+      <div className='mt-12 text-center'>
+        <Button href="/casus" text="Bekijk Al Onze Projecten" />
       </div>
     </section>
   );

@@ -37,6 +37,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      <div className='border-b-2 mx-auto'></div>
     </div>
   );
 };

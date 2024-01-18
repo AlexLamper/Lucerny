@@ -5,7 +5,6 @@ import Diensten from '@/components/Home/Diensten';
 import OverOns from '@/components/Home/OverOns';
 import Casus from '@/components/Home/Casus';
 import CTA from '@/components/Home/CTA';
-import Team from '@/components/Home/Team';
 import FAQ from '@/components/Home/FAQ';
 
 export const metadata: Metadata = {
@@ -21,11 +20,12 @@ const Home: React.FC = () => {
     <div>
       <Hero />
       <Diensten />
+      <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
       <OverOns />
+      <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
       <Casus />
+      <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
       <CTA />
-      <Team />
-      <FAQ />
     </div>
   );
 };
