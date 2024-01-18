@@ -5,7 +5,7 @@ import styles from '@/styles/diensten.module.css';
 
 export const metadata: Metadata = {
   title: "Diensten | Lucerny",
-  description: "Diensten Pagina van Lucerny",
+  description: 'Lucerny is een webontwikkelingsbureau dat gespecialiseerd is in het bouwen van op maat gemaakte, gepersonaliseerde websites voor bedrijven.',
 };
 
 const Diensten = () => {

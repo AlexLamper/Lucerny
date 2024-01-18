@@ -4,7 +4,7 @@ import FAQ from '@/components/FAQ/FAQ';
 
 export const metadata: Metadata = {
   title: 'FAQ | Lucerny',
-  description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
+  description: 'Lucerny is een webontwikkelingsbureau dat gespecialiseerd is in het bouwen van op maat gemaakte, gepersonaliseerde websites voor bedrijven.',
 };
 
 const Faq = () => {
