@@ -6,9 +6,8 @@ Color Pallete 1: (Stolen, :d)
 // #232323 // For extra dark titles (Main title)
 // #414141 // For gray/dark titles and text 
 
-Color Pallete 2:
-// #263242 // Dark blue for darker background
-// #476072 // Gray/Blue-ish color
-// #548CA8 // Button/Link Color
-// #EEEEEE // Light background color
-// #ffffff // White text, white background color
+
+Background gradient colors (bbblurry):
+
+Orange: #dba77fff
+Blue: #2087d6ff

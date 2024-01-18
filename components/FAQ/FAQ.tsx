@@ -46,12 +46,9 @@ const FAQ = () => {
 
   return (
     <div className="container mx-auto py-8 max-w-screen-xl">
-      <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-10 text-[#232323] text-center">
-        Frequently Asked Questions<span className='text-[#496488]'>.</span>
-      </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center mx-6">
         {faq.map((faq, index) => (
-          <div key={index} className="p-4 border border-[#333333] shadow-md bg-white">
+          <div key={index} className="p-4 border border-[#333333] shadow-md bg-[#ffffff69]">
             <div className="flex items-center mb-2">
               <h3 className="text-xl font-semibold mr-2">{faq.question}</h3>
             </div>

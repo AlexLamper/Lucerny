@@ -6,7 +6,7 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Lucerny. All rights reserved.
           </p>
           <p className="text-sm text-gray-400 mt-2">
-            Built by <a href="https://www.lucerny.nl"><span className='text-[#87b0f1] font-bold'>Lucerny</span></a>
+            Website door <a href="https://www.lucerny.nl"><span className='text-[#87b0f1] font-bold'>Lucerny</span></a>
           </p>
         </div>
       </footer>

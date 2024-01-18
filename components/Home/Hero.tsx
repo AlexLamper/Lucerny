@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="text-center lg:max-w-[60%] mx-auto relative z-10">
           <div>
             <h2 className="text-xl lg:text-3xl mb-8">Exclusieve Digitale Oplossingen</h2>
-            <h1 className="text-4xl lg:text-6xl leading-tight mb-12 relative max-sm:max-w-[90%] mx-auto">
+            <h1 className="text-4xl lg:text-[66px] leading-none mb-12 relative max-sm:max-w-[90%] mx-auto font-medium">
             Breng Uw Online Visie tot <span className={styles.glow}>Licht</span> met een Gepersonaliseerde Website
             </h1>
             <p className="text-lg lg:text-xl mb-12 max-w-[70%] mx-auto">

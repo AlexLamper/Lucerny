@@ -5,7 +5,7 @@ import Diensten from '@/components/Home/Diensten';
 import OverOns from '@/components/Home/OverOns';
 import Casus from '@/components/Home/Casus';
 import CTA from '@/components/Home/CTA';
-import FAQ from '@/components/Home/FAQ';
+import FAQ from '@/components/FAQ/FAQ';
 
 export const metadata: Metadata = {
   title: 'Lucerny',

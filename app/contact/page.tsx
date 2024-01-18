@@ -18,18 +18,20 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-    <div className="container mx-auto py-10">
+  <>
+  <div style={{ backgroundImage: 'url("/images/backgrounds/casus/background.svg")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+    <div className="container mx-auto pb-20">
 
-      <div className="container mx-auto mb-10 text-center">
-        <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">
-          Neem Contact Op<span className='text-[#496488]'>.</span>
-        </h1>
-        <p className="text-lg text-gray-600 max-w-[50%] max-sm:max-w-[70%] mx-auto">
-          Vragen of iets onduidelijk? Bel ons, stuur een mailtje, of vul het formulier hieronder in en we nemen zo snel mogelijk contact met je op.
-        </p>
-      </div>
+      <section className="text-center pt-20">
+        <div className="container mx-auto mb-10">
+          <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
+            Neem Contact Op<span className='text-black'>.</span>
+          </h1>
+          <p className="text-lg text-gray-900 mb-8 max-w-[50%] max-sm:max-w-[90%] mx-auto">Vragen of iets onduidelijk? Bel ons, stuur een mailtje, of vul het formulier hieronder in en we nemen zo snel mogelijk contact met je op.</p>
+        </div>
+      </section>
 
-      <div className="container mx-auto max-w-[80%] flex justify-between">
+      <section className="container mx-auto max-w-[70%] flex justify-between">
         {/* Left Div */}
         <div className="w-1/2 p-4">
           <div className="flex max-w-[80%] mt-12">
@@ -40,18 +42,18 @@ export default function Contact() {
                   <Image src={AdresIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
                 </div>
                 <div>
-                  <p className="text-lg mb-2 text-[#3c3c3c]">Oost Voorgors 3</p>
-                  <p className="text-lg text-[#3c3c3c]">3241 KD, Middelharnis</p>
+                  <p className="text-lg mb-2 text-black">Oost Voorgors 3</p>
+                  <p className="text-lg text-black">3241 KD, Middelharnis</p>
                 </div>
               </div>
             </div>
             <div className="w-1/2">
               <h1 className="text-2xl font-bold mb-2">Contact</h1>
-              <p className="text-lg mb-2 text-[#3c3c3c] flex items-center">
+              <p className="text-lg mb-2 text-black flex items-center">
                 <Image src={MailIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
-                info@lucerny.net
+                info@lucerny.nl
               </p>
-              <p className="text-lg text-[#3c3c3c] flex items-center">
+              <p className="text-lg text-black flex items-center">
                 <Image src={PhoneIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
                 +31 6 57586667
               </p>
@@ -71,7 +73,9 @@ export default function Contact() {
         <div className="w-1/2 p-4 flex justify-end">
           <ContactForm />
         </div>
-      </div>
+      </section>
     </div>
+  </div>
+  </>
   );
 }
