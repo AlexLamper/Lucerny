@@ -98,9 +98,11 @@ const OverOns = () => {
               Ons Verhaal<span className='text-black'>.</span>
               </h1>
               <p className={styles.sectionText}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatum delectus, atque possimus iste perferendis, necessitatibus vitae voluptatibus saepe ipsam, commodi tempore consequuntur ad sequi illo corrupti minus asperiores culpa!
+              Bij Lucerny draait alles om webdesign en webontwikkeling die bij jouw bedrijf past. We maken niet alleen mooie en snelle websites, maar zorgen er ook voor dat ze meteen online zijn.
               <br /> <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sed ipsa odit, itaque dolore quam repudiandae sint porro repellendus voluptatibus tempora officia nemo illo unde a quidem impedit. Ratione, fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolorem natus corrupti totam repellat, consequuntur nulla alias itaque quis, maiores, voluptatum distinctio repellendus! Enim earum id asperiores officiis laborum dolores.
+              Onze missie is simpel: ondernemers online laten opvallen met prachtige, gebruiksvriendelijke websites. We hechten waarde aan sterke samenwerkingen en bieden innovatieve oplossingen voor jouw succes en groei.
+              <br /> <br />
+              Bij Lucerny gaat ons verhaal verder dan tech; het draait om jouw online succes en de unieke reis die we samen maken. Laten we jouw verhaal tot leven brengen in de digitale wereld.
               </p>
             </div>
           </div>

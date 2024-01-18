@@ -42,18 +42,18 @@ export default function Contact() {
                   <Image src={AdresIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
                 </div>
                 <div>
-                  <p className="text-lg mb-2 text-[#3c3c3c]">Oost Voorgors 3</p>
-                  <p className="text-lg text-[#3c3c3c]">3241 KD, Middelharnis</p>
+                  <p className="text-lg mb-2 text-black">Oost Voorgors 3</p>
+                  <p className="text-lg text-black">3241 KD, Middelharnis</p>
                 </div>
               </div>
             </div>
             <div className="w-1/2">
               <h1 className="text-2xl font-bold mb-2">Contact</h1>
-              <p className="text-lg mb-2 text-[#3c3c3c] flex items-center">
+              <p className="text-lg mb-2 text-black flex items-center">
                 <Image src={MailIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
                 info@lucerny.nl
               </p>
-              <p className="text-lg text-[#3c3c3c] flex items-center">
+              <p className="text-lg text-black flex items-center">
                 <Image src={PhoneIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
                 +31 6 57586667
               </p>

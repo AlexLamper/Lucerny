@@ -57,7 +57,7 @@ export default function Casus() {
                               alt={project.title}
                               width={500}
                               height={300}
-                              className="w-full h-full object-cover"
+                              className="w-full h-full object-cover rounded-sm"
                           />
                           </div>
                           <h2 className="text-xl font-semibold mb-2">{project.title}</h2>

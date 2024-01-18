@@ -35,8 +35,8 @@ const ContactForm: FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className='bg-transparent p-6 border border-[#1b1b1bb0]'>
-      <label htmlFor="name" className="block text-base font-bold text-black mb-2">Volledige Naam</label>
+    <form onSubmit={handleSubmit(onSubmit)} className='bg-[#00000017] p-6 border border-[#1b1b1bb0] rounded-lg'>
+      <label htmlFor="name" className="block text-base font-bold text-black tracking-wide mb-2">Volledige Naam</label>
         <div className="flex mb-2">
           <input
             type="text"
@@ -53,7 +53,7 @@ const ContactForm: FC = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="name" className="block text-base font-bold text-black mb-2">Telefoon</label>
+          <label htmlFor="name" className="block text-base font-bold text-black tracking-wide mb-2">Telefoon</label>
           <input
             type="tel"
             placeholder="+31 6 12345678"
@@ -63,7 +63,7 @@ const ContactForm: FC = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="name" className="block text-base font-bold text-black mb-2">E-mailadres</label>
+          <label htmlFor="name" className="block text-base font-bold text-black tracking-wide mb-2">E-mailadres</label>
           <input
             type="email"
             placeholder="voorbeeld@gmail.com"
@@ -73,7 +73,7 @@ const ContactForm: FC = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="name" className="block text-base font-bold text-black mb-2">Bedrijfsnaam*</label>
+          <label htmlFor="name" className="block text-base font-bold text-black tracking-wide mb-2">Bedrijfsnaam*</label>
           <input
             type="text"
             placeholder="Uw bedrijfsnaam (optioneel)"
@@ -83,7 +83,7 @@ const ContactForm: FC = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="name" className="block text-base font-bold text-black mb-2">Wat kunnen we voor je doen?</label>
+          <label htmlFor="name" className="block text-base font-bold text-black tracking-wide mb-2">Wat kunnen we voor je doen?</label>
           <textarea
             placeholder="Licht uw wensen zo gedetailleerd toe. Is het voor uw bedrijf, voor u zelf etc..."
             rows={5}

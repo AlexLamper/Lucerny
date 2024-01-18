@@ -59,7 +59,7 @@ const DienstenSection = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-6">
       {packages.map((pkg, index) => (
-        <div key={index} className="relative bg-white p-6 flex flex-col border border-[#1b1b1bb0]">
+        <div key={index} className="relative bg-[#ffffff69] p-6 flex flex-col border border-[#1b1b1bb0]">
           <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-black'>.</span></h2>
           <p className="text-gray-700 text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
