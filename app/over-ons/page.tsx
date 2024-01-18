@@ -5,7 +5,7 @@ import styles from '@/styles/over-ons.module.css';
 
 export const metadata: Metadata = {
   title: 'Over Ons | Lucerny',
-  description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
+  description: 'Lucerny is een webontwikkelingsbureau dat gespecialiseerd is in het bouwen van op maat gemaakte, gepersonaliseerde websites voor bedrijven.',
 };
 
 // Bij Lucerny staan we voor een vastberaden aanpak van uw online succes. Wij geloven in het leveren van kwalitatieve diensten die voldoen aan uw behoeften. Onze focus ligt bij de klant en we streven ernaar meerwaarde te bieden door middel van onze expertise en creativiteit.

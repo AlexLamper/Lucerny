@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Terms | Lucerny',
-  description: 'Lucerny is a web development agency that specializes in building websites and web applications for small businesses and startups.',
+  description: 'Lucerny is een webontwikkelingsbureau dat gespecialiseerd is in het bouwen van op maat gemaakte, gepersonaliseerde websites voor bedrijven.',
 };
 
   
