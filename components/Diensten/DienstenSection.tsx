@@ -60,10 +60,10 @@ const DienstenSection = () => {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-6">
       {packages.map((pkg, index) => (
         <div key={index} className="relative bg-white p-6 flex flex-col border border-[#1b1b1bb0]">
-          <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-[#496488]'>.</span></h2>
-          <p className="text-gray-500 text-lg mb-4">{pkg.description}</p>
+          <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-black'>.</span></h2>
+          <p className="text-gray-700 text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
-            <p className="text-[#496488] text-xl font-bold mb-1">
+            <p className="text-black text-xl font-bold mb-1">
               {pkg.price}
             </p>
             <span
@@ -71,19 +71,19 @@ const DienstenSection = () => {
               onMouseEnter={() => setHoveredPackage(index)}
               onMouseLeave={() => setHoveredPackage(null)}
             >
-              <LiaInfoCircleSolid className="cursor-pointer text-[#496488] text-lg" />
+              <LiaInfoCircleSolid className="cursor-pointer text-black text-lg" />
               {hoveredPackage === index && (
-                <div className="absolute z-10 bg-gray-100 p-2 rounded-md text-sm text-[#496488] top-full left-1/2 transform -translate-x-1/2 -translate-y-2 w-40">
+                <div className="absolute z-10 bg-white p-2 border border-[#1b1b1bb0] text-sm text-black top-full left-1/2 transform -translate-x-1/2 -translate-y-2 w-40">
                   De betalingen worden per kwartaal in rekening gebracht
                 </div>
               )}
             </span>
           </div>
-          <p className="text-[#496488] text-sm font-normal mb-4">{pkg.oneTimeFee}</p>
-          <hr className="w-full border-t border-gray-300 mb-4" />
+          <p className="text-black text-sm font-normal mb-4">{pkg.oneTimeFee}</p>
+          <hr className="w-full border-t border-gray-700 mb-4" />
           <ul className="flex-1 list-disc ml-6 mb-4">
             {pkg.features.map((feature, idx) => (
-              <li key={idx} className="text-gray-600">{feature}</li>
+              <li key={idx} className="text-gray-700">{feature}</li>
             ))}
           </ul>
           {/* Button */}

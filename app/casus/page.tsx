@@ -49,7 +49,7 @@ export default function Casus() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-6">
               {projects.map((project) => (
 
-                  <div key={project.id} className="bg-white shadow-md p-6 border border-black">
+                  <div key={project.id} className="bg-[#ffffff69] shadow-md p-6 border border-black">
                       <a target='_blank'  href={project.link || '#'}>
                           <div className="mb-4">
                           <Image
