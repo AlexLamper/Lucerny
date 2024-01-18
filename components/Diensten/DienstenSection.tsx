@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from "next/link";
 import styles from '@/styles/diensten.module.css';
 import { LiaInfoCircleSolid } from "react-icons/lia";
+import Button from '../Button/Button';
 
 const packages = [
   {
@@ -58,8 +59,8 @@ const DienstenSection = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-6">
       {packages.map((pkg, index) => (
-        <div key={index} className="relative bg-white rounded-lg shadow-md p-6 flex flex-col">
-          <h2 className="text-3xl font-bold mb-4 text-[#232323]">{pkg.title}<span className='text-[#496488]'>.</span></h2>
+        <div key={index} className="relative bg-white p-6 flex flex-col border border-[#1b1b1bb0]">
+          <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-[#496488]'>.</span></h2>
           <p className="text-gray-500 text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
             <p className="text-[#496488] text-xl font-bold mb-1">
@@ -87,11 +88,7 @@ const DienstenSection = () => {
           </ul>
           {/* Button */}
           <div className="flex mb-4">
-            <Link href="/contact" className="">
-              <button className={`${styles.dienstenButton}`}>
-                Stuur een bericht
-              </button>
-            </Link>
+            <Button href="/contact" text="Stuur een bericht" />
           </div>
         </div>
       ))}

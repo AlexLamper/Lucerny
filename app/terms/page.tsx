@@ -1,7 +1,4 @@
-import Head from 'next/head';
-import Image from 'next/image';
 import type { Metadata } from 'next';
-import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Terms | Lucerny',
@@ -12,11 +9,6 @@ export const metadata: Metadata = {
 export default function Terms() {
   return (
     <div className="container mx-auto py-10">
-      <Head>
-        <title>Terms</title>
-        <meta name="description" content="Our portfolio of projects" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <div className="text-center mb-10">
         <h1 className="text-3xl lg:text-5xl font-bold leading-tight mb-6 text-[#232323] text-center">
