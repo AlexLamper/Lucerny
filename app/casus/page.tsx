@@ -45,7 +45,7 @@ export default function Casus() {
           </div>
         </section>
 
-        <section className="bg-transparent max-w-[70%] max-sm:max-w-[90%] max- pt-6 mx-auto">
+        <section className="bg-transparent max-w-[70%] max-sm:max-w-[90%] max- pt-6 mx-auto max-sm:pb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-6">
               {projects.map((project) => (
 

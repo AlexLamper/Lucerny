@@ -57,7 +57,7 @@ const DienstenSection = () => {
   const [hoveredPackage, setHoveredPackage] = useState<number | null>(null);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-6">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-6">
       {packages.map((pkg, index) => (
         <div key={index} className="relative bg-[#ffffff69] p-6 flex flex-col border border-[#1b1b1bb0]">
           <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-black'>.</span></h2>
