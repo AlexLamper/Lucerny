@@ -31,7 +31,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="container mx-auto max-w-[70%] max-lg:max-w-[95%] flex flex-col lg:flex-row justify-between">
+      <section className="container mx-auto max-w-[80%] max-lg:max-w-[95%] flex flex-col lg:flex-row justify-between">
         {/* Left Div */}
         <div className="w-1/2 max-lg:w-full p-4">
           <div className="flex max-w-[90%] max-lg:max-w-[100%] mt-12">

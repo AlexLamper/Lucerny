@@ -26,7 +26,7 @@ const Hero = () => {
               Verbeter uw digitale aanwezigheid. Wij bieden complete op maat gemaakte websites met hosting en domein, zodat u zich kunt focussen op uw doelen.
             </p>
             <Button href="/diensten" text="Bekijk onze diensten" />
-            <div style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '75%', paddingTop: '100px', marginBottom: '150px' }}>
+            <div style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '75%', paddingTop: '100px', marginBottom: '50px' }}>
               <Image 
                 src={'/images/images/image.webp'} 
                 alt={'Hero Image'} 
