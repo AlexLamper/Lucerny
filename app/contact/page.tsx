@@ -31,10 +31,10 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="container mx-auto max-w-[70%] flex justify-between">
+      <section className="container mx-auto max-w-[70%] max-lg:max-w-[95%] flex flex-col lg:flex-row justify-between">
         {/* Left Div */}
-        <div className="w-1/2 p-4">
-          <div className="flex max-w-[80%] mt-12">
+        <div className="w-1/2 max-lg:w-full p-4">
+          <div className="flex max-w-[90%] max-lg:max-w-[100%] mt-12">
             <div className="w-1/2">
               <h1 className="text-2xl font-bold mb-2">Adres</h1>
               <div className="flex">
@@ -70,7 +70,7 @@ export default function Contact() {
           </div>
         </div>
         {/* Right Div */}
-        <div className="w-1/2 p-4 flex justify-end">
+        <div className="w-1/2 max-lg:w-full p-4 flex lg:justify-end max-lg:pt-12">
           <ContactForm />
         </div>
       </section>
