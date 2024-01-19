@@ -16,9 +16,7 @@ const Services = () => {
                     <a href="/diensten">
                         <div className="bg-white p-6 transition-all duration-500 shadow-[0_3px_5px_rgb(0,0,0,0.2)] hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer rounded-lg border border-[#1b1b1b1c] h-full">
                             <h3 className="text-xl font-bold mb-3">Startpakket</h3>
-                            <p className="mb-3">Een website van een 1, 2 of 3 pagina&apos;s. Perfect voor de startende ondernemer of als persoonlijke website.</p>
-                            <p className="mb-3">vanaf €29/maand</p>
-                            <p>Eenmalig startbedrag van €249.99</p>
+                            <p className="mb-2">Een website van max. 3 pagina’s; Perfect voor de startende ondernemer die een simpele informatieve website wilt.</p>
                         </div>
                     </a>
                 </div>
@@ -28,9 +26,7 @@ const Services = () => {
                     <a href="/diensten">
                         <div className="bg-white p-6 transition-all duration-500 shadow-[0_3px_5px_rgb(0,0,0,0.2)] hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer rounded-lg border border-[#1b1b1b1c] h-full">
                             <h3 className="text-xl font-bold mb-3">Basispakket</h3>
-                            <p className="mb-3">Een website van 4 of meer pagina&apos;s. Voor de ondernemer die een complete website wilt.</p>
-                            <p className="mb-3">vanaf €39/maand</p>
-                            <p>Eenmalig startbedrag van €299.99</p>
+                            <p className="mb-2">Een website van 4 of meer pagina’s. Voor een ondernemer die een complete website wilt voor zijn of haar bedrijf.</p>
                         </div>
                     </a>
                 </div>
@@ -39,10 +35,8 @@ const Services = () => {
                 <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-4">
                     <a href="/diensten">
                         <div className="bg-white p-6 transition-all duration-500 shadow-[0_3px_5px_rgb(0,0,0,0.2)] hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer rounded-lg border border-[#1b1b1b1c] h-full">
-                            <h3 className="text-xl font-bold mb-3">Uitgebreid Pakket</h3>
-                            <p className="mb-3">Een website van 7 of meer pagina&apos;s. Voor een complete en uitgebreide website met alle benodigde informatie.</p>
-                            <p className="mb-3">vanaf €49/maand</p>
-                            <p>Eenmalig startbedrag van €399.99</p>
+                            <h3 className="text-xl font-bold mb-3">Premiumpakket</h3>
+                            <p className="mb-2">Een website van 7 of meer pagina’s. Voor een professionele en geavanceerde website met alle benodigde informatie en functionaliteiten.</p>
                         </div>
                     </a>
                 </div>
