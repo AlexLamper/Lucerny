@@ -16,13 +16,13 @@ const Diensten = () => {
         <section className="text-center pt-20">
           <div className="container mx-auto mb-10">
             <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
-            Onze Diensten<span className='text-black'>.</span>
+            Ontdek wat wij te bieden hebben<span className='text-black'>.</span>
             </h1>
             <p className="text-lg text-gray-900 mb-8 max-sm:max-w-[90%] max-w-[60%] mx-auto">Bekijk onze verschillende pakketten en kies wat het beste bij jou past.</p>
           </div>
         </section>
 
-        <section className="bg-transparent max-w-[75%] max-sm:max-w-[90%] max- pt-6 mx-auto">
+        <section className="bg-transparent max-w-[85%] max-sm:max-w-[95%] max- pt-6 mx-auto">
           <DienstenSection />
         </section>
         <div className="text-center pb-12">

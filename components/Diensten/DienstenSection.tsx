@@ -1,65 +1,80 @@
 "use client"
 
 import { useState } from 'react';
-import Link from "next/link";
-import styles from '@/styles/diensten.module.css';
 import { LiaInfoCircleSolid } from "react-icons/lia";
 import Button from '../Button/Button';
 
 const packages = [
   {
     title: 'Startpakket',
-    description: 'Een website van een 1, 2 of 3 pagina’s. Perfect voor de startende ondernemer of als persoonlijke website.',
-    price: 'vanaf €29/maand',
-    oneTimeFee: 'Eenmalig startbedrag van €249.99',
+    description: 'Een website van max. 3 pagina’s; Perfect voor de startende ondernemer die een simpele informatieve website wilt.',
+    price: 'vanaf €34,50 /maand',
+    oneTimeFee: 'Eenmalig startbedrag van €249,99',
     features: [
       '1, 2 of 3 pagina\'s gevuld',
       'Inclusief gratis stockfoto\'s',
       'Ontwerp op maat',
       'Geschikt voor alle apparaten',
-      '2 herzieningsronden',
-      'Inclusief kwartaal onderhoud wanneer nodig, hosting en domeinnaam',
+      '1 herzieningsronde',
+      'hosting en domeinnaam',
+    ],
+    nonFeatures: [
+      'Geavanceerde web functionaliteiten',
+      'SEO optimalisatie',
+      'Maandelijks onderhoud',
+      'Contactformulier',
     ]
   },
   {
     title: 'Basispakket',
-    description: 'Een website van 4 of meer pagina’s. Voor de ondernemer die een complete website wilt.',
-    price: 'vanaf €39/maand',
-    oneTimeFee: 'Eenmalig startbedrag van €299.99',
+    description: 'Een website van 4 of meer pagina’s. Voor een ondernemer die een complete website wilt voor zijn of haar bedrijf.',
+    price: 'vanaf €49,50/maand',
+    oneTimeFee: 'Eenmalig startbedrag van €349,99',
     features: [
       '4 pagina\'s gevuld (max. 6)',
+      'Inclusief gratis stockfoto\'s',
       'Ontwerp op maat',
       'Geschikt voor alle apparaten',
-      'Inclusief gratis stockfoto\'s',
-      '3 herzieningsronden',
-      'Inbegrepen functionaliteiten: Contactformulier, Simpele Animaties (optioneel), Videoweergave etc...',
-      'Inclusief maandelijks onderhoud wanneer nodig, hosting en domeinnaam',
+      '2 herzieningsronden',
+      'hosting en domeinnaam',
+      'Maandelijks onderhoud (max. 3 uur per maand)',
+      'Contactformulier',
+    ],
+    nonFeatures: [
+      'Geavanceerde web functionaliteiten',
+      'SEO optimalisatie',
     ]
   },
   {
     title: 'Premiumpakket',
-    description: 'Een website van 7 of meer pagina’s. Voor een complete en uitgebreide website met alle benodigde informatie.',
-    price: 'vanaf €49/maand',
-    oneTimeFee: 'Eenmalig startbedrag van €399.99',
+    description: 'Een website van 7 of meer pagina’s. Voor een professionele en geavanceerde website met alle benodigde informatie en functionaliteiten.',
+    price: 'vanaf €74,50/maand',
+    oneTimeFee: 'Eenmalig startbedrag van €499,99',
     features: [
       '7 pagina\'s gevuld (max. 10)',
+      'Inclusief gratis stockfoto\'s',
       'Ontwerp op maat',
       'Geschikt voor alle apparaten',
-      'Inclusief gratis stockfoto\'s',
       '3 herzieningsronden',
-      'Inbegrepen functionaliteiten: Contactformulier, Simpele Animaties (optioneel), Videoweergave etc...',
-      'Inclusief maandelijks onderhoud wanneer nodig, hosting en domeinnaam'
-    ]
-  }
+      'hosting en domeinnaam',
+      'Maandelijks onderhoud (max. 6 uur per maand)',
+      'Contactformulier',
+      'Geavanceerde web functies',
+      'SEO optimalisatie',
+    ],
+    featureLink: 'voorbeelden',
+    nonFeatures: []
+  }  
 ];
 
 const DienstenSection = () => {
   const [hoveredPackage, setHoveredPackage] = useState<number | null>(null);
+  const [hoveredInfoFunction, setHoveredInfoFunction] = useState<number | null>(null);
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-6">
       {packages.map((pkg, index) => (
-        <div key={index} className="relative bg-[#ffffff69] p-6 flex flex-col border border-[#1b1b1bb0]">
+        <div key={index} className="relative bg-[#ffffff50] p-6 flex flex-col border border-[#1b1b1bb0]">
           <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-black'>.</span></h2>
           <p className="text-gray-700 text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
@@ -81,9 +96,49 @@ const DienstenSection = () => {
           </div>
           <p className="text-black text-sm font-normal mb-4">{pkg.oneTimeFee}</p>
           <hr className="w-full border-t border-gray-700 mb-4" />
-          <ul className="flex-1 list-disc ml-6 mb-4">
+          <ul className="flex-1 list-disc">
             {pkg.features.map((feature, idx) => (
-              <li key={idx} className="text-gray-700">{feature}</li>
+              <li key={idx} className="text-gray-700 flex items-center">
+                <img
+                  src="/assets/icons/diensten/checkmark-thin.svg"
+                  alt="Checkmark"
+                  width={14}
+                  height={14}
+                  className="mr-3"
+                />
+                {feature === 'Geavanceerde web functies' ? (
+                  <>
+                    {feature}  <span
+                                  className="relative ml-2"
+                                  onMouseEnter={() => setHoveredInfoFunction(index)}
+                                  onMouseLeave={() => setHoveredInfoFunction(null)}
+                                >
+                                  <LiaInfoCircleSolid className="cursor-pointer text-black text-lg" />
+                                  {hoveredInfoFunction === index && (
+                                    <div className="absolute z-10 bg-white p-2 border border-[#1b1b1bb0] text-sm text-black top-full left-1/2 transform -translate-x-1/2 -translate-y-2 w-40">
+                                      Bijv: Inlogpagina, Blog functionaliteiten, etc.
+                                    </div>
+                                  )}
+                                </span>
+                  </>
+                ) : (
+                  feature
+                )}
+              </li>
+            ))}
+          </ul>
+          <ul className="flex-1 list-disc mb-4 mt-2">
+            {pkg.nonFeatures.map((nonFeatures, idx) => (
+              <li key={idx} className="text-gray-700 flex items-center">
+              <img
+                src="/assets/icons/diensten/cross-red.svg"
+                alt="Cross"
+                width={17}
+                height={17}
+                className="mr-3"
+              />
+              {nonFeatures}
+            </li>
             ))}
           </ul>
           {/* Button */}
