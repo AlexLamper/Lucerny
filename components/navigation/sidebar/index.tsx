@@ -8,7 +8,8 @@ const Sidebar = ({ isOpen, toggle }: { isOpen: boolean; toggle: () => void }): J
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
       if (screenWidth >= 768 && isOpen) {
-        toggle(); // Close the sidebar when resizing to a bigger screen
+        // Close sidebar on resize
+        toggle();
       }
     };
 
