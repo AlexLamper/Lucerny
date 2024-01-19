@@ -16,14 +16,14 @@ const OverOns = () => {
       <div style={{ backgroundImage: 'url("/images/backgrounds/over-ons/background.svg")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
         <section className="text-center pt-20">
           <div className="container mx-auto mb-10">
-            <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
+            <h1 className="text-3xl max-sm:max-w-[85%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
               Wij Creëren op maat gemaakte oplossingen<span className='text-black'>.</span>
             </h1>
-            <p className="text-lg text-gray-900 mb-8 max-sm:max-w-[90%] mx-auto">Uw ideeën, onze kennis, een digitaal avontuur.</p>
+            <p className="lg:text-lg text-base text-gray-900 mb-8 max-sm:max-w-[90%] mx-auto">Uw ideeën, onze kennis, een digitaal avontuur.</p>
           </div>
         </section>
 
-        <section className="bg-transparent w-[70%] py-20 mx-auto">
+        <section className="bg-transparent w-[70%] lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto">
           <div className="container mx-auto">
             <div className="lg:flex lg:justify-between">
               <div className="lg:w-4/12">
@@ -34,7 +34,7 @@ const OverOns = () => {
                   alt='service 1'
                   height={0}
                   sizes="100vw"
-                  style={{ width: '70%', height: 'auto' }}
+                  style={{ width: '70%', height: 'auto', borderRadius: '8px' }}
                 />
               </div>
               <div className="lg:w-8/12 lg:pl-10">
@@ -52,7 +52,7 @@ const OverOns = () => {
         </section>
       </div>
 
-      <section className="bg-transparent w-[70%] py-20 mx-auto">
+      <section className="bg-transparent w-[70%] lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto">
         <div className="container mx-auto">
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-8/12 lg:pl-10">
@@ -72,14 +72,14 @@ const OverOns = () => {
                 alt='service 1'
                 height={0}
                 sizes="100vw"
-                style={{ width: '75%', height: 'auto' }}
+                style={{ width: '75%', height: 'auto', borderRadius: '8px' }}
               />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="bg-transparent w-[70%] py-20 mx-auto">
+      <section className="bg-transparent w-[70%] lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto">
         <div className="container mx-auto">
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-4/12">
@@ -90,7 +90,7 @@ const OverOns = () => {
                 alt='service 1'
                 height={0}
                 sizes="100vw"
-                style={{ width: '70%', height: 'auto' }}
+                style={{ width: '70%', height: 'auto', borderRadius: '8px' }}
               />
             </div>
             <div className="lg:w-8/12 lg:pl-10">
