@@ -11,7 +11,7 @@ const Hero = () => {
       <section className={`hero relative min-h-screen flex items-center justify-center overflow-hidden pt-32 ${styles.hero}`}>
         {/* Video Background */}
         <div className="absolute inset-0 w-full h-full">
-          <video autoPlay loop muted className="absolute inset-0 w-full h-full object-cover">
+          <video autoPlay loop muted controls={false} playsInline className="absolute inset-0 w-full h-full object-cover">
             <source src="/videos/backgrounds/hero.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -20,7 +20,7 @@ const Hero = () => {
           <div>
             <h2 className="text-xl lg:text-3xl mb-8">Exclusieve Digitale Oplossingen</h2>
             <h1 className="text-4xl lg:text-[66px] leading-none mb-12 relative max-sm:max-w-[90%] mx-auto font-medium">
-            Breng Uw Online Visie tot <span className={styles.glow}>Licht</span> met een Gepersonaliseerde Website
+              Breng Uw Online Visie tot <span className='underline decoration-4 underline-offset-4'>Licht</span> met een Gepersonaliseerde Website
             </h1>
             <p className="text-lg lg:text-xl mb-12 max-w-[70%] mx-auto">
               Verbeter uw digitale aanwezigheid. Wij bieden complete op maat gemaakte websites met hosting en domein, zodat u zich kunt focussen op uw doelen.

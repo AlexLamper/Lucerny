@@ -116,7 +116,7 @@ const DienstenSection = () => {
                                   <LiaInfoCircleSolid className="cursor-pointer text-black text-lg" />
                                   {hoveredInfoFunction === index && (
                                     <div className="absolute z-10 bg-white p-2 border border-[#1b1b1bb0] text-sm text-black top-full left-1/2 transform -translate-x-1/2 -translate-y-2 w-40">
-                                      Bijv: Inlogpagina, Blog functionaliteiten, etc.
+                                      Bijv: Inlogpagina, een database, blog functionaliteiten, etc.
                                     </div>
                                   )}
                                 </span>

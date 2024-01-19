@@ -1,16 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from "@/styles/general.module.css"
 
 const OverOns = () => {
   return (
     <div>
-    <section className="bg-white w-[70%] pt-28 mx-auto">
+    <section className="bg-white max-w-[70%] max-sm:max-w-[85%] pt-28 mx-auto">
         <div className="container mx-auto">
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-4/12">
               <Image 
-                className="mb-4 border rounded-md p-4 max-sm:mb-12"
+                className="mb-4 border rounded-md p-4 max-lg:mb-12"
                 src="/images/images/missie.webp" width={0} 
                 // <a href="https://iconscout.com/illustrations/delivery" class="text-underline font-size-sm" target="_blank">Delivery person holding package</a> by <a href="https://iconscout.com/contributors/tdaystudio" class="text-underline font-size-sm" target="_blank">Tdays Tudio</a>
                 alt='service 1'

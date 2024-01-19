@@ -23,7 +23,7 @@ const OverOns = () => {
           </div>
         </section>
 
-        <section className="bg-transparent w-[70%] lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto">
+        <section className="bg-transparent max-w-[70%] max-sm:max-w-[85%] lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto">
           <div className="container mx-auto">
             <div className="lg:flex lg:justify-between">
               <div className="lg:w-4/12">
@@ -52,7 +52,7 @@ const OverOns = () => {
         </section>
       </div>
 
-      <section className="bg-transparent w-[70%] lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto">
+      <section className="bg-transparent max-w-[70%] max-sm:max-w-[85%] lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto">
         <div className="container mx-auto">
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-8/12 lg:pl-10">
@@ -79,7 +79,7 @@ const OverOns = () => {
         </div>
       </section>
 
-      <section className="bg-transparent w-[70%] lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto">
+      <section className="bg-transparent max-w-[70%] max-sm:max-w-[85%] lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto">
         <div className="container mx-auto">
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-4/12">
