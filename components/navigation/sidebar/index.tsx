@@ -1,12 +1,31 @@
-import Link from "next/link";
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
-const Sidebar = ({
-  isOpen,
-  toggle,
-}: {
-  isOpen: boolean;
-  toggle: () => void;
-}): JSX.Element => {
+const Sidebar = ({ isOpen, toggle }: { isOpen: boolean; toggle: () => void }): JSX.Element => {
+  const [screenWidth, setScreenWidth] = useState<number | undefined>(undefined);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+      if (window.innerWidth >= 768 && isOpen) {
+        toggle(); // Close the sidebar when resizing to a bigger screen
+      }
+    };
+
+    // Check if window is defined before using it
+    if (typeof window !== 'undefined') {
+      setScreenWidth(window.innerWidth);
+      window.addEventListener('resize', handleResize);
+    }
+
+    return () => {
+      // Remove the event listener when the component is unmounted
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('resize', handleResize);
+      }
+    };
+  }, [isOpen, toggle]);
+
   return (
     <>
       <div
