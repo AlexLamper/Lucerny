@@ -19,19 +19,7 @@ const Logo = () => {
   }, []);
 
   // change between the logo and the button when the user scrolls
-  const [showButton, setShowButton] = useState(false);
-
-  const changeNavButton = () => {
-    if (window.scrollY >= 400 && window.innerWidth < 768) {
-      setShowButton(true);
-    } else {
-      setShowButton(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", changeNavButton);
-  }, []);
+  const [showButton] = useState(false);
 
   return (
     <>

@@ -13,7 +13,7 @@ const Waarom = () => {
                 <span className='text-xl'>Lucerny, van lūceō: &quot;schijn, wees een licht&quot;.</span>
                 <br /><br /> 
                 Waarom kiezen voor Lucerny? 
-                Kies Lucerny voor professioneel webdesign en ontwikkeling die resultaten oplevert. Ons toegewijde team zorgt voor een perfecte balans tussen creativiteit en functionaliteit, waardoor uw bedrijf online opvalt en succes boekt. Ontdek de kracht van Lucerny voor een onderscheidende webaanwezigheid.
+                Bij Lucerny maken wij op maat gemaakte websites voor een betaalbare prijs. Dit zorgt voor unieke ontwerpmogeijkheden en een website die perfect aansluit bij uw wensen. Ook zorgen wij voor een snelle en veilige website, zodat u zich geen zorgen hoeft te maken over de technische aspecten van uw website. Daarnaast zorgen wij voor onderhoud van uw website, zodat u zich kunt focussen op uw doelen.
                 </p>
             </div>
             <div className="lg:w-4/12 flex lg:justify-end max-lg:pt-4">

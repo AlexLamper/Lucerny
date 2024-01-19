@@ -8,7 +8,7 @@ import Button from '../Button/Button';
 const Hero = () => {
   return (
     <div>
-      <section className={`hero relative min-h-screen flex items-center justify-center overflow-hidden pt-32 ${styles.hero}`}>
+      <section className={`hero relative min-h-screen flex items-center justify-center overflow-hidden pt-32 max-lg:pt-24 max-md:pt-16 max-sm:pt-10 ${styles.hero}`}>
         {/* Video Background */}
         <div className="absolute inset-0 w-full h-full">
           <video autoPlay loop muted controls={false} playsInline className="absolute inset-0 w-full h-full object-cover">
@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <div className='border-b-2 mx-auto'></div>
+      <div className='border-b-2 mx-auto border-[#20202011]'></div>
     </div>
   );
 };
