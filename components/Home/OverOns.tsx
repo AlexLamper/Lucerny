@@ -11,7 +11,6 @@ const OverOns = () => {
               <Image 
                 className="mb-4 border rounded-md p-4 max-lg:mb-12"
                 src="/images/images/missie.webp" width={0} 
-                // <a href="https://iconscout.com/illustrations/delivery" class="text-underline font-size-sm" target="_blank">Delivery person holding package</a> by <a href="https://iconscout.com/contributors/tdaystudio" class="text-underline font-size-sm" target="_blank">Tdays Tudio</a>
                 alt='service 1'
                 height={0}
                 sizes="100vw"

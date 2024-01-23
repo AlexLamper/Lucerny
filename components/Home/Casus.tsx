@@ -33,7 +33,7 @@ const Casus = () => {
 
       <div className="flex-wrap flex justify-center hover:brightness-100">
         {portfolios.map((portfolio, index) => (
-          <div key={index} className="w-8/12 md:w-1/2 lg:w-1/5 mx-6 border border-[#000000ea] max-lg:mb-12 h-auto">
+          <div key={index} className="w-8/12 md:w-1/2 lg:w-1/5 mx-6 border border-gray-600 max-lg:mb-12 h-auto">
             <div className="bg-white flex flex-col">
               <div className="mb-2">
                 <Image

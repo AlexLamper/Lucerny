@@ -7,6 +7,7 @@ import Casus from '@/components/Home/Casus';
 import CTA from '@/components/Home/CTA';
 import FAQ from '@/components/FAQ/FAQ';
 import Waarom from '@/components/Home/Waarom';
+import Werkwijze from '@/components/Home/Werkwijze';
 
 export const metadata: Metadata = {
   title: 'Lucerny',
@@ -25,6 +26,8 @@ const Home: React.FC = () => {
       <OverOns />
       <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
       <Waarom />
+      <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
+      <Werkwijze />
       <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
       <Casus />
       <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
