@@ -10,7 +10,7 @@ const packages = [
     description: (
       <>
         Ontvang een aangepaste website, perfect afgestemd op uw wensen;<br />
-        we passen onze prijzen aan op basis van uw ideeën.<br />
+        We passen onze prijzen aan op basis van uw ideeën.<br />
         Neem direct contact op voor meer informatie.
       </>
     ),
@@ -21,7 +21,7 @@ const packages = [
     title: 'Startpakket',
     description: 'Een website van max. 3 pagina’s; Perfect voor de startende ondernemer die een simpele informatieve website wilt.',
     oneTimeFee: 'Eenmalig €249,99',
-    price: 'daarna €14,50 /maand',
+    price: 'daarna vanaf €12,50 /maand',
     features: [
       '1, 2 of 3 pagina\'s gevuld',
       'Inclusief gratis stockfoto\'s',
@@ -41,7 +41,7 @@ const packages = [
     title: 'Basispakket',
     description: 'Een website van 4 of meer pagina’s. Voor een ondernemer die een complete website wilt voor zijn of haar bedrijf.',
     oneTimeFee: 'Eenmalig €349,99',
-    price: 'vanaf €17,50/maand',
+    price: 'daarna vanaf €14,50/maand',
     features: [
       '4 pagina\'s gevuld (max. 6)',
       'Inclusief gratis stockfoto\'s',
@@ -61,7 +61,7 @@ const packages = [
     title: 'Premiumpakket',
     description: 'Een website van 7 of meer pagina’s. Voor een professionele en geavanceerde website met alle benodigde informatie en functionaliteiten.',
     oneTimeFee: 'Eenmalig €499,99',
-    price: 'daarna €22,50/maand',
+    price: 'daarna €19,50/maand',
     features: [
       '7 pagina\'s gevuld (max. 10)',
       'Inclusief gratis stockfoto\'s',
