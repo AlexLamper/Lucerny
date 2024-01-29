@@ -21,8 +21,6 @@ const Home: React.FC = () => {
   return (
     <div>
       <Hero />
-      <Diensten />
-      <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
       <OverOns />
       <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
       <Waarom />
@@ -30,6 +28,8 @@ const Home: React.FC = () => {
       <Werkwijze />
       <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
       <Casus />
+      <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
+      <Diensten />
       <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
       <CTA />
     </div>

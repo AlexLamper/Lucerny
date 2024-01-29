@@ -7,15 +7,21 @@ import Button from '../Button/Button';
 const packages = [
   {
     title: 'Een gepersonaliseerde website',
-    description: 'Een website volledig naar uw wensen; Wij passen onzen prijzen aan op uw gepersonaliseerde idee.',
+    description: (
+      <>
+        Ontvang een aangepaste website, perfect afgestemd op uw wensen;<br />
+        we passen onze prijzen aan op basis van uw ideeën.<br />
+        Neem direct contact op voor meer informatie.
+      </>
+    ),
     features: [],
     nonFeatures: []
   },
   {
     title: 'Startpakket',
     description: 'Een website van max. 3 pagina’s; Perfect voor de startende ondernemer die een simpele informatieve website wilt.',
-    price: 'vanaf €34,50 /maand',
-    oneTimeFee: 'Eenmalig startbedrag van €249,99',
+    oneTimeFee: 'Eenmalig €249,99',
+    price: 'daarna €14,50 /maand',
     features: [
       '1, 2 of 3 pagina\'s gevuld',
       'Inclusief gratis stockfoto\'s',
@@ -34,8 +40,8 @@ const packages = [
   {
     title: 'Basispakket',
     description: 'Een website van 4 of meer pagina’s. Voor een ondernemer die een complete website wilt voor zijn of haar bedrijf.',
-    price: 'vanaf €49,50/maand',
-    oneTimeFee: 'Eenmalig startbedrag van €349,99',
+    oneTimeFee: 'Eenmalig €349,99',
+    price: 'vanaf €17,50/maand',
     features: [
       '4 pagina\'s gevuld (max. 6)',
       'Inclusief gratis stockfoto\'s',
@@ -54,8 +60,8 @@ const packages = [
   {
     title: 'Premiumpakket',
     description: 'Een website van 7 of meer pagina’s. Voor een professionele en geavanceerde website met alle benodigde informatie en functionaliteiten.',
-    price: 'vanaf €74,50/maand',
-    oneTimeFee: 'Eenmalig startbedrag van €499,99',
+    oneTimeFee: 'Eenmalig €499,99',
+    price: 'daarna €22,50/maand',
     features: [
       '7 pagina\'s gevuld (max. 10)',
       'Inclusief gratis stockfoto\'s',
@@ -74,7 +80,7 @@ const packages = [
 ];
 
 const DienstenSection = () => {
-  const [hoveredPackage, setHoveredPackage] = useState<number | null>(null);
+  // const [hoveredPackage, setHoveredPackage] = useState<number | null>(null);
   const [hoveredInfoFunction, setHoveredInfoFunction] = useState<number | null>(null);
   const [hoveredSEOFunction, setHoveredSEOFunction] = useState<number | null>(null);
 
@@ -86,22 +92,10 @@ const DienstenSection = () => {
           <p className="text-gray-700 text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
             <p className="text-black text-xl font-bold mb-1">
-              {pkg.price}
+              {pkg.oneTimeFee}
             </p>
-            <span
-              className="relative"
-              onMouseEnter={() => setHoveredPackage(index)}
-              onMouseLeave={() => setHoveredPackage(null)}
-            >
-              <LiaInfoCircleSolid className="cursor-pointer text-black text-lg" />
-              {hoveredPackage === index && (
-                <div className="absolute z-10 bg-white p-2 border border-[#1b1b1bb0] text-sm text-black top-full left-1/2 transform -translate-x-1/2 -translate-y-2 w-40">
-                  De betalingen worden per kwartaal in rekening gebracht
-                </div>
-              )}
-            </span>
           </div>
-          <p className="text-black text-md font-normal mb-4">{pkg.oneTimeFee}</p>
+          <p className="text-black text-md font-normal mb-4">{pkg.price}</p>
           <hr className="w-full border-t border-gray-700 mb-4" />
           <ul className="flex-1 list-disc">
             {pkg.features.map((feature, idx) => (
@@ -162,7 +156,7 @@ const DienstenSection = () => {
           </ul>
           {/* Button */}
           <div className="flex mb-4">
-            <Button href="/contact" text="Stuur een bericht" />
+            <Button href="/contact" text="Neem contact op" />
           </div>
         </div>
       ))}
