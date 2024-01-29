@@ -6,6 +6,12 @@ import Button from '../Button/Button';
 
 const packages = [
   {
+    title: 'Een gepersonaliseerde website',
+    description: 'Een website volledig naar uw wensen; Wij passen onzen prijzen aan op uw gepersonaliseerde idee.',
+    features: [],
+    nonFeatures: []
+  },
+  {
     title: 'Startpakket',
     description: 'Een website van max. 3 pagina’s; Perfect voor de startende ondernemer die een simpele informatieve website wilt.',
     price: 'vanaf €34,50 /maand',
@@ -64,17 +70,18 @@ const packages = [
     ],
     featureLink: 'voorbeelden',
     nonFeatures: []
-  }  
+  },
 ];
 
 const DienstenSection = () => {
   const [hoveredPackage, setHoveredPackage] = useState<number | null>(null);
   const [hoveredInfoFunction, setHoveredInfoFunction] = useState<number | null>(null);
+  const [hoveredSEOFunction, setHoveredSEOFunction] = useState<number | null>(null);
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-6">
       {packages.map((pkg, index) => (
-        <div key={index} className="relative bg-[#ffffff50] p-6 flex flex-col border border-[#1b1b1bb0]">
+        <div key={index} className={`relative bg-[#ffffff50] p-6 flex flex-col border border-[#1b1b1bb0] ${pkg.title === 'Een gepersonaliseerde website' ? 'lg:col-span-3 w-full text-center items-center justify-center' : ''}`}>
           <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-black'>.</span></h2>
           <p className="text-gray-700 text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
@@ -94,7 +101,7 @@ const DienstenSection = () => {
               )}
             </span>
           </div>
-          <p className="text-black text-sm font-normal mb-4">{pkg.oneTimeFee}</p>
+          <p className="text-black text-md font-normal mb-4">{pkg.oneTimeFee}</p>
           <hr className="w-full border-t border-gray-700 mb-4" />
           <ul className="flex-1 list-disc">
             {pkg.features.map((feature, idx) => (
@@ -106,20 +113,32 @@ const DienstenSection = () => {
                   height={14}
                   className="mr-3"
                 />
-                {feature === 'Geavanceerde web functies' ? (
+                {feature === 'Geavanceerde web functies' || feature === 'SEO optimalisatie' ? (
                   <>
-                    {feature}  <span
-                                  className="relative ml-2"
-                                  onMouseEnter={() => setHoveredInfoFunction(index)}
-                                  onMouseLeave={() => setHoveredInfoFunction(null)}
-                                >
-                                  <LiaInfoCircleSolid className="cursor-pointer text-black text-lg" />
-                                  {hoveredInfoFunction === index && (
-                                    <div className="absolute z-10 bg-white p-2 border border-[#1b1b1bb0] text-sm text-black top-full left-1/2 transform -translate-x-1/2 -translate-y-2 w-40">
-                                      Bijv: Inlogpagina, een database, blog functionaliteiten, etc.
-                                    </div>
-                                  )}
-                                </span>
+                    {feature}{' '}
+                    <span
+                      className="relative ml-2"
+                      onMouseEnter={() => {
+                        if (feature === 'Geavanceerde web functies') setHoveredInfoFunction(index);
+                        if (feature === 'SEO optimalisatie') setHoveredSEOFunction(index);
+                      }}
+                      onMouseLeave={() => {
+                        setHoveredInfoFunction(null);
+                        setHoveredSEOFunction(null);
+                      }}
+                    >
+                      <LiaInfoCircleSolid className="cursor-pointer text-black text-lg" />
+                      {feature === 'Geavanceerde web functies' && hoveredInfoFunction === index && (
+                        <div className="absolute z-10 bg-white p-2 border border-[#1b1b1bb0] text-sm text-black top-full left-1/2 transform -translate-x-1/2 -translate-y-2 w-40">
+                          Bijv: Inlogpagina, een database, blog functionaliteiten, etc.
+                        </div>
+                      )}
+                      {feature === 'SEO optimalisatie' && hoveredSEOFunction === index && (
+                        <div className="absolute z-10 bg-white p-2 border border-[#1b1b1bb0] text-sm text-black top-full left-1/2 transform -translate-x-1/2 -translate-y-2 w-56">
+                          SEO, oftewel &apos;Search Engine Optimization&apos;, vergroot de vindbaarheid van een website in zoekmachines.
+                        </div>
+                      )}
+                    </span>
                   </>
                 ) : (
                   feature

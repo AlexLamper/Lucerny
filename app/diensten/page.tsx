@@ -18,7 +18,7 @@ const Diensten = () => {
             <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
             Ontdek wat wij te bieden hebben<span className='text-black'>.</span>
             </h1>
-            <p className="text-lg text-gray-900 mb-8 max-sm:max-w-[90%] max-w-[60%] mx-auto">Bekijk onze verschillende pakketten en kies wat het beste bij jou past.</p>
+            <p className="text-lg text-gray-900 max-sm:max-w-[90%] max-w-[60%] mx-auto">Bekijk onze verschillende pakketten en kies wat het beste bij u past.</p>
           </div>
         </section>
 
