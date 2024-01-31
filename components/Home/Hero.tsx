@@ -1,6 +1,4 @@
-// Hero.tsx
 import React from 'react';
-import Head from 'next/head';
 import Image from 'next/image';
 import styles from '@/styles/hero.module.css';
 import Button from '../Button/Button';
@@ -9,12 +7,14 @@ const Hero = () => {
   return (
     <div>
       <section className={`hero relative min-h-screen flex items-center justify-center overflow-hidden pt-32 max-lg:pt-24 max-md:pt-16 max-sm:pt-10 ${styles.hero}`}>
-        {/* Video Background */}
+        {/* Image Background */}
         <div className="absolute inset-0 w-full h-full">
-          <video autoPlay loop muted controls={false} playsInline className="absolute inset-0 w-full h-full object-cover">
-            <source src="/videos/backgrounds/hero.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <Image
+            src="/images/backgrounds/over-ons/background.svg"
+            alt="Background Image"
+            layout="fill"
+            objectFit="cover"
+          />
         </div>
         <div className="text-center lg:max-w-[60%] mx-auto relative z-10">
           <div>
