@@ -19,12 +19,12 @@ const Waarom = () => {
             <div className="lg:w-4/12 flex lg:justify-end max-lg:pt-4">
               <Image 
                 className="mb-4 p-4 brightness-90 border rounded-md "
-                src="/images/images/waarom.jpg" width={0} 
+                src="/images/images/waarom1.jpg" width={0} 
                 // <a href="https://iconscout.com/illustrations/delivery" class="text-underline font-size-sm" target="_blank">Delivery person holding package</a> by <a href="https://iconscout.com/contributors/tdaystudio" class="text-underline font-size-sm" target="_blank">Tdays Tudio</a>
                 alt='service 1'
                 height={0}
                 sizes="100vw"
-                style={{ width: '70%', height: 'auto' }}
+                style={{ width: '80%', height: 'auto' }}
               />
             </div>
           </div>

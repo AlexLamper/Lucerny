@@ -5,23 +5,26 @@ import Button from '../Button/Button';
 const Casus = () => {
   const portfolios = [
     {
-      name: 'Lambdago',
+      title: 'Lambdago',
+      description: 'Een website voor het bedrijf Lambdago: Lamper BedrijfsDienstverlening en Advisering.',
       image: '/images/projects/lambdago.png',
-      description: 'Een website voor het bedrijf Lambdago: Lamper BedrijfsDienstverlening en Advisering. ',
+      link: 'https://www.lambdago.nl',
       date: '18/01/2024',
-    },
-    {
-      name: 'Persoonlijke Portfolio Website',
-      image: '/images/projects/project9.png',
-      description: 'Mijn persoonlijke website met mijn portfolio en wie ik ben!',
+  },
+  {
+      title: 'Persoonlijke Portfolio Website',
+      description: 'Mijn persoonlijke website met mijn portfolio en wie ik ben',
+      image: '/images/projects/project12.png',
+      link: 'https://alexlamper.nl/',
       date: '18/01/2024',
-    },
-    {
-      name: 'Uw Website',
-      image: '/images/projects/project1.png',
-      description: 'Hier kan uw website staan!',
+  },
+  {
+      title: 'Uw Website',
+      description: 'Hier kan uw website staan.',
+      image: '/images/projects/project3.png',
+      link: '',
       date: '18/01/2024',
-    },
+  },
   ];
 
   return (
@@ -39,17 +42,15 @@ const Casus = () => {
                 <Image
                   src={portfolio.image}
                   alt={`Portfolio ${index + 1}`}
-                  width={500} // Set the desired width
-                  height={300} // Set the desired height
+                  width={500}
+                  height={300}
                   className="brightness-75 hover:brightness-100 hover:cursor-pointer transition-all duration-300"
                 />
               </div>
               <div className="p-4">
-                <h3 className="text-[22px] mb-2">{portfolio.name}</h3>
+                <h3 className="text-[22px] mb-2">{portfolio.title}</h3>
                 <p className="mb-6 font-thin text-sm">{portfolio.description}</p>
                 <p className="italic">{portfolio.date}</p>
-                {/* Additional information about the portfolio */}
-                {/* You can add more details here as needed */}
               </div>
             </div>
           </div>

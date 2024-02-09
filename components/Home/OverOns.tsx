@@ -9,8 +9,8 @@ const OverOns = () => {
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-4/12">
               <Image 
-                className="mb-4 border rounded-md p-4 max-lg:mb-12"
-                src="/images/images/missie.webp" width={0} 
+                className="mb-4 rounded-md max-lg:mb-12"
+                src="/images/images/overons2.png" width={0} 
                 alt='service 1'
                 height={0}
                 sizes="100vw"
