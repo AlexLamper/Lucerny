@@ -16,67 +16,67 @@ const packages = [
     ),
     features: [],
     nonFeatures: []
-  },
-  {
-    title: 'Startpakket',
-    description: 'Een website van max. 3 pagina’s; Perfect voor de startende ondernemer die een simpele informatieve website wilt.',
-    oneTimeFee: 'Eenmalig €249,99',
-    price: 'daarna vanaf €12,50 /maand',
-    features: [
-      '1, 2 of 3 pagina\'s gevuld',
-      'Inclusief gratis stockfoto\'s',
-      'Ontwerp op maat',
-      'Geschikt voor alle apparaten',
-      '1 herzieningsronde',
-      'hosting en domeinnaam',
-    ],
-    nonFeatures: [
-      'Geavanceerde web functionaliteiten',
-      'SEO optimalisatie',
-      'Maandelijks onderhoud',
-      'Contactformulier',
-    ]
-  },
-  {
-    title: 'Basispakket',
-    description: 'Een website van 4 of meer pagina’s. Voor een ondernemer die een complete website wilt voor zijn of haar bedrijf.',
-    oneTimeFee: 'Eenmalig €349,99',
-    price: 'daarna vanaf €14,50/maand',
-    features: [
-      '4 pagina\'s gevuld (max. 6)',
-      'Inclusief gratis stockfoto\'s',
-      'Ontwerp op maat',
-      'Geschikt voor alle apparaten',
-      '2 herzieningsronden',
-      'hosting en domeinnaam',
-      'Maandelijks onderhoud (max. 3 uur per maand)',
-      'Contactformulier',
-    ],
-    nonFeatures: [
-      'Geavanceerde web functionaliteiten',
-      'SEO optimalisatie',
-    ]
-  },
-  {
-    title: 'Premiumpakket',
-    description: 'Een website van 7 of meer pagina’s. Voor een professionele en geavanceerde website met alle benodigde informatie en functionaliteiten.',
-    oneTimeFee: 'Eenmalig €499,99',
-    price: 'daarna €19,50/maand',
-    features: [
-      '7 pagina\'s gevuld (max. 10)',
-      'Inclusief gratis stockfoto\'s',
-      'Ontwerp op maat',
-      'Geschikt voor alle apparaten',
-      '3 herzieningsronden',
-      'hosting en domeinnaam',
-      'Maandelijks onderhoud (max. 6 uur per maand)',
-      'Contactformulier',
-      'Geavanceerde web functies',
-      'SEO optimalisatie',
-    ],
-    featureLink: 'voorbeelden',
-    nonFeatures: []
-  },
+  }
+  // {
+  //   title: 'Startpakket',
+  //   description: 'Een website van max. 3 pagina’s; Perfect voor de startende ondernemer die een simpele informatieve website wilt.',
+  //   oneTimeFee: 'Eenmalig €249,99',
+  //   price: 'daarna vanaf €12,50 /maand',
+  //   features: [
+  //     '1, 2 of 3 pagina\'s gevuld',
+  //     'Inclusief gratis stockfoto\'s',
+  //     'Ontwerp op maat',
+  //     'Geschikt voor alle apparaten',
+  //     '1 herzieningsronde',
+  //     'hosting en domeinnaam',
+  //   ],
+  //   nonFeatures: [
+  //     'Geavanceerde web functionaliteiten',
+  //     'SEO optimalisatie',
+  //     'Maandelijks onderhoud',
+  //     'Contactformulier',
+  //   ]
+  // },
+  // {
+  //   title: 'Basispakket',
+  //   description: 'Een website van 4 of meer pagina’s. Voor een ondernemer die een complete website wilt voor zijn of haar bedrijf.',
+  //   oneTimeFee: 'Eenmalig €349,99',
+  //   price: 'daarna vanaf €14,50/maand',
+  //   features: [
+  //     '4 pagina\'s gevuld (max. 6)',
+  //     'Inclusief gratis stockfoto\'s',
+  //     'Ontwerp op maat',
+  //     'Geschikt voor alle apparaten',
+  //     '2 herzieningsronden',
+  //     'hosting en domeinnaam',
+  //     'Maandelijks onderhoud (max. 3 uur per maand)',
+  //     'Contactformulier',
+  //   ],
+  //   nonFeatures: [
+  //     'Geavanceerde web functionaliteiten',
+  //     'SEO optimalisatie',
+  //   ]
+  // },
+  // {
+  //   title: 'Premiumpakket',
+  //   description: 'Een website van 7 of meer pagina’s. Voor een professionele en geavanceerde website met alle benodigde informatie en functionaliteiten.',
+  //   oneTimeFee: 'Eenmalig €499,99',
+  //   price: 'daarna €19,50/maand',
+  //   features: [
+  //     '7 pagina\'s gevuld (max. 10)',
+  //     'Inclusief gratis stockfoto\'s',
+  //     'Ontwerp op maat',
+  //     'Geschikt voor alle apparaten',
+  //     '3 herzieningsronden',
+  //     'hosting en domeinnaam',
+  //     'Maandelijks onderhoud (max. 6 uur per maand)',
+  //     'Contactformulier',
+  //     'Geavanceerde web functies',
+  //     'SEO optimalisatie',
+  //   ],
+  //   featureLink: 'voorbeelden',
+  //   nonFeatures: []
+  // };
 ];
 
 const DienstenSection = () => {
@@ -91,11 +91,11 @@ const DienstenSection = () => {
           <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-black'>.</span></h2>
           <p className="text-gray-700 text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
-            <p className="text-black text-xl font-bold mb-1">
+            {/* <p className="text-black text-xl font-bold mb-1">
               {pkg.oneTimeFee}
-            </p>
+            </p> */}
           </div>
-          <p className="text-black text-md font-normal mb-4">{pkg.price}</p>
+          {/* <p className="text-black text-md font-normal mb-4">{pkg.price}</p> */}
           <hr className="w-full border-t border-gray-700 mb-4" />
           <ul className="flex-1 list-disc">
             {pkg.features.map((feature, idx) => (

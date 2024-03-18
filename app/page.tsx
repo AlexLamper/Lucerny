@@ -38,8 +38,8 @@ const Home: React.FC = () => {
       <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
       <Casus />
       <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
-      <Diensten />
-      <div className='border-b-2 max-w-[70%] mx-auto py-12'></div>
+      {/* <Diensten /> */}
+      {/* <div className='border-b-2 max-w-[70%] mx-auto py-12'></div> */}
       <CTA />
     </div>
   );

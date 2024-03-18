@@ -29,10 +29,10 @@ const projects = [
     },
     {
         id: 2,
-        title: 'Persoonlijke Portfolio Website',
-        description: 'Mijn persoonlijke website met mijn portfolio en wie ik ben',
-        image: '/images/projects/project10.png',
-        link: 'https://alexlamper.nl/',
+        title: 'P. Troost afbouwbedrijf',
+        description: 'P Troost afbouwbedrijf is een bedrijf dat gespecialiseerd is in het afbouwen van huizen.',
+        image: '/images/projects/project13.png',
+        link: 'https://ptroostafbouwbedrijf.nl/',
     },
     {
         id: 3,
