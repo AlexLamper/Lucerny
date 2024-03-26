@@ -76,10 +76,10 @@ export default function Contact() {
             <h1 className="text-xl font-bold mb-2">Bekijk onze social media kanalen</h1>
           </div>
           <div className="flex mt-2">
-            <a href="https://www.facebook.com/" target="_blank"><Image src={FaceBookIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
-            <a href="https://www.instagram.com/" target="_blank"><Image src={InstagramIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
-            <a href="https://www.linkedin.com/" target="_blank"><Image src={LinkedInIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
-            <a href="https://www.whatsapp.com/" target="_blank"><Image src={WhatsAppIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
+            <a href="https://wa.me/+310657586667" target="_blank"><Image src={WhatsAppIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
+            <a href="https://www.instagram.com/lucerny.nl" target="_blank"><Image src={InstagramIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
+            <a role="link" aria-disabled="true"><Image src={FaceBookIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
+            <a role="link" aria-disabled="true"><Image src={LinkedInIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>
           </div>
         </div>
         {/* Right Div */}

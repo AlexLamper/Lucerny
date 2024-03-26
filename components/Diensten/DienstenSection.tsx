@@ -13,7 +13,7 @@ const packages = [
       </>
     ),
     features: [
-      '6 pagina\'s gevuld (max. 8)',
+      'max. 10 pagina\'s gevuld',
       'Inclusief gratis stockfoto\'s',
       'Ontwerp op maat',
       'Geschikt voor alle apparaten',
