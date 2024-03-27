@@ -6,7 +6,7 @@ import Button from '../Button/Button';
 const Hero = () => {
   return (
     <div>
-      <section className={`hero relative min-h-screen flex items-center justify-center overflow-hidden pt-32 max-lg:pt-24 max-md:pt-16 max-sm:pt-10 ${styles.hero}`}>
+      <section className={`hero relative min-h-screen flex justify-center pt-[10%] overflow-hidden ${styles.hero}`}>
         {/* Image Background */}
         <div className="absolute inset-0 w-full h-full">
           <Image
@@ -26,14 +26,6 @@ const Hero = () => {
               Verbeter uw digitale aanwezigheid. Wij bieden complete op maat gemaakte websites met hosting en domein, zodat u zich kunt focussen op uw doelen.
             </p>
             <Button href="/diensten" text="Bekijk onze diensten" />
-            <div style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '75%', paddingTop: '100px', marginBottom: '50px' }}>
-              <Image 
-                src={'/images/images/image.webp'} 
-                alt={'Hero Image'} 
-                width={900}
-                height={900}
-              />
-            </div>
           </div>
         </div>
       </section>

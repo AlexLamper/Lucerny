@@ -37,8 +37,8 @@ const projects = [
     {
         id: 3,
         title: 'Uw Website',
-        description: 'Hier kan uw website staan.',
-        image: '/images/projects/project3.png',
+        description: 'Hier kan uw op maat gemaakte website komen te staan.',
+        image: '/images/projects/project12.png',
         link: '',
     },
   ];
