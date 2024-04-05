@@ -14,7 +14,7 @@ const Services = () => {
                 {/* Service 1 */}
                 <div className="md:w-1/2 lg:w-1/3 px-4 mb-4 max-md:mb-5">
                     <a href="/diensten">
-                        <div className="bg-white p-6 transition-all duration-500 shadow-[0_3px_5px_rgb(0,0,0,0.2)] hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b2f] h-full">
+                        <div className="bg-white p-6 transition-all rounded-md duration-500 shadow-[0_3px_5px_rgb(0,0,0,0.2)] hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b2f] h-full">
                             <h3 className="text-xl font-bold mb-3">Startpakket</h3>
                             <p className="mb-2">
                             Een website van max. 3 pagina’s; Perfect voor de startende ondernemer die een simpele informatieve website wilt.
@@ -28,7 +28,7 @@ const Services = () => {
                 {/* Service 2 */}
                 <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-4 max-md:mb-5">
                     <a href="/diensten">
-                        <div className="bg-white p-6 transition-all duration-500 shadow-[0_3px_5px_rgb(0,0,0,0.2)] hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b2f] h-full">
+                        <div className="bg-white p-6 rounded-md transition-all duration-500 shadow-[0_3px_5px_rgb(0,0,0,0.2)] hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b2f] h-full">
                             <h3 className="text-xl font-bold mb-3">Basispakket</h3>
                             <p className="mb-2">Een website van 4 of meer pagina’s. Voor een ondernemer die een complete website wilt voor zijn of haar bedrijf.
                             <br /> <br />
@@ -41,7 +41,7 @@ const Services = () => {
                 {/* Service 3 */}
                 <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-4 max-md:mb-5">
                     <a href="/diensten">
-                        <div className="bg-white p-6 transition-all duration-500 shadow-[0_3px_5px_rgb(0,0,0,0.2)] hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b2f] h-full">
+                        <div className="bg-white p-6 rounded-md transition-all duration-500 shadow-[0_3px_5px_rgb(0,0,0,0.2)] hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b2f] h-full">
                             <h3 className="text-xl font-bold mb-3">Premiumpakket</h3>
                             <p className="mb-2">Een website van 7 of meer pagina’s. Voor een professionele en geavanceerde website met alle benodigde informatie en functionaliteiten.
                             <br /> <br />
