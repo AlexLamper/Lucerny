@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../Button/Button';
+import LightButton from '../Button/LightButton';
 
 const CTA = () => {
 
@@ -10,7 +10,7 @@ const CTA = () => {
           Ontdek wat wij voor u kunnen betekenen.
         </p>
         <h2 className="lg:text-5xl text-3xl mb-12 max-w-[60%] max-sm:max-w-[95%] mx-auto text-[#e2e2e2]">Neem vandaag nog contact met ons op!</h2>
-        <Button href="/contact" text="Neem contact op" />
+        <LightButton href="/contact" text="Neem contact op" />
       </div>
     </section>
   );

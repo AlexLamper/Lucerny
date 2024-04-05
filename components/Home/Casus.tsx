@@ -37,7 +37,7 @@ const Casus = () => {
 
       <div className="flex-wrap flex justify-center hover:brightness-100">
         {portfolios.map((portfolio, index) => (
-          <div key={index} className="w-8/12 md:w-1/2 lg:w-1/5 mx-6 max-lg:mb-12 h-auto text-[#d8d8d8] bg-[#ffffff1f] rounded-md">
+          <div key={index} className="w-8/12 md:w-1/2 lg:w-1/5 mx-6 max-lg:mb-12 h-auto text-black bg-[#ffffff] rounded-md">
             <div className="flex flex-col">
               <div className="mb-2">
                 <Image
@@ -45,7 +45,7 @@ const Casus = () => {
                   alt={`Portfolio ${index + 1}`}
                   width={500}
                   height={300}
-                  className="brightness-75 hover:brightness-100 hover:cursor-pointer transition-all duration-300 rounded-t-md"
+                  className="brightness-100 hover:brightness-75 hover:cursor-pointer transition-all duration-300 rounded-t-md"
                 />
               </div>
               <div className="p-4">
