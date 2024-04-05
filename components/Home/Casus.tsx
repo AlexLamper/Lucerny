@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Button from '../Button/Button';
+import LightButton from '../Button/LightButton';
 
 const Casus = () => {
   const portfolios = [
@@ -28,23 +29,23 @@ const Casus = () => {
   ];
 
   return (
-    <section className="container mx-auto pt-20 bg-white">
+    <section className="container mx-auto py-20">
       <div className="text-center mb-8">
-        <p className="lg:text-3xl text-xl text-black mb-6 mt-6">Onze Casus</p>
-        <h2 className="lg:text-5xl text-3xl mb-12 max-w-[60%] max-sm:max-w-[95%] mx-auto">Bekijk onze Gerealiseerde Projecten</h2>
+        <p className="lg:text-3xl text-xl text-[#e2e2e2] mb-6 mt-6">Onze Casus</p>
+        <h2 className="lg:text-5xl text-3xl mb-12 max-w-[60%] max-sm:max-w-[95%] mx-auto text-[#e2e2e2]">Bekijk onze Gerealiseerde Projecten</h2>
       </div>
 
       <div className="flex-wrap flex justify-center hover:brightness-100">
         {portfolios.map((portfolio, index) => (
-          <div key={index} className="w-8/12 md:w-1/2 lg:w-1/5 mx-6 border border-gray-600 max-lg:mb-12 h-auto">
-            <div className="bg-white flex flex-col">
+          <div key={index} className="w-8/12 md:w-1/2 lg:w-1/5 mx-6 max-lg:mb-12 h-auto text-[#d8d8d8] bg-[#ffffff1f] rounded-md">
+            <div className="flex flex-col">
               <div className="mb-2">
                 <Image
                   src={portfolio.image}
                   alt={`Portfolio ${index + 1}`}
                   width={500}
                   height={300}
-                  className="brightness-75 hover:brightness-100 hover:cursor-pointer transition-all duration-300"
+                  className="brightness-75 hover:brightness-100 hover:cursor-pointer transition-all duration-300 rounded-t-md"
                 />
               </div>
               <div className="p-4">
@@ -58,7 +59,7 @@ const Casus = () => {
       </div>
 
       <div className='lg:mt-12 mt-2 text-center'>
-        <Button href="/casus" text="Bekijk Al Onze Projecten" />
+        <LightButton href="/casus" text="Bekijk Al Onze Projecten" />
       </div>
     </section>
   );

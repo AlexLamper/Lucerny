@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 const Services = () => {
 
     return (
-        <section className="container mx-auto pt-20 bg-white max-w-[70%] max-sm:max-w-[95%]">
+        <section className="container mx-auto py-20 bg-white max-w-[70%] max-sm:max-w-[95%]">
             <div className="text-center mb-8">
                 <p className="lg:text-3xl text-xl text-black mb-6 mt-6">Onze Diensten</p>
                 <h2 className="lg:text-5xl text-3xl mb-12 max-w-[60%] max-sm:max-w-[95%] mx-auto">Ontdek onze Webdesign Pakketten</h2>

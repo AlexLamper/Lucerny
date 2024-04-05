@@ -4,25 +4,25 @@ import Image from 'next/image'
 const OverOns = () => {
   return (
     <div>
-    <section className="bg-white max-w-[70%] max-sm:max-w-[85%] pt-28 mx-auto">
+    <section className=" max-w-[70%] max-sm:max-w-[85%] py-28 mx-auto">
         <div className="container mx-auto">
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-4/12">
               <Image 
-                className="mb-4 mt-2 rounded-md max-lg:mb-12"
-                src="/images/images/overons3.png" width={0} 
-                alt='service 1'
+                className="mt-2 rounded-md mb-4 lg:mb-0"
+                src="/images/images/me/2.jpg" width={0} 
+                alt='Lucerny Alex'
                 height={0}
                 sizes="100vw"
-                style={{ width: '90%', height: 'auto' }}
+                style={{ width: '70%', height: 'auto' }}
               />
             </div>
             <div className="lg:w-8/12 lg:pl-10">
-                <h2 className="lg:text-5xl text-3xl mb-6">Over Ons<span className="text-black">.</span></h2>
-                <p className="text-lg leading-7 text-black mb-8">
-                Bij Lucerny gaan we voor webdesign en webontwikkeling op maat dat perfect past bij wat uw bedrijf nodig heeft. We bouwen niet alleen mooie, snelle en veilige websites die er op elk apparaat goed uitzien, maar zorgen er ook voor dat ze gelijk online kunnen.
+                <h2 className="lg:text-5xl text-3xl mb-6 text-[#e2e2e2]">Over Ons<span className="text-[#e2e2e2]">.</span></h2>
+                <p className="text-xl leading-7 text-[#d8d8d8] mb-8">
+                Bij Lucerny bieden we op maat gemaakt webdesign en ontwikkeling die perfect past bij uw bedrijf. We zorgen voor mooie, snelle en veilige websites die op elk apparaat goed werken.
                 <br /><br />
-                We bieden ook onderhoud en blijven altijd klaarstaan voor support, zodat uw website altijd up-to-date en probleemloos blijft draaien. Daarnaast richten we ons op het verbeteren van uw online aanwezigheid door SEO toe te passen, waardoor uw bedrijf makkelijker te vinden is voor potentiële klanten.
+                Daarnaast bieden we onderhoud, support en SEO-diensten om uw online aanwezigheid te verbeteren en uw website probleemloos te laten functioneren.
                 </p>
             </div>
           </div>
