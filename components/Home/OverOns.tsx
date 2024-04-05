@@ -8,14 +8,19 @@ const OverOns = () => {
         <div className="container mx-auto">
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-4/12">
-              <Image 
-                className="mt-2 rounded-md mb-4 lg:mb-0"
-                src="/images/images/me/2.jpg" width={0} 
-                alt='Lucerny Alex'
-                height={0}
-                sizes="100vw"
-                style={{ width: '70%', height: 'auto' }}
-              />
+            <Image 
+              className=" rounded-md mb-12 lg:mb-0"
+              src="/images/images/me/2.jpg" 
+              width={0} 
+              alt='Lucerny Alex'
+              height={0}
+              sizes="100vw"
+              style={{ 
+                width: '70%', 
+                height: 'auto',
+                filter: 'drop-shadow(6px 6px 12px rgba(255, 255, 255, 0.15))'
+              }}
+            />
             </div>
             <div className="lg:w-8/12 lg:pl-10">
                 <h2 className="lg:text-5xl text-3xl mb-6 text-[#e2e2e2]">Over Ons<span className="text-[#e2e2e2]">.</span></h2>
