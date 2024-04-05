@@ -34,8 +34,8 @@ const packages = [
   {
     title: 'Onepager',
     description: 'Een simpele website met één pagina. Perfect voor een portfolio of een kleine onderneming.',
-    oneTimeFee: 'Eenmalig €149,99',
-    price: 'daarna vanaf €7,50/maand',
+    oneTimeFee: 'Eenmalig €249,99',
+    price: 'daarna vanaf €12,50/maand',
     features: [
       '1 lange pagina\'s gevuld',
       'Inclusief gratis stockfoto\'s',
@@ -54,7 +54,7 @@ const packages = [
   {
     title: 'Webdesign',
     description: 'Een gepersonaliseerd design voor uw website. Perfect voor een nieuwe look of een rebranding.',
-    oneTimeFee: 'Eenmalig €99,99',
+    oneTimeFee: 'Eenmalig €149,99',
     price: '',
     features: [
       'Ontwerp op maat',
@@ -72,7 +72,7 @@ const packages = [
   {
     title: 'Logo Ontwerp',
     description: 'Een professioneel logo dat past bij uw bedrijf. Ideaal voor een nieuwe onderneming of een rebranding.',
-    oneTimeFee: 'Eenmalig €49,99',
+    oneTimeFee: 'Eenmalig €69,99',
     price: '',
     features: [
       "3 unieke logo concepten",
