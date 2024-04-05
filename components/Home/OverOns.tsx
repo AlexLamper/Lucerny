@@ -24,6 +24,9 @@ const OverOns = () => {
                 <br /><br />
                 Daarnaast bieden we onderhoud, support en SEO-diensten om uw online aanwezigheid te verbeteren en uw website probleemloos te laten functioneren.
                 </p>
+                <div className='pt-6'>
+                  <a href='/over-ons' className="text-[#ffffffb2] text-lg p-4 border border-[#ffffffb2] rounded-md transition-all duration-300 hover:bg-[#ffffffb2] hover:text-[#000] hover:border-transparent">Lees meer →</a>
+                </div>
             </div>
           </div>
         </div>

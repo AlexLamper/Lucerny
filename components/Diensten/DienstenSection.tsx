@@ -94,9 +94,9 @@ const DienstenSection = () => {
   const [hoveredSEOFunction, setHoveredSEOFunction] = useState<number | null>(null);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-6">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-6 mb-24">
       {packages.map((pkg, index) => (
-        <div key={index} className={`relative bg-[#eeeeee50] p-12 flex flex-col mb-24 border border-[#1b1b1bb0] mx-auto ${pkg.title === 'Alles-in-één Oplossing (Volledige Website)' ? 'lg:col-span-3 w-full' : ''}`}>
+        <div key={index} className={`relative bg-[#eeeeee50] p-12 flex flex-col lg:mb-0 border border-[#1b1b1bb0] rounded-md mx-auto ${pkg.title === 'Alles-in-één Oplossing (Volledige Website)' ? 'lg:col-span-3 w-full' : ''}`}>
           <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-black'>.</span></h2>
           <p className="text-gray-700 text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
