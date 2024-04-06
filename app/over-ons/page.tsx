@@ -40,15 +40,15 @@ const OverOns = () => {
               <div className="lg:w-4/12">
                 <Image 
                   className={styles.image2}
-                  src="/images/images/missie.webp" width={0} 
-                  // <a href="https://iconscout.com/illustrations/delivery" class="text-underline font-size-sm" target="_blank">Delivery person holding package</a> by <a href="https://iconscout.com/contributors/tdaystudio" class="text-underline font-size-sm" target="_blank">Tdays Tudio</a>
+                  src="/images/images/overons7.svg" width={0} 
+                  // <a href="https://iconscout.com/illustrations/web-exploring" class="text-underline font-size-sm" target="_blank">Web Exploring</a> by <a href="https://iconscout.com/contributors/iconscout" class="text-underline font-size-sm" target="_blank">IconScout Store</a>
                   alt='service 1'
                   height={0}
                   sizes="100vw"
-                  style={{ width: '70%', height: 'auto', borderRadius: '8px' }}
+                  style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
                 />
               </div>
-              <div className="lg:w-8/12 lg:pl-10">
+              <div className="lg:w-8/12 lg:pl-12">
                 <h1 className={styles.sectionTitle}>
                 Onze Diensten<span className='text-black'>.</span>
                 </h1>
@@ -81,11 +81,11 @@ const OverOns = () => {
             <div className="lg:w-4/12 lg:pl-10">
               <Image 
                 className={styles.image2}
-                src="/images/images/doelstelling.webp" width={0}
+                src="/images/images/doelstelling2.svg" width={0}
                 alt='service 1'
                 height={0}
                 sizes="100vw"
-                style={{ width: '75%', height: 'auto', borderRadius: '8px' }}
+                style={{ width: '75%', height: 'auto', borderRadius: '8px', opacity: '0.8' }}
               />
             </div>
           </div>
@@ -98,9 +98,9 @@ const OverOns = () => {
             <div className="lg:w-4/12">
               <Image 
                 className={styles.image2}
-                src="/images/images/verhaal.webp" width={0} 
+                src="/images/images/me/3.jpg" width={0} 
                 // <a href="https://iconscout.com/illustrations/delivery" class="text-underline font-size-sm" target="_blank">Delivery person holding package</a> by <a href="https://iconscout.com/contributors/tdaystudio" class="text-underline font-size-sm" target="_blank">Tdays Tudio</a>
-                alt='service 1'
+                alt='Lucerny Alex'
                 height={0}
                 sizes="100vw"
                 style={{ width: '70%', height: 'auto', borderRadius: '8px' }}
@@ -111,11 +111,11 @@ const OverOns = () => {
               Ons Verhaal<span className='text-black'>.</span>
               </h1>
               <p className={styles.sectionText}>
-              Bij Lucerny draait alles om webdesign en webontwikkeling die bij jouw bedrijf past. We maken niet alleen mooie en snelle websites, maar zorgen er ook voor dat ze meteen online zijn.
+              In 2023 is Lucerny begonnen, met het doel om ondernemers online te laten opvallen met prachtige, gebruiksvriendelijke websites. 
               <br /> <br />
-              Onze missie is simpel: ondernemers online laten opvallen met prachtige, gebruiksvriendelijke websites. We hechten waarde aan sterke samenwerkingen en bieden innovatieve oplossingen voor jouw succes en groei.
+              We zijn een webontwikkelingsbureau dat gespecialiseerd is in het bouwen van op maat gemaakte, gepersonaliseerde websites voor bedrijven.
               <br /> <br />
-              Bij Lucerny gaat ons verhaal verder dan tech; het draait om jouw online succes en de unieke reis die we samen maken. Laten we jouw verhaal tot leven brengen in de digitale wereld.
+              Onze focus ligt op het bouwen van sterke partnerschappen en het bieden van innovatieve oplossingen die bijdragen aan uw succes en groei. Ons doel is uw tevredenheid door expertise, creativiteit en inzet.
               </p>
             </div>
           </div>

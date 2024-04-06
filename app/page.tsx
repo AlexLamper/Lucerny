@@ -35,14 +35,14 @@ const Home: React.FC = () => {
       </div>
       <Waarom />
       <div className='bg-[#141414ef]'>
-        <Casus />
+        <Diensten />
       </div>
       <Werkwijze />
       {/* <div className='border-b-2 max-w-[70%] mx-auto py-12'></div> */}
       <div className='bg-[#141414ef]'>
         <CTA />
       </div>
-      <Diensten />
+      <Casus />
     </div>
   );
 };
