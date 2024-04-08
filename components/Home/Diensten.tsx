@@ -1,12 +1,14 @@
 import React from 'react';
-import LightButton from '../Button/LightButton';
+import LightBlueButton from '../Button/LightBlueButton';
 
 const Services = () => {
 
     return (
         <section className="container mx-auto py-20 max-w-[70%] max-sm:max-w-[95%]">
             <div className="text-center mb-8">
-                <p className="lg:text-3xl text-xl text-[#e2e2e2] mb-6 mt-6">Onze Diensten</p>
+                <p className="lg:text-3xl text-xl mb-6 mt-6" style={{backgroundImage: 'linear-gradient(#fff, #aac3f0)', WebkitBackgroundClip: 'text', backgroundClip: 'text', WebkitTextFillColor: 'transparent', color: 'transparent'}}>
+                    Onze Diensten
+                </p>
                 <h2 className="lg:text-5xl text-3xl mb-12 max-w-[60%] max-sm:max-w-[95%] mx-auto text-[#e2e2e2]">Ontdek onze Webdesign Pakketten</h2>
             </div>
 
@@ -53,7 +55,7 @@ const Services = () => {
             </div>
 
             <div className="button-container mt-8 flex justify-center">
-                <LightButton href="/diensten" text="Bekijk al onze diensten" />
+                <LightBlueButton href="/diensten" text="Bekijk al onze diensten" />
             </div>
         </section>
     );
