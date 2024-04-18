@@ -7,6 +7,10 @@ const Footer = () => {
           </p>
           <br />
           <p className=" text-stone-300">
+            Mail: info@lucerny.nl
+            <br />
+            Telefoonnummer: 06-57586667
+            <br />
             KVK-nummer: 92873324
             <br />
             Oost Voorgors 3, 3241KD Middelharnis
