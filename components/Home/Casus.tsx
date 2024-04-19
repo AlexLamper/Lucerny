@@ -37,8 +37,8 @@ const Casus = () => {
 
       <div className="flex-wrap flex justify-center hover:brightness-100">
         {portfolios.map((portfolio, index) => (
-          <div key={index} className="w-8/12 md:w-1/2 lg:w-1/5 mx-6 max-lg:mb-12 h-auto text-black bg-[#ffffff] rounded-2xl border border-[#00000063]">
-            <div className="flex flex-col">
+          <div key={index} className="w-8/12 md:w-1/2 lg:w-1/5 mx-6 max-lg:mb-12 h-auto text-black bg-[#ffffff] rounded-2xl border border-[#1b1b1b50]">
+            <div className="flex flex-col justify-between h-full">
               <div className="mb-2">
                 <Image
                   src={portfolio.image}
@@ -48,10 +48,12 @@ const Casus = () => {
                   className="brightness-100 hover:brightness-75 hover:cursor-pointer transition-all duration-300 rounded-t-2xl"
                 />
               </div>
-              <div className="p-4">
-                <h3 className="text-[22px] mb-2">{portfolio.title}</h3>
-                <p className="mb-6 font-thin text-sm">{portfolio.description}</p>
-                <p className="italic">{portfolio.date}</p>
+              <div className="p-4 flex flex-col justify-between flex-grow">
+                <div>
+                  <h3 className="text-xl font-bold mb-2">{portfolio.title}</h3>
+                  <p className="mb-6">{portfolio.description}</p>
+                </div>
+                <p className='italic'>{portfolio.date}</p>
               </div>
             </div>
           </div>
