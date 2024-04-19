@@ -61,7 +61,7 @@ export default function Casus() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-6">
               {projects.map((project) => (
 
-                  <div key={project.id} className="bg-[#141414ef] shadow-md p-6 border border-black rounded-md">
+                  <div key={project.id} className="p-6 border border-[#1b1b1b50] rounded-2xl">
                       <a target='_blank'  href={project.link || '#'}>
                           <div className="mb-4">
                           <Image
@@ -69,11 +69,11 @@ export default function Casus() {
                               alt={project.title}
                               width={500}
                               height={300}
-                              className="w-full h-full object-cover rounded-sm"
+                              className="w-full h-full object-cover rounded-lg"
                           />
                           </div>
-                          <h2 className="text-xl font-semibold tracking-wide mb-2 text-[#e2e2e2]">{project.title}</h2>
-                          <p className="text-[#d8d8d8]">{project.description}</p>
+                          <h2 className="text-xl font-semibold tracking-wide mb-2 text-black">{project.title}</h2>
+                          <p className="text-[#6b6b6b]">{project.description}</p>
                       </a>
                   </div>
               ))}
