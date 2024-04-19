@@ -95,7 +95,7 @@ const DienstenSection = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-6 mb-24">
       {packages.map((pkg, index) => (
-        <div key={index} className={`relative bg-[#141414e1] p-8 flex flex-col lg:mb-0 border border-[#1b1b1bb0] rounded-md mx-auto text-[#e2e2e2] ${pkg.title === 'Alles-in-één Oplossing (Volledige Website)' ? 'lg:col-span-3 w-full' : ''}`}>
+        <div key={index} className={`relative p-8 flex flex-col lg:mb-0 border border-[#1b1b1b50] rounded-3xl mx-auto text-[#e2e2e2] ${pkg.title === 'Alles-in-één Oplossing (Volledige Website)' ? 'lg:col-span-3 w-full' : ''}`}>
           <h2 className="text-3xl font-bold mb-4 text-white">{pkg.title}<span className='text-white'>.</span></h2>
           <p className="text-[#d8d8d8] text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
@@ -166,7 +166,7 @@ const DienstenSection = () => {
           </ul>
           {/* Button */}
           <div className="flex mt-4">
-            <LightBlueButton href="/contact" text="Neem contact op" />
+            <LightBlueButton href="/contact" text="Neem contact op 🡢" />
           </div>
         </div>
       ))}

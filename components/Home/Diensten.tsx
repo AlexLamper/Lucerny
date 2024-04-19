@@ -27,7 +27,7 @@ const Services = () => {
                                 />
                             </div>
                             <div id='bottom-div' className="items-end">
-                                <h3 className="text-xl font-bold mb-3">Alles-in-één Oplossing</h3>
+                                <h3 className="text-xl font-bold mb-3">Alles-in-één Oplossing.</h3>
                                 <p className="mb-2">
                                 Ontvang een exclusieve website die volledig aan uw wensen voldoet en binnen de kortste tijd online beschikbaar is.
                                 </p>
@@ -49,7 +49,7 @@ const Services = () => {
                                 />
                             </div>
                             <div id='bottom-div' className="items-end">
-                                <h3 className="text-xl font-bold mb-3">Onepager.</h3>
+                                <h3 className="text-xl font-bold mb-3">Onepager, 1 pagina gevuld.</h3>
                                 <p className="mb-2">Een simpele website met één pagina. Perfect voor een portfolio of een kleine onderneming.
                                 </p>
                             </div>
@@ -70,7 +70,7 @@ const Services = () => {
                                 />
                             </div>
                             <div id='bottom-div' className="items-end">
-                                <h3 className="text-xl font-bold mb-3">Webdesign.</h3>
+                                <h3 className="text-xl font-bold mb-3">Een design voor uw website.</h3>
                                 <p className="mb-2">Een gepersonaliseerd design voor uw website. Perfect voor een nieuwe look of een rebranding.
                                 </p>
                             </div>

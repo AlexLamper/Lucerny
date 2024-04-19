@@ -18,7 +18,7 @@ const Hero = () => {
                 Verbeter uw digitale aanwezigheid. Wij bieden complete op maat gemaakte websites met hosting en domein, zodat u zich kunt focussen op uw doelen.
               </p>
               <div  className='mb-12'>
-                <LightBlueButton href="/diensten" text="Bekijk onze diensten   🡢" />
+                <LightBlueButton href="/diensten" text="Bekijk onze diensten 🡢" />
               </div>
             </div>
           </div>

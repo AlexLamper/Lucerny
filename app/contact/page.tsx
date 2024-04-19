@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
   <>
-  <div style={{ backgroundImage: 'url("/images/backgrounds/casus/background.svg")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+  <div>
     <div className="container mx-auto pb-20">
 
       <section className="text-center pt-20">
