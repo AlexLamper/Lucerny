@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const OverOns = () => {
   return (
     <>
-      <div style={{ backgroundImage: 'url("/images/backgrounds/over-ons/background.svg")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+      <div>
         <section className="text-center pt-[7rem]">
           <div className="container mx-auto mb-10">
             <h1 className="text-3xl max-sm:max-w-[85%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
@@ -63,7 +63,7 @@ const OverOns = () => {
         </section>
       </div>
 
-      <section className="lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto bg-[#141414ef]">
+      <section className="lg:pt-20 lg:pb-20 pt-6 pb-6 mx-auto bg-[#141414e1]">
         <div className="container mx-auto max-w-[70%] max-sm:max-w-[85%]">
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-8/12 lg:pl-10">

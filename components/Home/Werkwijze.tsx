@@ -19,7 +19,7 @@ const Werkwijze = () => {
             </div>
             <div className="lg:w-8/12 lg:pl-10">
                 <h2 className="lg:text-5xl text-3xl mb-6">Hoe gaan wij te werk<span className="text-black">?</span></h2>
-                <p className="text-lg leading-7 text-black mb-8">
+                <p className="text-lg leading-7 text-[#6b6b6b] mb-8">
                 Wij maken gebruik van een 5-stappenplan om uw website te maken. Dit zorgt voor een duidelijke en gestructureerde werkwijze, waardoor u altijd weet wat er gebeurt en wat u kunt verwachten.
                 <br /><br />
                 <span className='text-xl'>1. Inleidend Gesprek</span>. U vertelt ons wat de wensen en behoeften zijn. Ook worden projecttijdlijnen vastgesteld.

@@ -30,16 +30,14 @@ const Home: React.FC = () => {
   return (
     <div>
       <Hero />
-      <div className='bg-[#141414ef]'>
-        <OverOns />
-      </div>
-      <Waarom />
-      <div className='bg-[#141414ef]'>
+      <div className='bg-[#F1F2F3]'>
         <Diensten />
       </div>
       <Werkwijze />
+      <OverOns />
+      <Waarom />
       {/* <div className='border-b-2 max-w-[70%] mx-auto py-12'></div> */}
-      <div className='bg-[#141414ef]'>
+      <div className='bg-[#F1F2F3]'>
         <CTA />
       </div>
       <Casus />

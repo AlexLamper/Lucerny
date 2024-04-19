@@ -25,12 +25,12 @@ const Logo = () => {
     <>
         <Link href="/" style={{ display: showButton ? "none" : "flex", alignItems: "center" }}>
             <Image 
-                src={"/images/logo/Lucerny-logo-no-bg-white.png"} 
+                src={"/assets/Icon/Lucerny-logo-no-bg.png"}
                 alt={""}
                 width={50}
                 height={50}
             />
-            <h1 className="text-white font-semibold tracking-wider text-3xl ml-2">Lucerny</h1>
+            <h1 className="text-black font-semibold tracking-wider text-3xl ml-2">Lucerny</h1>
         </Link>
         <div
             style={{
