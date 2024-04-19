@@ -9,8 +9,8 @@ const Hero = () => {
     <div>
       <section className={`hero relative min-h-screen pt-[10%] overflow-hidden ${styles.hero}`}>
         <div className="flex justify-between">
-          <div className="lg:w-[45%] relative z-10 lg:ml-24 ml-8" id='left-div'>
-            <div className='lg:mt-0 mt-6'>
+          <div className="lg:w-[45%] relative z-10 lg:ml-32 ml-8" id='left-div'>
+            <div className='lg:mt-0 mt-10'>
               <h1 className="text-4xl lg:text-[66px] leading-none mb-12 relative max-w-[90%]" style={{ fontWeight: '500' }}>
                 Breng Uw Visie tot <span className='underline decoration-4 underline-offset-4'>Licht</span> met een Unieke Website
               </h1>
@@ -22,7 +22,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-[45%] relative z-10 max-md:hidden" id='right-div'>
+          <div className="lg:w-[45%] relative z-10 max-lg:hidden" id='right-div'>
             <Image src="/images/hero/hero.png" alt="Hero Image" layout="responsive" width={0} height={0} />
           </div>
         </div>

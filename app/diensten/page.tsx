@@ -37,9 +37,6 @@ const Diensten = () => {
         <section className="bg-transparent max-w-[85%] max-sm:max-w-[95%] pt-6 mx-auto">
           <DienstenSection />
         </section>
-        {/* <div className="text-center pb-12">
-          <p className=" text-black mt-12 mx-6 font-thin">Niet het pakket wat u zoekt? Neem <a href="/contact" className=' text-blue-500'>contact</a> op voor een gepersonaliseerd pakket.</p>
-        </div> */}
       </div>
     </>
   );

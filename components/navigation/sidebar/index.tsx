@@ -54,6 +54,11 @@ const Sidebar = ({ isOpen, toggle }: { isOpen: boolean; toggle: () => void }): J
 
         <ul className="sidebar-nav text-center leading-relaxed text-xl">
           <li className="py-4">
+            <Link href="/" onClick={toggle}>
+              <p>Home</p>
+            </Link>
+          </li>
+          <li className="py-4">
             <Link href="/over-ons" onClick={toggle}>
               <p>Over Ons</p>
             </Link>

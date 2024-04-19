@@ -96,20 +96,20 @@ const DienstenSection = () => {
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-6 mb-24">
       {packages.map((pkg, index) => (
         <div key={index} className={`relative p-8 flex flex-col lg:mb-0 border border-[#1b1b1b50] rounded-3xl mx-auto text-[#e2e2e2] ${pkg.title === 'Alles-in-één Oplossing (Volledige Website)' ? 'lg:col-span-3 w-full' : ''}`}>
-          <h2 className="text-3xl font-bold mb-4 text-white">{pkg.title}<span className='text-white'>.</span></h2>
-          <p className="text-[#d8d8d8] text-lg mb-4">{pkg.description}</p>
+          <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-white'>.</span></h2>
+          <p className="text-[#6b6b6b] text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
-            <p className="text-[#e2e2e2] text-xl font-bold mb-1">
+            <p className="text-black text-xl font-bold mb-1">
               {pkg.oneTimeFee}
             </p>
           </div>
-          <p className="text-[#e2e2e2] text-md font-normal mb-4">{pkg.price}</p>
+          <p className="text-[#6b6b6b] text-md font-normal mb-4">{pkg.price}</p>
           <hr className="w-full border-t border-[#93a1e052] mb-4" />
           {/* Features */}
-          <h3 className="font-bold mt-4 text-2xl mb-4 text-[#d8d8d8]">Mogelijke functionaliteiten</h3>
+          <h3 className="font-bold mt-4 text-2xl mb-4 text-black">Mogelijke functionaliteiten</h3>
           <ul className="flex-1 list-disc justify-start">
             {pkg.features.map((feature, idx) => (
-              <li key={idx} className="text-[#d8d8d8] flex items-center">
+              <li key={idx} className="text-[#6b6b6b] flex items-center">
                 <img
                   src="/assets/icons/diensten/checkmark2.png"
                   alt="Checkmark"
@@ -152,7 +152,7 @@ const DienstenSection = () => {
           </ul>
           <ul className="flex-1 list-disc mb-4 mt-2">
             {pkg.nonFeatures.map((nonFeatures, idx) => (
-              <li key={idx} className="text-[#d8d8d8] flex items-center">
+              <li key={idx} className="text-[#6b6b6b] flex items-center">
               <img
                 src="/assets/icons/diensten/cross-red.svg"
                 alt="Cross"
