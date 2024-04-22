@@ -14,7 +14,7 @@ const Hero = () => {
               <h1 className="text-4xl lg:text-[66px] leading-none mb-12 relative max-w-[90%]" style={{ fontWeight: '500' }}>
                 Breng Uw Visie tot <span className='underline decoration-4 underline-offset-4'>Licht</span> met een Unieke Website
               </h1>
-              <p className="text-lg lg:text-xl mb-12 max-w-[80%]">
+              <p className="text-lg lg:text-xl mb-12 max-w-[75%]">
                 Verbeter uw digitale aanwezigheid. Wij bieden complete op maat gemaakte websites met hosting en domein, zodat u zich kunt focussen op uw doelen.
               </p>
               <div  className='mb-12'>

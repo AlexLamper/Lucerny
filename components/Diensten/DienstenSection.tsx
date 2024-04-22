@@ -111,7 +111,7 @@ const DienstenSection = () => {
             {pkg.features.map((feature, idx) => (
               <li key={idx} className="text-[#6b6b6b] flex items-center">
                 <img
-                  src="/assets/icons/diensten/checkmark2.png"
+                  src="/images/icons/checkmark1.svg"
                   alt="Checkmark"
                   width={14}
                   height={14}

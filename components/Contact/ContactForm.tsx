@@ -35,7 +35,7 @@ const ContactForm: FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className='p-6 border border-[#1b1b1b50] rounded-3xl'>
+    <form onSubmit={handleSubmit(onSubmit)} className='p-6 border border-[#1b1b1b50] rounded-3xl bg-[#F1F2F3]'>
       <label htmlFor="name" className="block text-base font-medium text-black tracking-wide mb-2">Volledige Naam</label>
         <div className="flex mb-2">
           <input
