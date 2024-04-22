@@ -29,7 +29,7 @@ const Waarom = () => {
                 height={0}
                 sizes="100vw"
                 style={{ 
-                  width: '40%', 
+                  width: '60%', 
                   height: 'auto',
                   filter: 'drop-shadow(6px 6px 12px rgba(255, 255, 255, 0.15))'
                 }}
