@@ -72,7 +72,15 @@ export default function Contact() {
               </p>
             </div>
           </div>
-          <div className="flex mt-20">
+          <div className='my-12'>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.5667725266594!2d4.168797976880523!3d51.75924509227383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4456ae2d0d31b%3A0xa8325705820d70f5!2sOost%20Voorgors%203%2C%203241%20KD%20Middelharnis!5e0!3m2!1snl!2snl!4v1713788219870!5m2!1snl!2snl" 
+              className="border-2 border-zinc-200 rounded-xl w-full h-80 lg:h-[400px]"
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen>
+            </iframe>
+          </div>
+          <div className="flex mt-12">
             <h1 className="text-xl font-bold mb-2">Bekijk onze social media kanalen</h1>
           </div>
           <div className="flex mt-2">

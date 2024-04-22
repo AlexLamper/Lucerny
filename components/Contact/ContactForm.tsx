@@ -94,7 +94,7 @@ const ContactForm: FC = () => {
           />
         </div>
         <button
-          className="bg-gradient-to-r from-blueButtonStart to-blueButtonEnd text-white py-3 px-8 rounded-xl text-lg transition duration-300 inline-block hover:bg-gradient-to-r hover:from-blueButtonHoverStart hover:to-blueButtonHoverEnd hover:shadow-lg"
+          className="mt-8 bg-gradient-to-r from-blueButtonStart to-blueButtonEnd text-white py-3 px-8 rounded-xl text-lg transition duration-300 inline-block hover:bg-gradient-to-r hover:from-blueButtonHoverStart hover:to-blueButtonHoverEnd hover:shadow-lg"
           style={{ background: "linear-gradient(90deg, #7E6CED, #7E6CED)" }}
           type='submit'
         >
