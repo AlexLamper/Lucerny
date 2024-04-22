@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import Button from "./Button";
+import Image from "next/image";
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
@@ -15,17 +16,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               className="inline-flex items-center md:hidden"
               onClick={toggle}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  fill="#fff"
-                  d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"
-                />
-              </svg>
+              <Image src={"/images/icons/menu.svg"} alt={"Hamburger Menu Icon"} width={37} height={37} />
             </button>
             <ul className="hidden md:flex gap-x-6 text-black text-lg">
               <li>
