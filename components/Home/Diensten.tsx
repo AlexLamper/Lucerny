@@ -9,7 +9,7 @@ const Services = () => {
             <div className="text-center mb-8">
                 <h2 className="lg:text-5xl text-3xl mb-4 max-w-[60%] max-sm:max-w-[95%] mx-auto text-black">Ontdek onze Webdesign Pakketten</h2>
                 <p className="lg:text-lg text-sm mb-12 max-w-[60%] mx-auto text-[#6b6b6b]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, id quaerat! Obcaecati ipsum ducimus, soluta earum praesentium ab.
+                    Bekijk onze diensten en ontdek welk pakket het beste bij u past.
                 </p>
             </div>
 

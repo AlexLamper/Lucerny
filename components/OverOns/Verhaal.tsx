@@ -26,9 +26,7 @@ const Verhaal = () => {
                         <p className={styles.sectionText}>
                         In 2023 is Lucerny begonnen, met het doel om ondernemers online te laten opvallen met prachtige, gebruiksvriendelijke websites. 
                         <br /> <br />
-                        We zijn een webontwikkelingsbureau dat gespecialiseerd is in het bouwen van op maat gemaakte, gepersonaliseerde websites voor bedrijven.
-                        <br /> <br />
-                        Onze focus ligt op het bouwen van sterke partnerschappen en het bieden van innovatieve oplossingen die bijdragen aan uw succes en groei. Ons doel is uw tevredenheid door expertise, creativiteit en inzet.
+                        We zijn gespecialiseerd in het bouwen van een volledige oplossing voor uw bedrijf, van webdesign tot webdevelopment en online marketing. We vinden het leuk om met u samen te werken en uw ideeën tot leven te brengen!
                         </p>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ const Doelstelling = () => {
                 <span className='text-[#6b6b6b]'>
                   Onze missie is duidelijk, we streven ernaar om elke ondernemer online te laten opvallen door het maken van prachtige websites die perfect werken en gebruiksvriendelijk zijn.
                   <br /> <br />
-                  Onze focus ligt op het bouwen van sterke partnerschappen en het bieden van innovatieve oplossingen die bijdragen aan uw succes en groei. Ons doel is uw tevredenheid door expertise, creativiteit en inzet.
+                  Onze focus ligt op het leveren van kwaliteit en het bieden van een uitstekende service. We willen dat u zich geen zorgen hoeft te maken over uw website en dat u zich kunt richten op het laten groeien van uw bedrijf.
                 </span>
               </p>
             </div>
