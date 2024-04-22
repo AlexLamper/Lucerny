@@ -13,7 +13,7 @@ const Waarom = () => {
                 <p className="text-xl leading-7 text-[#6b6b6b] mb-8 lg:ml-0">
                   <span className='text-[18px] text-[#6b6b6b] italic'>Lucerny, van lūceō: &quot;schijn, wees een licht&quot;.</span>
                   <br /><br />
-                  Bij ons krijgt u op maat gemaakte websites tegen een betaalbare prijs. Dit betekent unieke ontwerpmogelijkheden die perfect aansluiten bij uw wensen. We garanderen een snelle, veilige website en nemen het onderhoud voor onze rekening.
+                  Bij Lucerny krijgt u voor een betaalbare prijs een professionele website. Dit betekend dat u een website krijgt die er niet alleen goed uitziet, maar ook goed werkt en volledig naar uw wensen is gemaakt.
                 </p>
                 <div className='pt-6'>
                   <a href='/over-ons' className="text-[#6b6b6b] text-lg p-5 border border-[#1b1b1b50] rounded-3xl transition-all duration-300 hover:bg-[#7d6cec] hover:text-white hover:border-none">Lees meer →</a>

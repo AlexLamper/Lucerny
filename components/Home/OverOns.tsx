@@ -26,9 +26,9 @@ const OverOns = () => {
               <div className='lg:mx-12 max-w-[70%]'>
                 <h2 className="lg:text-5xl text-3xl mb-6 text-black">Over Ons<span className="text-black">.</span></h2>
                 <p className="text-xl leading-7 text-[#6b6b6b] mb-8">
-                  Bij Lucerny bieden we op maat gemaakt webdesign en ontwikkeling die perfect past bij uw bedrijf. We zorgen voor mooie, snelle en veilige websites die op elk apparaat goed werken.
+                  Lucerny is een modern bedrijf gefocust op webdesign en ontwikkeling. Wij zetten ons in om uw bedrijf online te laten groeien. 
                   <br /><br />
-                  Daarnaast bieden we onderhoud, support en SEO-diensten om uw online aanwezigheid te verbeteren en uw website probleemloos te laten functioneren.
+                  We zorgen voor een unieke website die perfect aansluit bij uw wensen en behoeften. Daarnaast bieden we onderhoud, support en SEO-diensten zodat u zich nergens zorgen over hoeft te maken en kunt focussen op uw bedrijf.
                 </p>
                 <div className='pt-6'>
                   <a href='/over-ons' className="text-[#6b6b6b] text-lg p-5 border border-[#1b1b1b50] rounded-3xl transition-all duration-300 bg-white hover:bg-[#7d6cec] hover:text-white hover:border-none">Lees meer →</a>

@@ -19,7 +19,7 @@ const Werkwijze = () => {
             </div>
             <div className="lg:w-6/12 lg:pl-10">
                 <h2 className="lg:text-5xl text-3xl mb-6">Hoe gaan wij te werk<span className="text-black">?</span></h2>
-                <p className="text-lg leading-7 text-[#6b6b6b] mb-8">
+                <p className="text-xl leading-7 text-[#6b6b6b] mb-8">
                   Wij gebruiken een 5-stappenplan voor uw website. Dit zorgt voor een duidelijke werkwijze.
                   <br /><br />
                   <div className='max-w-[85%]'>
