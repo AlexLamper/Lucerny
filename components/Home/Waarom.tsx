@@ -8,7 +8,7 @@ const Waarom = () => {
         <div className="container mx-auto max-w-[100%] max-sm:max-w-[85%]">
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-6/12 lg:pr-10 py-12 flex lg:justify-center lg:items-center lg:mb-0 lg:ml-0 md:ml-8 sm:ml-8">
-              <div className='lg:mx-12 max-w-[70%]'>
+              <div className='lg:mx-12 lg:max-w-[70%] max-w-[90%]'>
                 <h2 className="lg:text-5xl text-3xl mb-6">Waarom kiezen voor Lucerny<span className="text-black">?</span></h2>
                 <p className="text-xl leading-7 text-[#6b6b6b] mb-8 lg:ml-0">
                   <span className='text-[18px] text-[#6b6b6b] italic'>Lucerny, van lūceō: &quot;schijn, wees een licht&quot;.</span>

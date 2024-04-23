@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Werkwijze = () => {
   return (
     <div>
-      <section className="max-w-[70%] max-sm:max-w-[85%] py-28 lg:mx-auto lg:pl-12 max-md:ml-12 md:ml-12 max-sm:ml-12">
+      <section className="max-w-[70%] max-sm:max-w-[90%] py-28 lg:mx-auto lg:pl-12 max-md:ml-12 md:ml-12 max-sm:ml-12">
         <div className="container mx-auto">
           <div className="lg:flex lg:justify-between">
             <div className="lg:w-6/12 lg:ml-0">
