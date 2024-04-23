@@ -100,3 +100,9 @@
     }
 
 }
+
+@media screen and (max-width: 768px){
+    .image2 {
+        margin-left: 0rem;
+    }
+}
