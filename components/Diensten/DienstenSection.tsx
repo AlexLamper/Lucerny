@@ -166,7 +166,7 @@ const DienstenSection = () => {
           </ul>
           {/* Button */}
           <div className="flex mt-4">
-            <LightBlueButton href="/contact" text="Neem contact op 🡢" />
+            <LightBlueButton href="/contact" text="Neem contact op" />
           </div>
         </div>
       ))}
