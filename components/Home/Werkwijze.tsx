@@ -19,8 +19,8 @@ const Werkwijze = () => {
             </div>
             <div className="lg:w-6/12 lg:pl-10">
                 <h2 className="lg:text-5xl text-3xl mb-6">Hoe gaan wij te werk<span className="text-black">?</span></h2>
-                <p className="text-xl leading-7 text-[#6b6b6b] mb-8">
-                  Wij gebruiken een 5-stappenplan voor uw website. Dit zorgt voor een duidelijke werkwijze.
+                <div className="mb-8">
+                  <p className="text-xl leading-7 text-[#6b6b6b]">Wij gebruiken een 5-stappenplan voor uw website. Dit zorgt voor een duidelijke werkwijze.</p>
                   <br /><br />
                   <div className='max-w-[85%]'>
                     <span className='text-lg'>1. Inleidend Gesprek</span>: Bespreking van wensen en behoeften, en vaststellen van projecttijdlijnen.
@@ -33,7 +33,7 @@ const Werkwijze = () => {
                     <br /><br />
                     <span className='text-lg'>5. Het eindproduct</span>: Publicatie van de website naar de live-omgeving.
                   </div>
-                </p>
+                </div>
             </div>
           </div>
         </div>
