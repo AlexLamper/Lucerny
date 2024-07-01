@@ -31,7 +31,7 @@ const OverOns = () => {
         <section className="text-center pt-[7rem]">
           <div className="container mx-auto mb-10">
             <h1 className="text-3xl max-sm:max-w-[85%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
-              Wij Creëren op maat gemaakte oplossingen<span className='text-black'>.</span>
+              Wij Creëren op maat gemaakte <span className="text-[#7664F3]">oplossingen</span><span className='text-black'>.</span>
             </h1>
             <p className="text-lg text-gray-900 mb-8 lg:max-w-[100%] max-w-[90%] mx-auto">Uw ideeën, onze kennis, een digitaal avontuur.</p>
           </div>

@@ -24,7 +24,7 @@ const OverOns = () => {
             </div>
             <div className="lg:w-6/12 lg:pr-10 py-12 flex lg:justify-center lg:items-center lg:mb-0 lg:ml-0 md:ml-8 sm:ml-8">
               <div className='lg:mx-12 lg:max-w-[70%] max-w-[90%]'>
-                <h2 className="lg:text-5xl text-3xl mb-6 text-black">Over <span className="text-[#7664F3]">Lucerny</span>.</h2>
+                <h2 className="text-3xl lg:text-5xl font-semibold text-black mb-6 max-w-[95%] lg:max-w-[85%]">Over <span className="text-[#7664F3]">Lucerny</span>.</h2>
                 <p className="text-xl leading-7 text-[#6b6b6b] mb-8">
                   Lucerny is een modern bedrijf gefocust op webdesign en ontwikkeling. Wij zetten ons in om uw bedrijf online te laten groeien. 
                   <br /><br />

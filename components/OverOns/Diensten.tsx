@@ -20,9 +20,7 @@ const DienstenOverOns = () => {
                 />
               </div>
               <div className="lg:w-8/12 lg:pl-12">
-                <h1 className="lg:text-5xl text-3xl mb-6 text-black">
-                Onze Diensten<span className='text-black'>.</span>
-                </h1>
+                <h2 className="text-3xl lg:text-5xl font-semibold text-black mb-6 max-w-[95%] lg:max-w-[85%]">Onze <span className="text-[#7664F3]">Diensten</span><span className='text-black'>.</span></h2>
                 <p className="text-xl leading-7 text-[#6b6b6b] mb-8">
                 Bij Lucerny leveren we webdesign en webontwikkeling op maat dat perfect past bij wat uw bedrijf nodig heeft. We bouwen niet alleen mooie en snelle websites die er op elk apparaat goed uitzien, maar zorgen er ook voor dat ze gelijk online kunnen.
                 <br /> <br />

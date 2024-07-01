@@ -51,7 +51,7 @@ export default function Casus() {
         <section className="text-center pt-20">
           <div className="container mx-auto mb-10">
             <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
-                Onze gerealiseerde projecten<span className='text-black'>.</span>
+                Onze gerealiseerde <span className="text-[#7664F3]">projecten</span><span className='text-black'>.</span>
             </h1>
             <p className="text-lg text-gray-900 lg:max-w-[100%] max-w-[90%] mx-auto">Ontdek ons portfolio van projecten</p>
           </div>

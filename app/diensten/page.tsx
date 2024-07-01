@@ -28,7 +28,7 @@ const Diensten = () => {
         <section className="text-center pt-20">
           <div className="container mx-auto mb-10">
             <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
-            Ontdek wat wij te bieden hebben<span className='text-black'>.</span>
+            Ontdek wat wij te <span className="text-[#7664F3]">bieden</span> hebben<span className='text-black'>.</span>
             </h1>
             <p className="text-lg text-gray-900 max-sm:max-w-[90%] max-w-[60%] mx-auto">Verken hoe wij u van dienst kunnen zijn.</p>
           </div>

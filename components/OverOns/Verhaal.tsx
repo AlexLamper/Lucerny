@@ -20,9 +20,7 @@ const Verhaal = () => {
                         />
                     </div>
                     <div className="lg:w-8/12 lg:pl-10">
-                        <h1 className="lg:text-5xl text-3xl mb-6 text-black">
-                        Ons Verhaal<span className='text-black'>.</span>
-                        </h1>
+                        <h2 className="text-3xl lg:text-5xl font-semibold text-black mb-6 max-w-[95%] lg:max-w-[85%]">Ons <span className="text-[#7664F3]">Verhaal</span><span className='text-black'>.</span></h2>
                         <p className="text-xl leading-7 text-[#6b6b6b] mb-8">
                         In 2023 is Lucerny begonnen, met het doel om ondernemers online te laten opvallen met prachtige, gebruiksvriendelijke websites. 
                         <br /> <br />
