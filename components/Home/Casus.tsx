@@ -32,7 +32,7 @@ const Casus = () => {
     <section className="container mx-auto py-20">
       <div className="text-center mb-8">
         <p className="lg:text-3xl text-xl text-[#6b6b6b] mb-6 mt-6">Onze Casus</p>
-        <h2 className="lg:text-5xl text-3xl mb-12 max-w-[60%] max-sm:max-w-[95%] mx-auto text-black">Bekijk onze Gerealiseerde Projecten</h2>
+        <h2 className="lg:text-5xl text-3xl mb-12 max-w-[60%] max-sm:max-w-[95%] mx-auto text-black">Bekijk onze Gerealiseerde <span className="text-[#7664F3]">Projecten</span></h2>
       </div>
 
       <div className="flex-wrap flex justify-center hover:brightness-100">

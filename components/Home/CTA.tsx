@@ -9,7 +9,7 @@ const CTA = () => {
         <p className="lg:text-3xl text-xl mb-6 mt-6 text-[#6b6b6b] lg:max-w-[100%] max-w-[90%]">
           Ontdek wat wij voor u kunnen betekenen.
         </p>
-        <h2 className="lg:text-5xl text-3xl mb-12 max-w-[60%] max-sm:max-w-[95%] mx-auto text-black">Neem vandaag nog contact met ons op!</h2>
+        <h2 className="lg:text-5xl text-3xl mb-12 max-w-[60%] max-sm:max-w-[95%] mx-auto text-black">Neem vandaag nog <span className="text-[#7664F3]">contact</span> met ons op!</h2>
         <LightBlueButton href="/contact" text="Neem contact op" />
       </div>
     </section>

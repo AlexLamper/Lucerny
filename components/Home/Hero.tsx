@@ -1,10 +1,18 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/hero.module.css';
-import Button from '../Button/Button';
 import LightBlueButton from '../Button/LightBlueButton';
 
 const Hero = () => {
+  const scrollToSection = () => {
+    const section = document.getElementById('diensten');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div>
       <section className={`hero relative min-h-screen pt-[10%] overflow-hidden ${styles.hero}`}>
@@ -17,7 +25,7 @@ const Hero = () => {
               <p className="text-lg lg:text-xl mb-12 max-w-[75%]">
                 Verbeter uw digitale aanwezigheid. Wij bieden complete op maat gemaakte websites met hosting en domein, zodat u zich kunt focussen op uw doelen.
               </p>
-              <div  className='mb-12'>
+              <div className='mb-12'>
                 <LightBlueButton href="/diensten" text="Bekijk onze diensten" />
               </div>
             </div>
@@ -26,6 +34,17 @@ const Hero = () => {
             <Image src="/images/hero/hero2.svg" alt="Hero Image" layout="responsive" width={0} height={0} />
           </div>
         </div>
+        <div className='h-[15vh] flex items-center justify-center'>
+          <a onClick={scrollToSection} style={{ cursor: 'pointer' }}>
+            <Image 
+              src="/images/icons/arrow-down.svg" 
+              alt="Arrow Down" 
+              width={35} 
+              height={35} 
+            />
+          </a>
+        </div>
+        <a id='diensten'></a>
       </section>
     </div>
   );
