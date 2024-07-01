@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="lg:w-[45%] relative z-10 lg:ml-32 ml-8" id='left-div'>
             <div className='lg:mt-0 mt-10'>
               <h1 className="text-4xl lg:text-[66px] leading-none mb-12 relative max-w-[90%]" style={{ fontWeight: '500' }}>
-                Breng Uw Visie tot <span className='underline decoration-4 underline-offset-4'>Licht</span> met een Unieke Website
+                Breng Uw Visie tot <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#7664F3] to-[#b0a8ff]' style={{ textShadow: '0 2px 4px rgba(118, 100, 243, 0.3)' }}>Licht</span> met een Unieke Website
               </h1>
               <p className="text-lg lg:text-xl mb-12 max-w-[75%]">
                 Verbeter uw digitale aanwezigheid. Wij bieden complete op maat gemaakte websites met hosting en domein, zodat u zich kunt focussen op uw doelen.
@@ -22,7 +22,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-[25%] relative z-10 max-lg:hidden mr-[10%] mt-[-2%]">
+          <div className="lg:w-[25%] relative z-10 max-lg:hidden mr-[9%] mt-[-2%]">
             <Image src="/images/hero/hero2.svg" alt="Hero Image" layout="responsive" width={0} height={0} />
           </div>
         </div>

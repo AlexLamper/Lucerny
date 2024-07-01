@@ -7,7 +7,7 @@ const Services = () => {
     return (
         <section className="container mx-auto py-20 max-w-[70%] max-sm:max-w-[95%]">
             <div className="text-center mb-8">
-                <h2 className="lg:text-5xl text-3xl mb-4 max-w-[60%] max-sm:max-w-[95%] mx-auto text-black">Ontdek onze Webdesign Pakketten</h2>
+                <h2 className="lg:text-5xl text-3xl mb-4 max-w-[60%] max-sm:max-w-[95%] mx-auto text-black">Ontdek onze <span className='text-[#7664F3]'>Webdesign</span> Pakketten<span className='text-[#7664F3]'>.</span></h2>
                 <p className="lg:text-lg text-sm mb-12 max-w-[60%] mx-auto text-[#6b6b6b]">
                     Bekijk onze diensten en ontdek welk pakket het beste bij u past.
                 </p>
