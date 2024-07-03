@@ -44,7 +44,7 @@ const Footer = () => {
         <div className='h-auto lg:h-1/6'>
           <div className='max-w-[70%] mx-auto border-t border-white'>
             <div className='flex justify-between items-center py-4 lg:py-8'>
-              <p className='text-sm lg:text-base text-white'>Website door <a href="https://www.lucerny.nl"><span className='text-blue-300 font-semibold'>Lucerny</span></a></p>
+              <p className='text-sm lg:text-base text-white'>Website door <a href="https://www.lucerny.nl"><span className='text-[#7664F3] font-semibold'>Lucerny</span></a></p>
               <p className='text-white'>&copy; {new Date().getFullYear()} Lucerny. All rights reserved.</p>
             </div>
           </div>

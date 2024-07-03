@@ -17,7 +17,7 @@ const Services = () => {
                 {/* Service 1 */}
                 <div className="md:w-1/2 lg:w-1/3 px-4 mb-4 max-md:mb-5">
                     <a href="/diensten">
-                        <div className="bg-[#fffffff6] p-6 transition-all rounded-3xl duration-500 hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b50] h-full flex flex-col justify-between">
+                        <div className="bg-[#fffffff6] p-6 transition-all shadow-lg rounded-3xl duration-500 hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b50] h-full flex flex-col justify-between">
                             <div id='top-div' className='relative w-8 h-8 mb-12'>
                                 <Image
                                     src="/assets/icons/diensten/graph.png"
@@ -27,7 +27,7 @@ const Services = () => {
                                 />
                             </div>
                             <div id='bottom-div' className="items-end">
-                                <h3 className="text-xl font-bold mb-3">Alles-in-één Oplossing.</h3>
+                                <h3 className="text-2xl font-bold mb-3">Alles-in-één Oplossing.</h3>
                                 <p className="mb-2">
                                 Ontvang een exclusieve website die volledig aan uw wensen voldoet en binnen de kortste tijd online beschikbaar is.
                                 </p>
@@ -39,7 +39,7 @@ const Services = () => {
                 {/* Service 2 */}
                 <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-4 max-md:mb-5">
                     <a href="/diensten">
-                        <div className="bg-[#fffffff6] p-6 transition-all rounded-3xl duration-500 hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b50] h-full flex flex-col justify-between">
+                        <div className="bg-[#fffffff6] p-6 transition-all shadow-lg rounded-3xl duration-500 hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b50] h-full flex flex-col justify-between">
                             <div id='top-div' className='relative w-8 h-8 mb-12'>
                                 <Image
                                     src="/assets/icons/diensten/page.png"
@@ -49,7 +49,7 @@ const Services = () => {
                                 />
                             </div>
                             <div id='bottom-div' className="items-end">
-                                <h3 className="text-xl font-bold mb-3">Onepager, 1 pagina gevuld.</h3>
+                                <h3 className="text-2xl font-bold mb-3">Onepager, 1 pagina gevuld.</h3>
                                 <p className="mb-2">Een simpele website met één pagina. Perfect voor een portfolio of een kleine onderneming.
                                 </p>
                             </div>
@@ -60,7 +60,7 @@ const Services = () => {
                 {/* Service 3 */}
                 <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-4 max-md:mb-5">
                     <a href="/diensten">
-                        <div className="bg-[#fffffff6] p-6 transition-all rounded-3xl duration-500 hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b50] h-full flex flex-col justify-between">
+                        <div className="bg-[#fffffff6] p-6 transition-all shadow-lg rounded-3xl duration-500 hover:shadow-[0_4px_15px_rgb(0,0,0,0.2)] hover:cursor-pointer border border-[#1b1b1b50] h-full flex flex-col justify-between">
                             <div id='top-div' className='relative w-8 h-8 mb-12'>
                                 <Image
                                     src="/assets/icons/diensten/pencil.png"
@@ -70,7 +70,7 @@ const Services = () => {
                                 />
                             </div>
                             <div id='bottom-div' className="items-end">
-                                <h3 className="text-xl font-bold mb-3">Een design voor uw website.</h3>
+                                <h3 className="text-2xl font-bold mb-3">Een design voor uw website.</h3>
                                 <p className="mb-2">Een gepersonaliseerd design voor uw website. Perfect voor een nieuwe look of een rebranding.
                                 </p>
                             </div>

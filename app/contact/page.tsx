@@ -38,9 +38,9 @@ export default function Contact() {
       <section className="text-center pt-20">
         <div className="container mx-auto mb-10">
           <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
-            Neem Contact Op<span className='text-black'>.</span>
+            Neem <span className='text-[#7664F3]'>Contact</span> Op<span className='text-black'>.</span>
           </h1>
-          <p className="text-lg text-gray-900 mb-8 max-w-[50%] max-sm:max-w-[90%] mx-auto">Vragen of iets onduidelijk? Bel ons, stuur een mailtje, of vul het formulier hieronder in en we nemen zo snel mogelijk contact met je op.</p>
+          <p className="text-xl text-[#6b6b6b] mb-8 max-w-[50%] max-sm:max-w-[90%] mx-auto">Vragen of iets onduidelijk? Bel ons, stuur een mailtje, of vul het formulier hieronder in en we nemen zo snel mogelijk contact met je op.</p>
         </div>
       </section>
 
