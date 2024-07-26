@@ -6,34 +6,9 @@ import LightBlueButton from '../Button/LightBlueButton';
 
 const packages = [
   {
-    title: 'Alles-in-één Oplossing (Volledige Website)',
-    description: (
-      <>
-       Ontvang een exclusieve website die volledig aan uw wensen voldoet en binnen de kortste tijd online beschikbaar is.
-       <br />
-       Inclusief aangepast design, hosting, beveiliging en domein, zodat u nergens meer naar om hoeft te kijken.
-       <br />
-       Neem contact op voor meer informatie.
-      </>
-    ),
-    features: [
-      'Aangepast web design naar uw wensen',
-      'Web hosting',
-      'Domeinnaam',
-      'max. 10 pagina\'s gevuld',
-      'Inclusief gratis stockfoto\'s',
-      'Geschikt voor alle apparaten',
-      '2 herzieningsronden',
-      'Maandelijks onderhoud (max. 3 uur per maand)',
-      'SEO-optimalisatie',
-      'Blog functionaliteiten',
-    ],
-    nonFeatures: []
-  },
-  {
     title: 'Onepager',
     description: 'Een simpele website met één pagina. Perfect voor een portfolio of een kleine onderneming.',
-    oneTimeFee: 'Eenmalig €249,99',
+    oneTimeFee: 'Eenmalig €299,99',
     price: 'daarna vanaf €12,50/maand',
     features: [
       '1 lange pagina\'s gevuld',
@@ -51,8 +26,51 @@ const packages = [
     ]
   },
   {
-    title: 'Webdesign',
-    description: 'Een gepersonaliseerd design voor uw website. Perfect voor een nieuwe look of een rebranding.',
+    title: 'Volledige Website',
+    description: (
+      <>
+       Alles-in-één oplossing: Een exclusieve, aangepaste website snel online, inclusief design, hosting, beveiliging en domein.
+      </>
+    ),
+    oneTimeFee: 'Vanaf €549,99',
+    price: 'daarna vanaf €17,50/maand',
+    features: [
+      'Aangepast web design naar uw wensen',
+      'Web hosting',
+      'Domeinnaam',
+      'max. 10 pagina\'s gevuld',
+      'Inclusief gratis stockfoto\'s',
+      'Geschikt voor alle apparaten',
+      '2 herzieningsronden',
+      'Maandelijks onderhoud (max. 3 uur per maand)',
+      'SEO-optimalisatie',
+      'Blog functionaliteiten',
+    ],
+    nonFeatures: []
+  },
+  {
+    title: 'Website Redesign',
+    description: 'Een redesign van uw website. Perfect voor een nieuwe look of een rebranding van uw bestaande website.',
+    oneTimeFee: 'Vanaf €449,99',
+    price: 'daarna vanaf €12,50/maand',
+    features: [
+      '1 lange pagina\'s gevuld',
+      'Inclusief gratis stockfoto\'s',
+      'Ontwerp op maat',
+      'Geschikt voor alle apparaten',
+      '1 herzieningsronde',
+      'hosting en domeinnaam',
+      'SEO optimalisatie',
+      'Geavanceerde web functionaliteiten',
+    ],
+    nonFeatures: [
+      'Maandelijks onderhoud',
+      'Contactformulier',
+    ]
+  },
+  {
+    title: 'Webdesign (Ontwerp)',
+    description: 'Een gepersonaliseerd design voor uw website. Ideaal voor als u een nieuwe look of een rebranding wilt uitwerken.',
     oneTimeFee: 'Eenmalig €149,99',
     price: '',
     features: [
@@ -71,7 +89,7 @@ const packages = [
   {
     title: 'Logo Ontwerp',
     description: 'Een professioneel logo dat past bij uw bedrijf. Ideaal voor een nieuwe onderneming of een rebranding.',
-    oneTimeFee: 'Eenmalig €69,99',
+    oneTimeFee: 'Eenmalig €99,99',
     price: '',
     features: [
       "3 unieke logo concepten",
@@ -95,7 +113,7 @@ const DienstenSection = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-6 mb-24">
       {packages.map((pkg, index) => (
-        <div key={index} className={`relative p-8 flex flex-col lg:mb-0 border border-[#1b1b1b50] rounded-3xl mx-auto text-[#e2e2e2] ${pkg.title === 'Alles-in-één Oplossing (Volledige Website)' ? 'lg:col-span-3 w-full' : ''}`}>
+        <div key={index} className={`relative p-8 flex flex-col lg:mb-0 border border-[#1b1b1b50] rounded-3xl mx-auto text-[#e2e2e2] ${pkg.title === 'Title-Here' ? 'lg:col-span-3 w-full' : ''}`}>
           <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-white'>.</span></h2>
           <p className="text-[#6b6b6b] text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
