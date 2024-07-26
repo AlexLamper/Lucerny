@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { LiaInfoCircleSolid } from "react-icons/lia";
 import LightBlueButton from '../Button/LightBlueButton';
+import { title } from 'process';
 
 const packages = [
   {
@@ -27,6 +28,7 @@ const packages = [
   },
   {
     title: 'Volledige Website',
+    // titlep2: 'Website',
     description: (
       <>
        Alles-in-één oplossing: Een exclusieve, aangepaste website snel online, inclusief design, hosting, beveiliging en domein.
@@ -114,7 +116,7 @@ const DienstenSection = () => {
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-6 mb-24">
       {packages.map((pkg, index) => (
         <div key={index} className={`relative p-8 flex flex-col lg:mb-0 border border-[#1b1b1b50] rounded-3xl mx-auto text-[#e2e2e2] ${pkg.title === 'Title-Here' ? 'lg:col-span-3 w-full' : ''}`}>
-          <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}<span className='text-white'>.</span></h2>
+          <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}{/* <span className='text-[#7664F3]'>{pkg.titlep2}</span> */}</h2>
           <p className="text-[#6b6b6b] text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
             <p className="text-black text-xl font-bold mb-1">
