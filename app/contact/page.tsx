@@ -40,7 +40,7 @@ export default function Contact() {
           <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
             Neem <span className='text-[#7664F3]'>Contact</span> Op<span className='text-black'>.</span>
           </h1>
-          <p className="text-xl text-[#6b6b6b] mb-8 max-w-[50%] max-sm:max-w-[90%] mx-auto">Vragen of iets onduidelijk? Bel ons, stuur een mailtje, of vul het formulier hieronder in en we nemen zo snel mogelijk contact met je op.</p>
+          <p className="text-xl text-[#6b6b6b] mb-8 max-w-[50%] max-sm:max-w-[90%] mx-auto">Vragen of iets onduidelijk? Bel, stuur een mailtje, of vul het formulier hieronder in en ik neem zo snel mogelijk contact met je op.</p>
         </div>
       </section>
 

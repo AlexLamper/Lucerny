@@ -31,7 +31,9 @@ const Footer = () => {
                         <p className="text-lg text-zinc-400">CONTACT</p>
                     </div>
                     <div>
-                        <Link href='' className='text-base lg:text-base py-2 lg:py-4'><p className="text-base text-white my-2 lg:my-4">Mail: info@lucerny.nl</p></Link>
+                        <Link href='mailto:info@lucerny.nl' className='text-base lg:text-base py-2 lg:py-4'>
+                          <p className="text-base text-white my-2 lg:my-4">Mail: info@lucerny.nl</p>
+                        </Link>
                         <Link href='' className='text-base lg:text-base py-2 lg:py-4'><p className="text-base text-white my-2 lg:my-4">Telefoonnummer: 06-57586667</p></Link>
                         <Link href='' className='text-base lg:text-base py-2 lg:py-4'><p className="text-base text-white my-2 lg:my-4">KVK-nummer: 92873324</p></Link>
                         <Link href='' className='text-base lg:text-base py-2 lg:py-4'><p className="text-base text-white my-2 lg:my-4">Oost Voorgors 3, 3241KD Middelharnis</p></Link>

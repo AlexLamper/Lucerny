@@ -23,7 +23,7 @@ const Waarom = () => {
             <div className="lg:w-6/12 lg:bg-[#F1F2F3] py-12 flex lg:justify-center rounded-tl-3xl rounded-bl-3xl">
               <Image 
                 className="rounded-2xl lg:mb-0 md:mb-8 sm:mb-4 lg:ml-0 md:ml-8 sm:ml-8"
-                src="/images/images/waarom1.jpg"
+                src="/images/images/waarom3.jpg"
                 width={0} 
                 alt='Lucerny Waarom'
                 height={0}

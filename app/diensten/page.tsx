@@ -27,10 +27,10 @@ const Diensten = () => {
       <div className='min-h-screen'>
         <section className="text-center pt-20">
           <div className="container mx-auto mb-10">
-            <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
-            Ontdek wat wij te <span className="text-[#7664F3]">bieden</span> hebben<span className='text-black'>.</span>
+            <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[55%] mx-auto">
+            Ontdek wat Lucerny te <span className="text-[#7664F3]">bieden</span> heeft<span className='text-black'>.</span>
             </h1>
-            <p className="text-xl text-[#6b6b6b] max-sm:max-w-[90%] max-w-[60%] mx-auto">Verken hoe wij u van dienst kunnen zijn.</p>
+            <p className="text-xl text-[#6b6b6b] max-sm:max-w-[90%] max-w-[60%] mx-auto">Verken welke dienst het best bij u past.</p>
           </div>
         </section>
 

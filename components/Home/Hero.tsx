@@ -23,7 +23,7 @@ const Hero = () => {
                 Breng Uw Visie tot <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#7664F3] to-[#b0a8ff]' style={{ textShadow: '0 2px 4px rgba(118, 100, 243, 0.3)' }}>Licht</span> met een Unieke Website
               </h1>
               <p className="text-lg lg:text-xl mb-12 max-w-[75%]">
-                Verbeter uw digitale aanwezigheid. Wij bieden complete op maat gemaakte websites met hosting en domein, zodat u zich kunt focussen op uw doelen.
+                Verbeter uw digitale aanwezigheid. Lucerny biedt complete op maat gemaakte websites met hosting en domein, zodat u zich kunt focussen op uw doelen.
               </p>
               <div className='mb-12'>
                 <LightBlueButton href="/diensten" text="Bekijk onze diensten" />
