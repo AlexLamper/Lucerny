@@ -1,4 +1,4 @@
-# 🌟 Lucerny Website
+# 💻 Lucerny Website
 
 > Welcome to the website of Lucerny, a NextJS-based site designed to showcase information about Lucerny. Explore our pages to learn more about us, our mission, and how to get in touch.
 
