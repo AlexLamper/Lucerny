@@ -18,12 +18,8 @@
     "formcarry": "^1.0.0",
     "formik": "^2.4.5",
     "framer-motion": "^11.2.12",
-<<<<<<< HEAD
     "lucide-react": "^0.483.0",
-    "next": "^14.2.4",
-=======
     "next": "^14.2.20",
->>>>>>> ac388b7206a24460f090b7901dd7073edf74811a
     "next-seo": "^6.4.0",
     "next-themes": "^0.2.1",
     "nextjs-simple-typewriter": "^5.2.2",
