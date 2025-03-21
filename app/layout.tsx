@@ -8,7 +8,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Lucerny | Digitaal Creatief Bureau",
+  title: "Lucerny | Home",
   description:
     "Lucerny is een digitaal creatief bureau gespecialiseerd in het ontwerpen en ontwikkelen van websites, logo's, webshops en meer.",
 }

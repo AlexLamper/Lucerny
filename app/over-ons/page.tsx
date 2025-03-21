@@ -30,26 +30,7 @@ export default function OverOns() {
       bio: "Sophie zorgt ervoor dat elk project soepel verloopt en dat deadlines worden gehaald zonder in te leveren op kwaliteit.",
     },
   ]
-
-  const values = [
-    {
-      title: "Kwaliteit",
-      description: "We streven naar perfectie in elk aspect van ons werk, van ontwerp tot ontwikkeling.",
-    },
-    {
-      title: "Innovatie",
-      description: "We blijven op de hoogte van de nieuwste trends en technologieën om voorop te blijven lopen.",
-    },
-    {
-      title: "Klantgerichtheid",
-      description: "We luisteren naar onze klanten en werken nauw samen om hun visie tot leven te brengen.",
-    },
-    {
-      title: "Transparantie",
-      description: "We geloven in open communicatie en eerlijke prijzen zonder verborgen kosten.",
-    },
-  ]
-
+  
   return (
     <main className="flex flex-col min-h-screen">
       {/* Hero Section */}

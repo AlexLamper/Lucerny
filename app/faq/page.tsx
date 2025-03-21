@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import FAQ from '@/components/FAQ/FAQ';
 
 export const metadata: Metadata = {
-  title: 'Lucerny | Op Maat Gemaakte Webdesign & Webdevelopment',
+  title: 'Lucerny | FAQ',
   description: 'Lucerny is een webontwikkelingsbureau dat gespecialiseerd is in het bouwen van op maat gemaakte, gepersonaliseerde websites voor bedrijven.',
   icons: {
     icon: '/favicon.ico',

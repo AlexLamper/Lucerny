@@ -3,7 +3,7 @@ import { FaStar } from 'react-icons/fa';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Lucerny | Op Maat Gemaakte Webdesign & Webdevelopment',
+  title: 'Lucerny | Ervaringen',
   description: 'Lucerny is een webontwikkelingsbureau dat gespecialiseerd is in het bouwen van op maat gemaakte, gepersonaliseerde websites voor bedrijven.',
   icons: {
     icon: '/favicon.ico',
@@ -23,9 +23,6 @@ export const metadata: Metadata = {
 const Reviews = () => {
   const reviews = [
     { name: 'Uw naam', comment: 'Wees de eerste die een review achter laat en kom hier te staan!' },
-    // { name: 'Jane Smith', comment: 'Zeer tevreden met de professionele aanpak en het eindresultaat. Aanrader!' },
-    // { name: 'Emily Johnson', comment: 'Lucerny heeft onze verwachtingen overtroffen. Topkwaliteit en service!' },
-    // { name: 'Michael Brown', comment: 'Uitstekend werk geleverd. Onze website ziet er modern en verzorgd uit.' },
   ];
 
   return (
