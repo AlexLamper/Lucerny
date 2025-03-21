@@ -48,6 +48,7 @@ export default function Home() {
         "Blog functionaliteiten",
       ],
       nonFeatures: [],
+      isPopular: true,
     },
     {
       title: "Website Redesign",
@@ -122,23 +123,31 @@ export default function Home() {
 
   const caseStudies = [
     {
-      title: "Restaurant De Smaak",
-      category: "Horeca",
-      description: "Een moderne website voor een lokaal restaurant met online reserveringen en menukaart.",
-      image: "/placeholder.svg?height=400&width=600",
-    },
-    {
-      title: "Bloemen & Zo",
-      category: "Retail",
-      description: "Een stijlvolle webshop voor een lokale bloemist met online bestel- en bezorgmogelijkheden.",
-      image: "/placeholder.svg?height=400&width=600",
-    },
-    {
-      title: "Advocatenkantoor Recht",
+      title: "Lambdago",
       category: "Zakelijke dienstverlening",
-      description:
-        "Een professionele website voor een advocatenkantoor met informatieve content en contactmogelijkheden.",
-      image: "/placeholder.svg?height=400&width=600",
+      description: "Een website voor het bedrijf Lambdago: Lamper BedrijfsDienstverlening en Advisering.",
+      image: "/images/projects/lambdago.png",
+      services: ["Volledige Website", "SEO Optimalisatie", "Content Creatie"],
+      link: "https://www.lambdago.nl",
+      externalLink: true,
+    },
+    {
+      title: "P. Troost afbouwbedrijf",
+      category: "Bouw & Constructie",
+      description: "P Troost afbouwbedrijf is een bedrijf dat gespecialiseerd is in het afbouwen van huizen.",
+      image: "/images/projects/project13.png",
+      services: ["Volledige Website", "Logo Ontwerp", "SEO Optimalisatie"],
+      link: "https://ptroostafbouwbedrijf.nl/",
+      externalLink: true,
+    },
+    {
+      title: "Jouw website",
+      category: "Webdesign",
+      description: "Een voorbeeld van een website die wij hebben gemaakt voor een klant.",
+      image: "/images/projects/project12.png",
+      services: ["Volledige Website", "Webshop", "SEO Optimalisatie"],
+      link: "https://jouwwebsite.nl",
+      externalLink: true,
     },
   ]
 

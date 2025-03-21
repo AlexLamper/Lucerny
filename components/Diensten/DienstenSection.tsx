@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { LiaInfoCircleSolid } from "react-icons/lia";
 import LightBlueButton from '../Button/LightBlueButton';
 import { title } from 'process';
+import { CheckCircle } from 'lucide-react';
 
 const packages = [
   {
@@ -119,24 +120,18 @@ const DienstenSection = () => {
           <h2 className="text-3xl font-bold mb-4 text-black">{pkg.title}{/* <span className='text-[#7664F3]'>{pkg.titlep2}</span> */}</h2>
           <p className="text-[#6b6b6b] text-lg mb-4">{pkg.description}</p>
           <div className="relative flex items-center justify-between">
-            <p className="text-black text-xl font-bold mb-1">
+            <p className="text-lg font-bold text-[#7665f3] dark:text-[#8a7bf5]">
               {pkg.oneTimeFee}
             </p>
           </div>
-          <p className="text-[#6b6b6b] text-md font-normal mb-4">{pkg.price}</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">{pkg.price}</p>
           <hr className="w-full border-t border-[#93a1e052] mb-4" />
           {/* Features */}
           <h3 className="font-bold mt-4 text-2xl mb-4 text-black">Mogelijke functionaliteiten</h3>
           <ul className="flex-1 list-disc justify-start">
             {pkg.features.map((feature, idx) => (
               <li key={idx} className="text-[#6b6b6b] flex items-center">
-                <img
-                  src="/images/icons/checkmark1.svg"
-                  alt="Checkmark"
-                  width={14}
-                  height={14}
-                  className="mr-3"
-                />
+                <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2 flex-shrink-0 mt-0.5" />
                 {feature === 'Geavanceerde web functies' || feature === 'SEO optimalisatie' ? (
                   <>
                     {feature}{' '}
