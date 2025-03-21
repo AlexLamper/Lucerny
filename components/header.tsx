@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { ModeToggle } from "@/components/toggle-theme"
-import Logo from "@/components/logo"
+// import Logo from "@/components/logo"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -18,7 +18,9 @@ export default function Header() {
     <header className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Logo />
+          <Link href="/" className="font-bold text-2xl text-[#7665f3] dark:text-[#8a7bf5]">
+            Lucerny
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

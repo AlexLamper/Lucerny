@@ -73,30 +73,30 @@ export default function Home() {
   const processSteps = [
     {
       number: 1,
-      title: "Ontdekking",
-      description: "We beginnen met een gesprek om uw behoeften, doelen en visie te begrijpen.",
+      title: "Inleidend gesprek",
+      description: "De klant vertelt ons wat de wensen en behoeften zijn. Ook worden projecttijdlijnen vastgesteld.",
     },
     {
       number: 2,
-      title: "Ontwerp",
-      description: "We creëren een uniek ontwerp dat perfect aansluit bij uw merk en doelstellingen.",
+      title: "Concept en ontwerp",
+      description: "Het visuele en functionele ontwerp van de website definiëren, door het creëren van conceptdesigns en een website structuurdiagram.",
     },
     {
       number: 3,
-      title: "Ontwikkeling",
-      description: "We bouwen uw website met de nieuwste technologieën voor optimale prestaties.",
+      title: "Herzieningsronde",
+      description: "Bij de herzieningsrondes kunt u feedback geven over het ontwerp om aan uw wensen te voldoen. Het aantal rondes varieert per pakket.",
     },
     {
       number: 4,
-      title: "Testen",
-      description: "We testen grondig op verschillende apparaten en browsers voor een perfecte ervaring.",
+      title: "Ontwikkeling",
+      description: "De website wordt daadwerkelijk gebouwd volgens de definitieve en vastgestelde ontwerpen.",
     },
     {
       number: 5,
-      title: "Lancering",
-      description: "Na uw goedkeuring lanceren we uw website en zorgen we voor een soepele overgang.",
+      title: "Het product",
+      description: "Klaar! De website zal gepubliceerd worden naar de live-omgeving.",
     },
-  ]
+];
 
   const whyChooseReasons = [
     {
@@ -167,13 +167,17 @@ export default function Home() {
               Verbeter uw digitale aanwezigheid. Lucerny biedt complete op maat gemaakte websites met hosting en domein, zodat u zich kunt focussen op uw doelen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-[#7665f3] hover:bg-[#6555e3] text-white px-8 py-6">Neem Contact Op</Button>
-              <Button
-                variant="outline"
-                className="border-[#7665f3] text-[#7665f3] dark:text-[#8a7bf5] dark:border-[#8a7bf5] hover:bg-[#7665f3]/10 dark:hover:bg-[#8a7bf5]/10 px-8 py-6"
-              >
-                Bekijk Onze Diensten
-              </Button>
+              <Link href={"/contact"}>
+                <Button className="bg-[#7665f3] hover:bg-[#6555e3] text-white px-8 py-6">Neem Contact Op</Button>
+              </Link>
+              <Link href={"/diensten"}>
+                <Button
+                  variant="outline"
+                  className="border-[#7665f3] text-[#7665f3] dark:text-[#8a7bf5] dark:border-[#8a7bf5] hover:bg-[#7665f3]/10 dark:hover:bg-[#8a7bf5]/10 px-8 py-6"
+                >
+                  Bekijk Onze Diensten
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -183,7 +187,7 @@ export default function Home() {
       <section className="py-20 bg-[#f1f2f4] dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">Onze Diensten</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">Onze <span className="text-[#7664F3]">Diensten</span></h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               Wij bieden verschillende oplossingen aan om uw online aanwezigheid te versterken.
             </p>
@@ -225,16 +229,12 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 dark:text-white">Over Lucerny</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 dark:text-white">Over <span className="text-[#7664F3]">Lucerny</span></h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                Lucerny is een digitaal creatief bureau dat gespecialiseerd is in het ontwerpen en ontwikkelen van
-                websites, logo&apos;s, webshops en meer. Wij geloven dat een goede online aanwezigheid essentieel is voor het
-                succes van elk bedrijf.
+                Lucerny is een modern bedrijf gefocust op webdesign en ontwikkeling. Wij zetten ons in om uw bedrijf online te laten groeien. 
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-                Ons team van ervaren ontwerpers en ontwikkelaars werkt nauw samen met u om uw visie tot leven te
-                brengen. We luisteren naar uw wensen en behoeften en vertalen deze naar een uniek ontwerp dat perfect
-                aansluit bij uw merk en doelstellingen.
+                We zorgen voor een unieke website die perfect aansluit bij uw wensen en behoeften. Daarnaast bieden we onderhoud, support en SEO-diensten zodat u zich nergens zorgen over hoeft te maken en kunt focussen op uw bedrijf.
               </p>
               <Link href="/over-ons">
                 <Button className="bg-[#7665f3] hover:bg-[#6555e3] text-white">
@@ -250,7 +250,7 @@ export default function Home() {
       <section className="py-20 bg-[#f1f2f4] dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">Ons Proces</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">Ons <span className="text-[#7664F3]">Proces</span></h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               We volgen een gestructureerd proces om ervoor te zorgen dat uw project succesvol wordt opgeleverd.
             </p>
@@ -267,7 +267,7 @@ export default function Home() {
       <section className="py-20 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">Waarom Kiezen voor Lucerny?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white"><span className="text-[#7664F3]">Waarom</span> Kiezen voor Lucerny?</h2>
             <span className='text-[18px] text-[#6b6b6b] italic'>Lucerny, van lūceō: &quot;schijn, wees een licht&quot;.</span>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mt-2">
               Wij onderscheiden ons door onze persoonlijke aanpak, creatieve oplossingen en focus op resultaten.
@@ -285,11 +285,13 @@ export default function Home() {
       <section className="py-20 bg-[#111111] text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Klaar om Uw Project te Starten?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Klaar om <span className="text-[#7664F3]">Uw</span> Project te Starten?</h2>
             <p className="text-lg mb-8 text-gray-300">
               Neem vandaag nog contact met ons op voor een vrijblijvend gesprek over uw wensen en mogelijkheden.
             </p>
-            <Button className="bg-[#7665f3] hover:bg-[#6555e3] text-white px-8 py-6 text-lg">Neem Contact Op</Button>
+            <Link href={"/contact"}>
+              <Button className="bg-[#7665f3] hover:bg-[#6555e3] text-white px-8 py-6 text-lg">Neem Contact Op</Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -298,7 +300,7 @@ export default function Home() {
       <section className="py-20 bg-[#f1f2f4] dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">Onze Projecten</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">Onze <span className="text-[#7664F3]">Projecten</span></h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               Bekijk enkele van onze recente projecten en ontdek wat wij voor u kunnen betekenen.
             </p>

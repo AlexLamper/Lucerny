@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Lucerny</h3>
+            <h3 className="text-xl font-bold mb-4"><span className="text-[#7664F3]">Lucerny</span></h3>
             <p className="text-gray-400 dark:text-gray-300 mb-4">
               Wij zijn een digitaal creatief bureau gespecialiseerd in het ontwerpen en ontwikkelen van websites,
               logo&apos;s, webshops en meer.
