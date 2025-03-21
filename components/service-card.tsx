@@ -16,7 +16,7 @@ interface ServiceProps {
 
 export default function ServiceCard({ service }: ServiceProps) {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:translate-y-[-5px] dark:border dark:border-gray-700 relative">
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:translate-y-[-5px] dark:border dark:border-gray-600 relative">
       {service.isPopular && (
         <div className="absolute -top-3 right-4 bg-[#7665f3] dark:bg-[#8a7bf5] text-white px-3 py-1 rounded-full text-xs font-semibold shadow-md">
           Meest gekozen

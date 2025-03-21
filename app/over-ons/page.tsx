@@ -56,7 +56,7 @@ export default function OverOns() {
       <section className="bg-[#f1f2f4] dark:bg-gray-800 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 dark:text-white">Over Ons</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 dark:text-white">Over <span className="text-[#7664F3]">Ons</span></h1>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8">
               Maak kennis met Lucerny, uw partner voor digitale creativiteit en innovatie.
             </p>
@@ -99,7 +99,7 @@ export default function OverOns() {
       <section className="py-20 bg-[#f1f2f4] dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 dark:text-white"><span className='text-black'>Onze <span className="text-[#7664F3]">Doelstelling</span><span className='text-black'>.</span></span></h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 dark:text-white"><span className='text-black dark:text-white'>Onze <span className="text-[#7664F3]">Doelstelling</span><span className='text-black'>.</span></span></h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
               Onze missie is duidelijk: ondernemers laten opvallen met prachtige, gebruiksvriendelijke websites die perfect werken. 
               Wij focusen ons op kwaliteit en bied uitstekende service, zodat u zich volledig kunt richten op het laten groeien van uw bedrijf.

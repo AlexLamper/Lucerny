@@ -32,15 +32,15 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
   <>
-  <div>
+  <div className='dark:bg-gray-800'>
     <div className="container mx-auto pb-20">
 
       <section className="text-center pt-20">
         <div className="container mx-auto mb-10">
-          <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[50%] mx-auto">
-            Neem <span className='text-[#7664F3]'>Contact</span> Op<span className='text-black'>.</span>
+          <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black dark:text-white max-w-[50%] mx-auto">
+            Neem <span className='text-[#7664F3]'>Contact</span> Op<span className='text-black dark:text-white'>.</span>
           </h1>
-          <p className="text-xl text-[#6b6b6b] mb-8 max-w-[50%] max-sm:max-w-[90%] mx-auto">Vragen of iets onduidelijk? Bel, stuur een mailtje, of vul het formulier hieronder in en ik neem zo snel mogelijk contact met je op.</p>
+          <p className="text-xl text-[#6b6b6b] dark:text-[#c8c8c8] mb-8 max-w-[50%] max-sm:max-w-[90%] mx-auto">Vragen of iets onduidelijk? Bel, stuur een mailtje, of vul het formulier hieronder in en ik neem zo snel mogelijk contact met je op.</p>
         </div>
       </section>
 
@@ -49,24 +49,24 @@ export default function Contact() {
         <div className="w-1/2 max-lg:w-full p-4">
           <div className="flex max-w-[90%] max-lg:max-w-[100%] mt-12">
             <div className="w-1/2">
-              <h1 className="text-2xl font-bold mb-2">Adres</h1>
+              <h1 className="text-2xl font-bold mb-2 dark:text-white">Adres</h1>
               <div className="flex">
                 <div className="mt-1">
                   <Image src={AdresIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
                 </div>
                 <div>
-                  <p className="text-lg mb-2 text-black">Oost Voorgors 3</p>
-                  <p className="text-lg text-black">3241 KD, Middelharnis</p>
+                  <p className="text-lg mb-2 text-black dark:text-white">Oost Voorgors 3</p>
+                  <p className="text-lg text-black dark:text-white">3241 KD, Middelharnis</p>
                 </div>
               </div>
             </div>
             <div className="w-1/2">
-              <h1 className="text-2xl font-bold mb-2">Contact</h1>
-              <p className="text-lg mb-2 text-black flex items-center">
+              <h1 className="text-2xl font-bold mb-2 dark:text-white">Contact</h1>
+              <p className="text-lg mb-2 text-black dark:text-white flex items-center">
                 <Image src={MailIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
                 info@lucerny.nl
               </p>
-              <p className="text-lg text-black flex items-center">
+              <p className="text-lg text-black dark:text-white flex items-center">
                 <Image src={PhoneIcon} alt="Contact Icon" width={24} height={24} className="mr-2" />
                 +31 6 57586667
               </p>
@@ -81,7 +81,7 @@ export default function Contact() {
             </iframe>
           </div>
           <div className="flex mt-12">
-            <h1 className="text-xl font-bold mb-2">Bekijk onze social media kanalen</h1>
+            <h1 className="text-xl font-bold mb-2 dark:text-white">Bekijk onze social media kanalen</h1>
           </div>
           <div className="flex mt-2">
             <a href="https://wa.me/+310657586667" target="_blank"><Image src={WhatsAppIcon} alt="Contact Icon" width={35} height={35} className="mr-4" /></a>

@@ -9,6 +9,7 @@ interface CaseStudyProps {
     category: string
     description: string
     image: string
+    link: string
   }
 }
 
@@ -22,7 +23,7 @@ export default function CaseStudyCard({ caseStudy }: CaseStudyProps) {
         <div className="text-sm text-[#7665f3] dark:text-[#8a7bf5] font-medium mb-2">{caseStudy.category}</div>
         <h3 className="text-xl font-bold mb-2 dark:text-white">{caseStudy.title}</h3>
         <p className="text-gray-600 dark:text-gray-300 mb-4">{caseStudy.description}</p>
-        <Link href={`/casus/${caseStudy.title.toLowerCase().replace(/\s+/g, "-")}`}>
+        <Link href={caseStudy.link} target="_blank">
           <Button
             variant="outline"
             className="border-[#7665f3] text-[#7665f3] dark:text-[#8a7bf5] dark:border-[#8a7bf5] hover:bg-[#7665f3]/10 dark:hover:bg-[#8a7bf5]/10"

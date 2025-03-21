@@ -133,19 +133,19 @@ const Diensten = () => {
 
   return (
     <>
-      <div className='min-h-screen'>
+      <div className='min-h-screen bg-[#f1f2f4] dark:bg-gray-800'>
         <section className="text-center pt-20">
           <div className="container mx-auto mb-10">
-            <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black max-w-[55%] mx-auto">
-            Ontdek wat wij te <span className="text-[#7664F3]">bieden</span> hebben<span className='text-black'>.</span>
+            <h1 className="text-3xl max-sm:max-w-[90%] lg:text-5xl font-bold leading-tight mb-4 text-black dark:text-white max-w-[55%] mx-auto">
+            Ontdek wat wij te <span className="text-[#7664F3]">bieden</span> hebben<span className='text-black dark:text-white'>.</span>
             </h1>
-            <p className="text-xl text-[#6b6b6b] max-sm:max-w-[90%] max-w-[60%] mx-auto">Verken welke dienst het best bij u past.</p>
+            <p className="text-xl text-[#6b6b6b] dark:text-[#c8c8c8] max-sm:max-w-[90%] max-w-[60%] mx-auto">Verken welke dienst het best bij u past.</p>
           </div>
         </section>
 
         <section className="bg-transparent max-w-[85%] max-sm:max-w-[95%] pt-6 mx-auto">
           {/* Main Services Section */}
-          <section className="py-20 bg-white dark:bg-gray-900">
+          <section className="py-20">
             <div className="container mx-auto px-4">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {services.slice(0, 3).map((service, index) => (
@@ -156,13 +156,12 @@ const Diensten = () => {
           </section>
         </section>
 
-        {/* Process Section */}
-      <section className="py-20 bg-[#f1f2f4] dark:bg-gray-900">
+        <section className="py-20 bg-[#f1f2f4] dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white">Ons Werkproces</h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              We volgen een gestructureerd proces om ervoor te zorgen dat uw project succesvol wordt opgeleverd.
+              We hanteren een gestructureerde aanpak om elk project efficiënt en succesvol af te ronden.
             </p>
           </div>
           <div className="max-w-4xl mx-auto">
@@ -174,10 +173,9 @@ const Diensten = () => {
                     <span className="text-white font-bold">1</span>
                   </div>
                   <div className="ml-auto mr-8 md:mr-auto md:ml-8 md:w-1/2 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md dark:border dark:border-gray-700">
-                    <h3 className="text-xl font-bold mb-2 dark:text-white">Ontdekking</h3>
+                    <h3 className="text-xl font-bold mb-2 dark:text-white">Kennismaking</h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      We beginnen met een gesprek om uw behoeften, doelen en visie te begrijpen. Dit helpt ons om een
-                      duidelijk beeld te krijgen van wat u wilt bereiken.
+                      We starten met een gesprek om uw wensen en doelen in kaart te brengen, zodat we een duidelijk plan kunnen opstellen.
                     </p>
                   </div>
                 </div>
@@ -186,10 +184,9 @@ const Diensten = () => {
                     <span className="text-white font-bold">2</span>
                   </div>
                   <div className="mr-auto ml-8 md:ml-auto md:mr-8 md:w-1/2 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md dark:border dark:border-gray-700">
-                    <h3 className="text-xl font-bold mb-2 dark:text-white">Ontwerp</h3>
+                    <h3 className="text-xl font-bold mb-2 dark:text-white">Concept & Design</h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      We creëren een uniek ontwerp dat perfect aansluit bij uw merk en doelstellingen. U krijgt de
-                      mogelijkheid om feedback te geven en aanpassingen te vragen.
+                      We ontwikkelen een visueel ontwerp dat aansluit bij uw huisstijl en strategie. Feedbackrondes zorgen voor een perfect resultaat.
                     </p>
                   </div>
                 </div>
@@ -198,10 +195,9 @@ const Diensten = () => {
                     <span className="text-white font-bold">3</span>
                   </div>
                   <div className="ml-auto mr-8 md:mr-auto md:ml-8 md:w-1/2 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md dark:border dark:border-gray-700">
-                    <h3 className="text-xl font-bold mb-2 dark:text-white">Ontwikkeling</h3>
+                    <h3 className="text-xl font-bold mb-2 dark:text-white">Realisatie</h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      We bouwen uw website met de nieuwste technologieën voor optimale prestaties. We zorgen ervoor dat
-                      alles perfect werkt op alle apparaten.
+                      De ontwikkeling van de website begint. We gebruiken moderne technologieën om een snelle en responsieve ervaring te garanderen.
                     </p>
                   </div>
                 </div>
@@ -210,10 +206,9 @@ const Diensten = () => {
                     <span className="text-white font-bold">4</span>
                   </div>
                   <div className="mr-auto ml-8 md:ml-auto md:mr-8 md:w-1/2 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md dark:border dark:border-gray-700">
-                    <h3 className="text-xl font-bold mb-2 dark:text-white">Testen</h3>
+                    <h3 className="text-xl font-bold mb-2 dark:text-white">Kwaliteitscontrole</h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      We testen grondig op verschillende apparaten en browsers voor een perfecte ervaring. We zorgen
-                      ervoor dat alles soepel werkt voordat we live gaan.
+                      We voeren uitgebreide tests uit op verschillende apparaten en browsers om een soepele werking te garanderen.
                     </p>
                   </div>
                 </div>
@@ -222,10 +217,9 @@ const Diensten = () => {
                     <span className="text-white font-bold">5</span>
                   </div>
                   <div className="ml-auto mr-8 md:mr-auto md:ml-8 md:w-1/2 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md dark:border dark:border-gray-700">
-                    <h3 className="text-xl font-bold mb-2 dark:text-white">Lancering</h3>
+                    <h3 className="text-xl font-bold mb-2 dark:text-white">Livegang</h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Na uw goedkeuring lanceren we uw website en zorgen we voor een soepele overgang. We blijven
-                      beschikbaar voor ondersteuning na de lancering.
+                      Uw website wordt gelanceerd en we zorgen voor een soepele oplevering. Ook na de lancering bieden we ondersteuning.
                     </p>
                   </div>
                 </div>

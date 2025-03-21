@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import { BriefcaseBusiness, Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -9,8 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4"><span className="text-[#7664F3]">Lucerny</span></h3>
             <p className="text-gray-400 dark:text-gray-300 mb-4">
-              Wij zijn een digitaal creatief bureau gespecialiseerd in het ontwerpen en ontwikkelen van websites,
-              logo&apos;s, webshops en meer.
+              Wij zijn een webdesign bureau dat zich richt op het creëren van unieke en gebruiksvriendelijke websites.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-400 dark:text-gray-300 hover:text-white transition-colors">
@@ -119,6 +118,10 @@ export default function Footer() {
               <li className="flex">
                 <Mail className="h-5 w-5 text-[#7665f3] mr-2 flex-shrink-0" />
                 <span className="text-gray-400">info@lucerny.nl</span>
+              </li>
+              <li className="flex">
+                <BriefcaseBusiness className="h-5 w-5 text-[#7665f3] mr-2 flex-shrink-0" />
+                <span className="text-gray-400">KvK: 92873324</span>
               </li>
             </ul>
           </div>
