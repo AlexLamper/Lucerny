@@ -1,4 +1,4 @@
-# 🌟 Lucerny Website
+# 💻 Lucerny Website
 
 > Welcome to the website of Lucerny, a NextJS-based site designed to showcase information about Lucerny. Explore our pages to learn more about us, our mission, and how to get in touch.
 
@@ -32,6 +32,7 @@ This project is for the website of 'Lucerny'. A modern website that provides use
 The website is live and maintained as needed to ensure the latest information is available to the targeted audience.
 
 - 🌐 [lucerny.nl](https://www.lucerny.nl) - click to visit the website.
+- 📌 Current Version: **v1.0**
 
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE).
